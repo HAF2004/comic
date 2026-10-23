@@ -1,47 +1,113 @@
-# For Putri — Interactive Birthday Surprise Microsite
+# Ponpon Mania Replica (1:1 Complete Scrape & Clone)
 
-An editorial, minimal-romantic 3D interactive birthday microsite created for **Putri Hanan Latifah** (22 November 2003).
+A 1:1, pixel-perfect, fully self-contained offline replica of [Ponpon Mania](https://ponpon-mania.com) — an award-winning interactive WebGL comic created by Justine Soulié & Patrick Heng.
 
-## Experience Flow (15–20 Seconds)
-
-1. **Envelope (`envelope`)**: Soft morning window light over a warm cream linen surface (`#F8F3EE`), a 3D sealed cotton-paper envelope with a dusty-rose wax seal (`#C77B87`) and dried botanical sprig, and drifting tulip petals. Tapping **Open** begins the surprise.
-2. **Birthday Reveal (`birthday_reveal`)**: The envelope flap smoothly rotates open and a letterpress birthday card rises upward reading *"Happy Birthday, Putri."* Automatically transitions after ~3 seconds (or immediately via **Continue**).
-3. **Flower Bloom (`flower_bloom`)**: A 12-part procedural 3D pink tulip and white chamomile bouquet blooms into the center of the scene with a dusty-pink satin bow and a hanging kraft gift tag reading *"For Putri ♡"*. Includes a **Read Gift Tag** close-up camera toggle and an **Open Your Gift** button.
-4. **Gift Reveal (`gift_reveal`)**: A cream keepsake gift box with a dusty-pink satin ribbon opens its lid to reveal the gift card reading *"A little something for you ♡"*.
-5. **Final State (`final_state`)**: The payment QR code card remains cleanly framed beside the bouquet with *"Scan to receive your gift."* until the page is closed.
+![Homepage Screenshot](homepage_preview.png)
 
 ---
 
-## Supplying Your Actual Payment QR Code (`/assets/qris.png`)
+## 🌟 Highlights
 
-To comply with strict payment safety rules, **this application never fabricates or modifies a payment QR code**:
-
-1. Place your actual QRIS or supported payment QR image at:
-   ```text
-   public/assets/qris.png
-   ```
-2. If `public/assets/qris.png` is present, it is displayed automatically with sharp edges (`object-contain`, preserved 1:1 aspect ratio, zero cropping).
-3. If `public/assets/qris.png` is not yet placed on disk, a clear placeholder card is displayed with a **Load Actual QR Image** button so you can load and test scanning your real QR image on a separate device right away.
-
-### Optional Custom Audio (`/assets/ambient.mp3`)
-
-- Music is **off by default** and never autoplays.
-- Clicking the top-right music button plays `public/assets/ambient.mp3` if present, or synthesizes a warm, gentle acoustic felt-piano progression (`Fmaj7 – Dm7 – Bbmaj7 – C9sus4`) via the Web Audio API.
+- **100% Complete Asset Scrape**: 1,159 assets (43.56 MB) downloaded directly from the production servers and Cloudflare R2 bucket.
+- **Full WebGL & 3D Interactive Canvas**:
+  - Interactive homepage with animated city, rotating vinyl record, and interactive characters.
+  - 3D album carousel on `/chapters` with realistic plastic shrink-wrap shaders and sticker reflections.
+  - Interactive comic reader across all chapters (`/chapter/1`, `/chapter/2`, `/chapter/3`) with 3D parallax, paper fold normal maps, sprite sequences, and speech bubbles.
+  - Physics-driven About page (`/about`) with falling interactive sheep ragdolls.
+- **Basis Universal & WebAssembly Support**:
+  - Includes `basis/basis_transcoder.js` and `basis/basis_transcoder.wasm` along with full Basis UASTC texture sets and fallback PNG/JPG textures.
+- **Bilingual (English & French)**:
+  - Both `/` and `/fr/` routes fully supported, including localized speech bubble textures (`-en.png` and `-fr.png`).
+- **Zero External Dependencies**:
+  - Configured to serve all assets locally without relying on external CDNs or Cloudflare R2.
+  - Lightweight, zero-dependency Node.js HTTP server included (`server.js`).
 
 ---
 
-## Local Development & Testing
+## 🚀 Quick Start
+
+### 1. Run the local dev server
+You can start the server immediately using either Node.js or npm:
 
 ```bash
-# Install dependencies
-npm install
-
-# Run unit tests (Node built-in test runner)
-node --test src/utils/experienceState.test.ts
-
-# Start development server on port 3000
 npm run dev
-
-# Build for production deployment
-npm run build
+# or
+node server.js
 ```
+
+Then open your browser at:
+👉 **[http://localhost:3000](http://localhost:3000)**
+
+---
+
+## 📂 Project Structure
+
+```
+.
+├── index.html                  # Homepage (SSR/Hydration ready)
+├── about/                      # About page route
+│   └── index.html
+├── chapters/                   # 3D Album chapter selector
+│   └── index.html
+├── chapter/                    # Interactive comic reader routes
+│   ├── 1/index.html
+│   ├── 2/index.html
+│   └── 3/index.html
+├── fr/                         # French localized routes
+│   ├── index.html
+│   ├── about/index.html
+│   ├── chapters/index.html
+│   ├── chapter/
+│   │   ├── 1/index.html
+│   │   ├── 2/index.html
+│   │   └── 3/index.html
+│   └── legal/index.html
+├── legal/                      # Legal notice & terms
+│   └── index.html
+├── _nuxt/                      # Compiled Nuxt 3 / Three.js bundles & styles
+│   ├── CfE0pqJa.js             # Main WebGL / Nuxt application core
+│   ├── entry.C48-i2yD.css      # Core styles & layout
+│   └── ...
+├── basis/                      # Basis Universal texture transcoder
+│   ├── BasisWorker.js
+│   ├── basis_transcoder.js
+│   └── basis_transcoder.wasm
+├── textures/                   # All 421 WebGL textures & sprite metadata
+│   ├── common/                 # UI arrows, normal maps, vinyl album textures
+│   ├── home/                   # Homepage sky, moon, characters, platforms
+│   ├── about/                  # About page illustrations & character sprites
+│   └── chapters/               # Chapter 1, 2, and 3 boards, speech bubbles, sprites
+│       ├── 1/
+│       ├── 2/
+│       └── 3/
+├── images/                     # Static UI images, album thumbnails, error pages
+│   ├── album-1-sm.jpg
+│   ├── album-2-sm.jpg
+│   ├── album-3-sm.jpg
+│   ├── album-4-sm.jpg
+│   ├── album-5-sm.jpg
+│   └── ...
+├── scraper/                    # Python scraping scripts used to rebuild the site
+│   └── scrape_website.py       # Multi-threaded crawler & asset fetcher
+├── server.js                   # Zero-dependency Node.js server with WASM/Basis MIME support
+└── package.json
+```
+
+---
+
+## 🛠 Re-running the Scraper
+
+If you ever want to re-scrape or verify fresh assets from `https://ponpon-mania.com`:
+
+```bash
+npm run scrape
+# or
+python scraper/scrape_website.py
+```
+
+---
+
+## 📜 Credits & License
+
+- Original Concept, Design & Development by **Justine Soulié** and **Patrick Heng**.
+- All characters, illustrations, animations, and comic storyline belong to their respective creators.

@@ -1,8 +1,0 @@
-{
-  "name": "For Putri — Interactive Birthday Surprise",
-  "description": "birthday surprise and floral gift reveal for Putri Hanan Latifah.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}
