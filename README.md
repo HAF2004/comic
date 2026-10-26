@@ -12,7 +12,8 @@ A 1:1, pixel-perfect, fully self-contained offline replica of [Ponpon Mania](htt
 - **Full WebGL & 3D Interactive Canvas**:
   - Interactive homepage with animated city, rotating vinyl record, and interactive characters.
   - 3D album carousel on `/chapters` with realistic plastic shrink-wrap shaders and sticker reflections.
-  - Interactive comic reader across all chapters (`/chapter/1`, `/chapter/2`, `/chapter/3`) with 3D parallax, paper fold normal maps, sprite sequences, and speech bubbles.
+  - Original interactive comic readers for `/chapter/1`, `/chapter/2`, and `/chapter/3`, with 3D parallax, paper fold normal maps, sprite sequences, and speech bubbles.
+  - Custom bilingual birthday chapter at `/chapter/4/` and `/fr/chapter/4/`: 8 storyboard pages, 17 illustrated panels, focus-revealed text, a matching album cover in the chapter carousel, and a working chapter-list card.
   - Physics-driven About page (`/about`) with falling interactive sheep ragdolls.
 - **Basis Universal & WebAssembly Support**:
   - Includes `basis/basis_transcoder.js` and `basis/basis_transcoder.wasm` along with full Basis UASTC texture sets and fallback PNG/JPG textures.
@@ -52,7 +53,12 @@ Then open your browser at:
 ├── chapter/                    # Interactive comic reader routes
 │   ├── 1/index.html
 │   ├── 2/index.html
-│   └── 3/index.html
+│   ├── 3/index.html
+│   └── 4/                 # Custom birthday storyboard reader
+│       ├── index.html
+│       ├── reader.js
+│       ├── reader.css
+│       └── banner.js
 ├── fr/                         # French localized routes
 │   ├── index.html
 │   ├── about/index.html
@@ -60,7 +66,8 @@ Then open your browser at:
 │   ├── chapter/
 │   │   ├── 1/index.html
 │   │   ├── 2/index.html
-│   │   └── 3/index.html
+│   │   ├── 3/index.html
+│   │   └── 4/index.html
 │   └── legal/index.html
 ├── legal/                      # Legal notice & terms
 │   └── index.html
@@ -73,13 +80,14 @@ Then open your browser at:
 │   ├── basis_transcoder.js
 │   └── basis_transcoder.wasm
 ├── textures/                   # All 421 WebGL textures & sprite metadata
-│   ├── common/                 # UI arrows, normal maps, vinyl album textures
+│   ├── common/                 # UI arrows, normal maps, and vinyl album textures including Chapter 4
 │   ├── home/                   # Homepage sky, moon, characters, platforms
 │   ├── about/                  # About page illustrations & character sprites
-│   └── chapters/               # Chapter 1, 2, and 3 boards, speech bubbles, sprites
+│   └── chapters/               # Original chapter textures and Chapter 4 storyboard assets
 │       ├── 1/
 │       ├── 2/
-│       └── 3/
+│       ├── 3/
+│       └── 4/
 ├── images/                     # Static UI images, album thumbnails, error pages
 │   ├── album-1-sm.jpg
 │   ├── album-2-sm.jpg

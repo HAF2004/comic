@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="260" viewBox="0 0 1100 260">
+  <path d="M30 36 Q70 16 116 30 Q187 42 250 27 Q321 14 390 31 Q458 44 526 28 Q598 13 667 31 Q737 43 805 28 Q876 15 942 30 Q1007 43 1070 27 L1062 218 Q1006 236 944 221 Q872 208 805 224 Q737 238 666 221 Q596 208 526 224 Q456 239 388 221 Q318 207 250 224 Q182 237 116 220 Q69 208 37 222 Z" fill="#fff8ef" stroke="#ff4c83" stroke-width="13" stroke-linejoin="round"/>
+  <path d="M84 72 Q102 48 119 72 Q136 48 154 72 Q136 91 119 106 Q101 92 84 72Z" fill="#ff4c83"/>
+  <path d="M948 72 Q966 48 983 72 Q1000 48 1018 72 Q1000 91 983 106 Q965 92 948 72Z" fill="#ff4c83"/>
+  <text x="550" y="140" text-anchor="middle" dominant-baseline="middle" font-family="Comic Sans MS, Segoe Print, cursive" font-size="61" font-weight="700" fill="#ed3d75" letter-spacing="1">HAPPY BIRTHDAY, TIFA!</text>
+</svg>
