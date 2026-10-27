@@ -18355,8 +18355,51 @@ const C4_MOTION_CONFIG = {
   BREATH_SPEED: 2.2,
   BREATH_AMP: 0.008,
   BOB_SPEED: 1.6,
-  BOB_AMP: 0.012
+  BOB_AMP: 0.012,
+
+  // 1.2 Hair deformation
+  ENABLE_HAIR_DEFORMATION: true,
+  HAIR_SPEED: 3.2,
+  HAIR_AMP_X: 0.0030,
+  HAIR_AMP_Y: 0.0018
 };
+
+const c4CharacterFrag = `uniform sampler2D tMap;
+varying vec2 vUv;
+uniform float uAlpha;
+uniform float uLocalTime;
+uniform float uHairEnabled;
+
+float cmapC4(float oldValue, float oldMin, float oldMax, float newMin, float newMax) {
+  return clamp((((oldValue - oldMin) * (newMax - newMin)) / (oldMax - oldMin)) + newMin, min(newMin, newMax), max(newMin, newMax));
+}
+
+void main() {
+    vec2 uv = vUv;
+    float dispX = 0.;
+    float dispY = 0.;
+
+    // Hair UV mask: upper region y >= 0.60, central/back hair
+    float hairMask = cmapC4(uv.y, 0.60, 0.95, 0.0, 1.0) * cmapC4(abs(uv.x - 0.5), 0.0, 0.48, 1.0, 0.0);
+    dispX += sin(uLocalTime * 3.2 + uv.y * 10.0) * 0.0030 * hairMask * uHairEnabled;
+    dispY += cos(uLocalTime * 2.0 + uv.x * 6.0) * 0.0018 * hairMask * uHairEnabled;
+
+    vec2 sampleUv = clamp(uv + vec2(dispX, dispY), vec2(0.001), vec2(0.999));
+    vec4 color = texture2D(tMap, sampleUv);
+
+    gl_FragColor = color;
+    gl_FragColor.a *= uAlpha;
+}`;
+
+if (typeof NF !== 'undefined' && typeof oe !== 'undefined') {
+  NF['c4-character'] = {
+    vertex: oe,
+    fragment: c4CharacterFrag,
+    uniforms: {
+      uHairEnabled: { value: 1.0 }
+    }
+  };
+}
 
 class Chapter4Panel extends me {
   constructor(world, props) {
@@ -18416,9 +18459,12 @@ class Chapter4Panel extends me {
 
       this.fgMesh = this.createMesh({
         meshId: `${props.id}-character`,
-        id: 'map',
+        id: C4_MOTION_CONFIG.ENABLE_HAIR_DEFORMATION ? 'c4-character' : 'map',
         params: { transparent: true },
-        uniforms: { tMap: { value: fgTextureMap } }
+        uniforms: {
+          tMap: { value: fgTextureMap },
+          uHairEnabled: { value: C4_MOTION_CONFIG.ENABLE_HAIR_DEFORMATION ? 1.0 : 0.0 }
+        }
       });
       const distFg = 5 - zFg;
       const frustumHeightFg = 2 * Math.tan((45 * Math.PI) / 360) * distFg;
@@ -18522,6 +18568,12 @@ class Chapter4Panel extends me {
     // C. Gentle festive sway on party banner
     if (this.overlayMesh && this.overlayMesh.mesh && this.overlayMesh.mesh.visible) {
       this.overlayMesh.mesh.rotation.z = Math.sin(evalTime * 2.5) * 0.018;
+    }
+
+    // D. Hair shader deformation update
+    if (this.fgMesh && this.fgMesh.program && this.fgMesh.program.uniforms && this.fgMesh.program.uniforms.uHairEnabled) {
+      const prefersReducedMotion = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      this.fgMesh.program.uniforms.uHairEnabled.value = (C4_MOTION_CONFIG.ENABLE_HAIR_DEFORMATION && !prefersReducedMotion) ? 1.0 : 0.0;
     }
   }
 
