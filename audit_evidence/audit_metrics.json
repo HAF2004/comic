@@ -1,0 +1,442 @@
+{
+  "loadTimes": {
+    "ch1_desktop": [
+      {
+        "board": 1,
+        "durationMs": 7767
+      },
+      {
+        "board": 2,
+        "durationMs": 5948
+      },
+      {
+        "board": 4,
+        "durationMs": 5873
+      },
+      {
+        "board": 7,
+        "durationMs": 6084
+      },
+      {
+        "board": 10,
+        "durationMs": 5617
+      }
+    ],
+    "ch2_desktop": [
+      {
+        "board": 1,
+        "durationMs": 8505
+      },
+      {
+        "board": 2,
+        "durationMs": 6006
+      },
+      {
+        "board": 4,
+        "durationMs": 6166
+      },
+      {
+        "board": 7,
+        "durationMs": 5856
+      },
+      {
+        "board": 10,
+        "durationMs": 5820
+      }
+    ],
+    "ch3_desktop": [
+      {
+        "board": 1,
+        "durationMs": 7187
+      },
+      {
+        "board": 2,
+        "durationMs": 9010
+      },
+      {
+        "board": 4,
+        "durationMs": 6013
+      },
+      {
+        "board": 6,
+        "durationMs": 6061
+      },
+      {
+        "board": 8,
+        "durationMs": 5727
+      }
+    ],
+    "ch4_desktop": [
+      {
+        "board": 1,
+        "durationMs": 5798
+      },
+      {
+        "board": 2,
+        "durationMs": 5840
+      },
+      {
+        "board": 4,
+        "durationMs": 5840
+      },
+      {
+        "board": 6,
+        "durationMs": 5760
+      },
+      {
+        "board": 8,
+        "durationMs": 5745
+      }
+    ],
+    "ch1_mobile": [
+      {
+        "board": 1,
+        "durationMs": 5350
+      },
+      {
+        "board": 2,
+        "durationMs": 5310
+      },
+      {
+        "board": 4,
+        "durationMs": 5341
+      },
+      {
+        "board": 7,
+        "durationMs": 5516
+      },
+      {
+        "board": 10,
+        "durationMs": 5215
+      }
+    ],
+    "ch2_mobile": [
+      {
+        "board": 1,
+        "durationMs": 5409
+      },
+      {
+        "board": 2,
+        "durationMs": 5665
+      },
+      {
+        "board": 4,
+        "durationMs": 5536
+      },
+      {
+        "board": 7,
+        "durationMs": 5745
+      },
+      {
+        "board": 10,
+        "durationMs": 5632
+      }
+    ],
+    "ch3_mobile": [
+      {
+        "board": 1,
+        "durationMs": 5455
+      },
+      {
+        "board": 2,
+        "durationMs": 5492
+      },
+      {
+        "board": 4,
+        "durationMs": 5513
+      },
+      {
+        "board": 6,
+        "durationMs": 5394
+      },
+      {
+        "board": 8,
+        "durationMs": 5575
+      }
+    ],
+    "ch4_mobile": [
+      {
+        "board": 1,
+        "durationMs": 5430
+      },
+      {
+        "board": 2,
+        "durationMs": 5416
+      },
+      {
+        "board": 4,
+        "durationMs": 5503
+      },
+      {
+        "board": 6,
+        "durationMs": 5445
+      },
+      {
+        "board": 8,
+        "durationMs": 5512
+      }
+    ]
+  },
+  "consoleErrors": {
+    "ch1_desktop": [],
+    "ch2_desktop": [],
+    "ch3_desktop": [
+      {
+        "board": 1,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 2,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 4,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 6,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 8,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      }
+    ],
+    "ch4_desktop": [
+      {
+        "board": 1,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 2,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 4,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 6,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 8,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      }
+    ],
+    "ch1_mobile": [],
+    "ch2_mobile": [],
+    "ch3_mobile": [
+      {
+        "board": 1,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 2,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 4,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 6,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 8,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      }
+    ],
+    "ch4_mobile": [
+      {
+        "board": 1,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 2,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 4,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 6,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      },
+      {
+        "board": 8,
+        "errors": [
+          {
+            "type": "error",
+            "text": "Hydration completed but contains mismatches."
+          }
+        ]
+      }
+    ]
+  },
+  "assetStats": {
+    "ch1": {
+      "fileCount": 501,
+      "totalBytes": 12464523,
+      "totalMB": 11.89,
+      "extensions": {
+        ".png": 161,
+        ".jpg": 6,
+        ".basis": 334
+      },
+      "maxFile": {
+        "name": "textures/chapters/1/c1b9p2-ponpon.png",
+        "sizeMB": 0.51
+      }
+    },
+    "ch2": {
+      "fileCount": 310,
+      "totalBytes": 15962624,
+      "totalMB": 15.22,
+      "extensions": {
+        ".png": 94,
+        ".json": 28,
+        ".basis": 188
+      },
+      "maxFile": {
+        "name": "textures/chapters/2/c2b10p1-sprite.png",
+        "sizeMB": 0.75
+      }
+    },
+    "ch3": {
+      "fileCount": 243,
+      "totalBytes": 11955241,
+      "totalMB": 11.4,
+      "extensions": {
+        ".png": 73,
+        ".json": 24,
+        ".basis": 146
+      },
+      "maxFile": {
+        "name": "textures/chapters/3/c3b4p4-sprite.png",
+        "sizeMB": 0.32
+      }
+    },
+    "ch4": {
+      "fileCount": 90,
+      "totalBytes": 102638424,
+      "totalMB": 97.88,
+      "extensions": {
+        ".json": 2,
+        ".svg": 39,
+        ".png": 49
+      },
+      "maxFile": {
+        "name": "textures/chapters/4/c4b1p2-background.png",
+        "sizeMB": 2.73
+      }
+    }
+  },
+  "boardsRendered": {
+    "ch1_desktop": 5,
+    "ch2_desktop": 5,
+    "ch3_desktop": 5,
+    "ch4_desktop": 5,
+    "ch1_mobile": 5,
+    "ch2_mobile": 5,
+    "ch3_mobile": 5,
+    "ch4_mobile": 5
+  }
+}
