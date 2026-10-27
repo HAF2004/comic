@@ -1,0 +1,205 @@
+{
+  "chapter": 4,
+  "title": "A Birthday for Tifa",
+  "fps_target": 60,
+  "idle_stepping_fps": 12,
+  "reduced_motion_fallback": "fade_and_static",
+  "boards": [
+    {
+      "board": "Board4_1",
+      "panels": ["c4b1p1", "c4b1p2"],
+      "layers": [
+        {
+          "id": "c4b1p1-bg",
+          "type": "background",
+          "animation": "lantern_flicker_ambient",
+          "params": { "frequency": 5.8, "amplitude": 0.02, "uniform": "uAlpha" }
+        },
+        {
+          "id": "c4b1p1-fg",
+          "type": "character",
+          "animation": "stepped_idle_and_hair_uv",
+          "params": { "step_fps": 12, "bob_amp": 0.012, "hair_amp_x": 0.003 }
+        },
+        {
+          "id": "c4b1p2-bg",
+          "type": "background",
+          "animation": "streetlamp_flicker",
+          "params": { "frequency": 6.5, "amplitude": 0.025, "uniform": "uAlpha" }
+        },
+        {
+          "id": "c4b1p2-fg",
+          "type": "character",
+          "animation": "stepped_idle_and_bag_pendulum",
+          "params": { "step_fps": 12, "sway_speed": 1.6, "sway_amp": 0.015 }
+        },
+        {
+          "id": "particles-petals",
+          "system": "fJ",
+          "count": 25,
+          "interactive_mouse": true
+        }
+      ],
+      "entrance": {
+        "sequence": ["bg", "fg", "bubbles"],
+        "stagger_delays": [0.0, 0.10, 0.28],
+        "ease": "back.out(1.4)"
+      }
+    },
+    {
+      "board": "Board4_2",
+      "panels": ["c4b2p1", "c4b2p2", "c4b2p3"],
+      "layers": [
+        {
+          "id": "c4b2p1-fg",
+          "type": "character",
+          "animation": "stepped_idle",
+          "params": { "step_fps": 12, "bob_amp": 0.014 }
+        },
+        {
+          "id": "c4b2p2-sfx-click",
+          "type": "overlay_sfx",
+          "animation": "starburst_pop_pulse",
+          "params": { "pulse_freq": 4.2, "pulse_amp": 0.045, "pop_scale": 1.25, "ease": "back.out(2.5)" }
+        },
+        {
+          "id": "c4b2p3-fg",
+          "type": "character",
+          "animation": "stepped_idle_and_hair_uv",
+          "params": { "step_fps": 12, "bob_amp": 0.012 }
+        }
+      ],
+      "entrance": {
+        "sequence": ["bg", "fg", "sfx_click", "bubbles"],
+        "stagger_delays": [0.0, 0.10, 0.20, 0.28],
+        "ease": "back.out(1.5)"
+      }
+    },
+    {
+      "board": "Board4_3",
+      "panels": ["c4b3p1", "c4b3p2"],
+      "layers": [
+        {
+          "id": "c4b3p1-fg",
+          "type": "character",
+          "animation": "stepped_idle_and_hair_uv",
+          "params": { "step_fps": 12, "bob_amp": 0.012 }
+        },
+        {
+          "id": "c4b3p2-fg",
+          "type": "character_typing",
+          "animation": "typing_vibration_micro_loop",
+          "params": { "step_fps": 12, "vibrate_freq": 9.2, "vibrate_amp": 0.004 }
+        }
+      ],
+      "parallax": {
+        "enabled": true,
+        "mouse_intensity": 0.02
+      }
+    },
+    {
+      "board": "Board4_4",
+      "panels": ["c4b4p1", "c4b4p2", "c4b4p3"],
+      "layers": [
+        {
+          "id": "c4b4p1-golden-mark",
+          "type": "composite",
+          "animation": "sheen_idle",
+          "params": { "bob_amp": 0.008 }
+        },
+        {
+          "id": "c4b4p2-petals",
+          "type": "composite",
+          "animation": "particle_flutter",
+          "params": { "bob_amp": 0.010 }
+        },
+        {
+          "id": "particles-petals",
+          "system": "fJ",
+          "count": 25,
+          "interactive_mouse": true
+        }
+      ]
+    },
+    {
+      "board": "Board4_5",
+      "panels": ["c4b5p1", "c4b5p2"],
+      "layers": [
+        {
+          "id": "c4b5p1-cake",
+          "type": "cake_reveal",
+          "animation": "cake_float_out",
+          "params": { "float_speed": 1.8, "float_amp": 0.012, "entrance_ease": "back.out(1.7)" }
+        },
+        {
+          "id": "c4b5p2-fg",
+          "type": "character",
+          "animation": "stepped_idle",
+          "params": { "step_fps": 12, "bob_amp": 0.014 }
+        }
+      ]
+    },
+    {
+      "board": "Board4_6",
+      "panels": ["c4b6p1"],
+      "layers": [
+        {
+          "id": "c4b6p1-hero",
+          "type": "hero_cake_candles",
+          "animation": "candle_flame_wobble_multi_phase",
+          "params": { "frequencies": [7.5, 13.0, 18.2], "amplitudes": [0.08, 0.04, 0.02] }
+        }
+      ],
+      "parallax": {
+        "enabled": true,
+        "mouse_intensity": 0.03
+      }
+    },
+    {
+      "board": "Board4_7",
+      "panels": ["c4b7p1", "c4b7p2", "c4b7p3"],
+      "layers": [
+        {
+          "id": "c4b7p1-banner",
+          "type": "festive_banner",
+          "animation": "banner_gentle_sway",
+          "params": { "rot_freq": 2.5, "rot_amp": 0.018 }
+        },
+        {
+          "id": "particles-confetti-petals",
+          "system": "fJ",
+          "count": 25,
+          "interactive_mouse": true
+        }
+      ]
+    },
+    {
+      "board": "Board4_8",
+      "panels": ["c4b8p1"],
+      "layers": [
+        {
+          "id": "c4b8p1-fg",
+          "type": "character",
+          "animation": "stepped_idle_and_hair_uv",
+          "params": { "step_fps": 12, "bob_amp": 0.012 }
+        },
+        {
+          "id": "c4b8p1-letter-heart",
+          "type": "letter_overlay",
+          "animation": "heartbeat_double_thump",
+          "params": { "cycle_speed": 1.8, "primary_thump": 0.038, "secondary_thump": 0.024 }
+        },
+        {
+          "id": "particles-petals",
+          "system": "fJ",
+          "count": 25,
+          "interactive_mouse": true
+        }
+      ],
+      "parallax": {
+        "enabled": true,
+        "mouse_intensity": 0.035
+      }
+    }
+  ]
+}

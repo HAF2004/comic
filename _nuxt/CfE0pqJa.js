@@ -18583,6 +18583,52 @@ class Chapter4Panel extends me {
       const prefersReducedMotion = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       this.fgMesh.program.uniforms.uHairEnabled.value = (C4_MOTION_CONFIG.ENABLE_HAIR_DEFORMATION && !prefersReducedMotion) ? 1.0 : 0.0;
     }
+
+    // E. Micro-animations and comic SFX dynamics
+    const prefersReducedMotion = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!prefersReducedMotion) {
+      // 1. Board 2 Panel 2: CLICK! camera sound effect pulse
+      if (this.id === 'c4b2p2' && this.textOverlayMeshes[0] && this.textOverlayMeshes[0].mesh && this.textOverlayMeshes[0].mesh.visible) {
+        const sfxPulse = Math.sin(evalTime * 4.2) * 0.045;
+        this.textOverlayMeshes[0].mesh.scale.x = this.textOverlayMeshes[0].oScale.x * (1.0 + sfxPulse);
+        this.textOverlayMeshes[0].mesh.scale.y = this.textOverlayMeshes[0].oScale.y * (1.0 + sfxPulse);
+      }
+
+      // 2. Board 8: Keepsake letter double-beat heartbeat pulse on letter overlay
+      if (this.id === 'c4b8p1' && this.textOverlayMeshes[1] && this.textOverlayMeshes[1].mesh && this.textOverlayMeshes[1].mesh.visible) {
+        const beatPhase = (evalTime * 2.2) % (Math.PI * 2);
+        let heartPulse = 0;
+        if (beatPhase < 0.6) {
+          heartPulse = Math.sin(beatPhase * Math.PI / 0.6) * 0.038;
+        } else if (beatPhase > 0.8 && beatPhase < 1.4) {
+          heartPulse = Math.sin((beatPhase - 0.8) * Math.PI / 0.6) * 0.022;
+        }
+        this.textOverlayMeshes[1].mesh.scale.x = this.textOverlayMeshes[1].oScale.x * (1.0 + heartPulse);
+        this.textOverlayMeshes[1].mesh.scale.y = this.textOverlayMeshes[1].oScale.y * (1.0 + heartPulse);
+      }
+
+      // 3. Board 3 Panel 2: Subtle typing vibration
+      if (this.id === 'c4b3p2' && this.fgMesh && this.fgMesh.mesh) {
+        const typingJitter = Math.sin(evalTime * 14.0) * 0.0025;
+        this.fgMesh.mesh.position.y += typingJitter;
+      }
+
+      // 4. Board 1 Panel 2: Bag keychain subtle pendulum sway
+      if (this.id === 'c4b1p2' && this.fgMesh && this.fgMesh.mesh) {
+        this.fgMesh.mesh.rotation.z = Math.sin(evalTime * 2.6) * 0.012;
+      }
+
+      // F. Subtle cursor/touch parallax layer depth (Board 1, 3, 6, 8)
+      if (this.mousePos && (this.id === 'c4b1p1' || this.id === 'c4b1p2' || this.id === 'c4b3p1' || this.id === 'c4b3p2' || this.id === 'c4b6p1' || this.id === 'c4b8p1')) {
+        const mx = (this.mousePos.x - 0.5);
+        if (this.fgMesh && this.fgMesh.mesh) {
+          this.fgMesh.mesh.position.x = this.fgMesh.oPosition.x + mx * 0.025;
+        }
+        if (this.bgMesh && this.bgMesh.mesh) {
+          this.bgMesh.mesh.position.x = this.bgMesh.oPosition.x - mx * 0.010;
+        }
+      }
+    }
   }
 
   onEnterCb() {
@@ -18775,6 +18821,17 @@ class Board4_1 extends St {
   update(t, n) {
     super.update(t, n);
     this.lamaClouds.update(t, n);
+    const prefersReducedMotion = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!prefersReducedMotion) {
+      if (this.bottomPanel && this.bottomPanel.bgMesh && this.bottomPanel.bgMesh.program && this.bottomPanel.bgMesh.program.uniforms && this.bottomPanel.bgMesh.program.uniforms.uAlpha) {
+        const flicker = 0.96 + Math.sin(t * 6.5) * 0.02 + Math.sin(t * 14.2) * 0.02;
+        this.bottomPanel.bgMesh.program.uniforms.uAlpha.value = flicker;
+      }
+      if (this.topPanel && this.topPanel.bgMesh && this.topPanel.bgMesh.program && this.topPanel.bgMesh.program.uniforms && this.topPanel.bgMesh.program.uniforms.uAlpha) {
+        const flickerTop = 0.97 + Math.cos(t * 5.8) * 0.02 + Math.sin(t * 12.1) * 0.01;
+        this.topPanel.bgMesh.program.uniforms.uAlpha.value = flickerTop;
+      }
+    }
   }
 }
 
@@ -18872,7 +18929,13 @@ class Board4_3 extends St {
 class Board4_4 extends St {
   constructor(t, n) {
     super(t, { chapter: n.chapter, ratio: 1, index: n.index });
+    h(this, 'topLeftPanel');
+    h(this, 'topRightPanel');
+    h(this, 'bottomPanel');
+    h(this, 'lamaClouds');
     this.initPanels();
+    this.lamaClouds = new fJ(this.world, { scene: n.chapter, board: this });
+    this.plane.addChild(this.lamaClouds.plane);
   }
   initPanels() {
     let t = this.squarePos, n = this.squareSize;
@@ -18912,6 +18975,26 @@ class Board4_4 extends St {
       bubbleOffsetY: 0.28
     });
     this.addPanel(this.bottomPanel);
+  }
+  onMouseMove(t) {
+    super.onMouseMove(t);
+    this.isInView && (this.lamaClouds.resetState = !1);
+  }
+  unbind() {
+    super.unbind();
+    this.lamaClouds.animateOut();
+  }
+  onEnterCb() {
+    super.onEnterCb();
+    this.lamaClouds.animateIn();
+  }
+  onLeaveCb() {
+    super.onLeaveCb();
+    this.lamaClouds.animateOut();
+  }
+  update(t, n) {
+    super.update(t, n);
+    this.lamaClouds.update(t, n);
   }
 }
 
@@ -18977,9 +19060,15 @@ class Board4_6 extends St {
   }
   update(t, n) {
     super.update(t, n);
-    if (this.heroPanel && this.heroPanel.candleGlow) {
-      const flicker = Math.sin(t * 7.5) * 0.12 + Math.cos(t * 13.0) * 0.06;
-      this.heroPanel.candleGlow.program.uniforms.uAlpha.value = 0.42 + flicker;
+    const prefersReducedMotion = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!prefersReducedMotion && this.heroPanel) {
+      const flicker = Math.sin(t * 7.5) * 0.08 + Math.cos(t * 13.0) * 0.04 + Math.sin(t * 18.2) * 0.02;
+      if (this.heroPanel.candleGlow && this.heroPanel.candleGlow.program && this.heroPanel.candleGlow.program.uniforms && this.heroPanel.candleGlow.program.uniforms.uAlpha) {
+        this.heroPanel.candleGlow.program.uniforms.uAlpha.value = 0.42 + flicker;
+      }
+      if (this.heroPanel.bgMesh && this.heroPanel.bgMesh.program && this.heroPanel.bgMesh.program.uniforms && this.heroPanel.bgMesh.program.uniforms.uAlpha) {
+        this.heroPanel.bgMesh.program.uniforms.uAlpha.value = 0.98 + flicker * 0.2;
+      }
     }
   }
 }
@@ -18987,7 +19076,13 @@ class Board4_6 extends St {
 class Board4_7 extends St {
   constructor(t, n) {
     super(t, { chapter: n.chapter, ratio: 1, index: n.index });
+    h(this, 'topLeftPanel');
+    h(this, 'topRightPanel');
+    h(this, 'bottomPanel');
+    h(this, 'lamaClouds');
     this.initPanels();
+    this.lamaClouds = new fJ(this.world, { scene: n.chapter, board: this });
+    this.plane.addChild(this.lamaClouds.plane);
   }
   initPanels() {
     let t = this.squarePos, n = this.squareSize;
@@ -19032,6 +19127,26 @@ class Board4_7 extends St {
       bubbleOffsetY: 0.28
     });
     this.addPanel(this.bottomPanel);
+  }
+  onMouseMove(t) {
+    super.onMouseMove(t);
+    this.isInView && (this.lamaClouds.resetState = !1);
+  }
+  unbind() {
+    super.unbind();
+    this.lamaClouds.animateOut();
+  }
+  onEnterCb() {
+    super.onEnterCb();
+    this.lamaClouds.animateIn();
+  }
+  onLeaveCb() {
+    super.onLeaveCb();
+    this.lamaClouds.animateOut();
+  }
+  update(t, n) {
+    super.update(t, n);
+    this.lamaClouds.update(t, n);
   }
 }
 
