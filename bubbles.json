@@ -8,10 +8,18 @@
     "facing": "back",
     "text": {
       "en": "One last walk beneath the city lights.",
-      "fr": "Dernière promenade sous les lumières de la ville."
+      "fr": "Derni\u00e8re promenade sous les lumi\u00e8res de la ville."
     },
-    "bubble": { "x": 34, "y": 7, "w": 26, "h": 14 },
-    "tailTarget": { "x": 62, "y": 28 },
+    "bubble": {
+      "x": 34,
+      "y": 7,
+      "w": 26,
+      "h": 14
+    },
+    "tailTarget": {
+      "x": 62,
+      "y": 28
+    },
     "tailCurve": "organic-right"
   },
   "c4b1p2": {
@@ -25,8 +33,16 @@
       "en": "Home at last.",
       "fr": "Enfin chez moi."
     },
-    "bubble": { "x": 42, "y": 7, "w": 18, "h": 13 },
-    "tailTarget": { "x": 43, "y": 25 },
+    "bubble": {
+      "x": 42,
+      "y": 7,
+      "w": 18,
+      "h": 13
+    },
+    "tailTarget": {
+      "x": 43,
+      "y": 25
+    },
     "tailCurve": "organic-left"
   },
   "c4b2p1": {
@@ -38,10 +54,18 @@
     "facing": "front",
     "text": {
       "en": "A familiar light was waiting inside.",
-      "fr": "Une lumière familière brillait à la maison."
+      "fr": "Une lumi\u00e8re famili\u00e8re brillait \u00e0 la maison."
     },
-    "bubble": { "x": 6, "y": 6, "w": 32, "h": 14 },
-    "tailTarget": { "x": 50, "y": 32 },
+    "bubble": {
+      "x": 6,
+      "y": 6,
+      "w": 32,
+      "h": 14
+    },
+    "tailTarget": {
+      "x": 50,
+      "y": 32
+    },
     "tailCurve": "organic-right"
   },
   "c4b2p2": {
@@ -55,8 +79,16 @@
       "en": "CLICK!",
       "fr": "CLIC !"
     },
-    "bubble": { "x": 28, "y": 10, "w": 38, "h": 18 },
-    "tailTarget": { "x": 58, "y": 40 },
+    "bubble": {
+      "x": 28,
+      "y": 10,
+      "w": 38,
+      "h": 18
+    },
+    "tailTarget": {
+      "x": 58,
+      "y": 40
+    },
     "tailCurve": "straight"
   },
   "c4b2p3": {
@@ -68,10 +100,18 @@
     "facing": "three-quarters-front",
     "text": {
       "en": "Whew. Made it.",
-      "fr": "Ouf ! Enfin rentrée."
+      "fr": "Ouf ! Enfin rentr\u00e9e."
     },
-    "bubble": { "x": 35, "y": 7, "w": 20, "h": 13 },
-    "tailTarget": { "x": 57, "y": 27 },
+    "bubble": {
+      "x": 35,
+      "y": 7,
+      "w": 20,
+      "h": 13
+    },
+    "tailTarget": {
+      "x": 57,
+      "y": 27
+    },
     "tailCurve": "organic-right"
   },
   "c4b3p1": {
@@ -85,8 +125,16 @@
       "en": "Just one quiet minute for herself.",
       "fr": "Une minute de calme rien que pour elle."
     },
-    "bubble": { "x": 22, "y": 6, "w": 32, "h": 14 },
-    "tailTarget": { "x": 48, "y": 34 },
+    "bubble": {
+      "x": 22,
+      "y": 6,
+      "w": 32,
+      "h": 14
+    },
+    "tailTarget": {
+      "x": 48,
+      "y": 34
+    },
     "tailCurve": "thought"
   },
   "c4b3p2": {
@@ -98,10 +146,18 @@
     "facing": "side-back",
     "text": {
       "en": "What could be waiting?",
-      "fr": "Que va-t-elle découvrir ?"
+      "fr": "Que va-t-elle d\u00e9couvrir ?"
     },
-    "bubble": { "x": 55, "y": 6, "w": 28, "h": 13 },
-    "tailTarget": { "x": 50, "y": 30 },
+    "bubble": {
+      "x": 55,
+      "y": 6,
+      "w": 28,
+      "h": 13
+    },
+    "tailTarget": {
+      "x": 50,
+      "y": 30
+    },
     "tailCurve": "organic-left"
   },
   "c4b4p1": {
@@ -112,11 +168,19 @@
     "speaker": "Tifa",
     "facing": "three-quarters-front",
     "text": {
-      "en": "Wait… what is that?",
-      "fr": "Attends… quelle est cette lumière ?"
+      "en": "Wait\u2026 what is that?",
+      "fr": "Attends\u2026 quelle est cette lumi\u00e8re ?"
     },
-    "bubble": { "x": 14, "y": 6, "w": 48, "h": 14 },
-    "tailTarget": { "x": 38, "y": 28 },
+    "bubble": {
+      "x": 14,
+      "y": 6,
+      "w": 48,
+      "h": 14
+    },
+    "tailTarget": {
+      "x": 38,
+      "y": 28
+    },
     "tailCurve": "organic-down"
   },
   "c4b4p2": {
@@ -128,10 +192,18 @@
     "facing": "three-quarters-front",
     "text": {
       "en": "Did that just move?",
-      "fr": "Cette lumière a bougé ?"
+      "fr": "Cette lumi\u00e8re a boug\u00e9 ?"
     },
-    "bubble": { "x": 14, "y": 6, "w": 46, "h": 14 },
-    "tailTarget": { "x": 34, "y": 28 },
+    "bubble": {
+      "x": 14,
+      "y": 6,
+      "w": 46,
+      "h": 14
+    },
+    "tailTarget": {
+      "x": 34,
+      "y": 28
+    },
     "tailCurve": "organic-down"
   },
   "c4b4p3": {
@@ -143,10 +215,18 @@
     "facing": "front",
     "text": {
       "en": "Where are these petals coming from?",
-      "fr": "Quelle est la source de ces pétales ?"
+      "fr": "Quelle est la source de ces p\u00e9tales ?"
     },
-    "bubble": { "x": 22, "y": 6, "w": 32, "h": 13 },
-    "tailTarget": { "x": 48, "y": 36 },
+    "bubble": {
+      "x": 22,
+      "y": 6,
+      "w": 32,
+      "h": 13
+    },
+    "tailTarget": {
+      "x": 48,
+      "y": 36
+    },
     "tailCurve": "organic-right"
   },
   "c4b5p1": {
@@ -158,9 +238,14 @@
     "facing": "none",
     "text": {
       "en": "A little surprise slipped through the screen.",
-      "fr": "Une petite surprise apparaît sur son écran."
+      "fr": "Une petite surprise appara\u00eet sur son \u00e9cran."
     },
-    "bubble": { "x": 44, "y": 6, "w": 48, "h": 12 },
+    "bubble": {
+      "x": 44,
+      "y": 6,
+      "w": 48,
+      "h": 12
+    },
     "tailTarget": null,
     "tailCurve": "none"
   },
@@ -173,10 +258,18 @@
     "facing": "front",
     "text": {
       "en": "A birthday cake? For me?",
-      "fr": "Un gâteau pour mon anniversaire ? Pour moi ?"
+      "fr": "Un g\u00e2teau pour mon anniversaire ? Pour moi ?"
     },
-    "bubble": { "x": 14, "y": 6, "w": 28, "h": 14 },
-    "tailTarget": { "x": 44, "y": 38 },
+    "bubble": {
+      "x": 14,
+      "y": 6,
+      "w": 28,
+      "h": 14
+    },
+    "tailTarget": {
+      "x": 44,
+      "y": 38
+    },
     "tailCurve": "organic-right"
   },
   "c4b6p1": {
@@ -188,9 +281,14 @@
     "facing": "none",
     "text": {
       "en": "Twenty-three candles. One very big wish.",
-      "fr": "Vingt-trois bougies. Un immense vœu."
+      "fr": "Vingt-trois bougies. Un immense v\u0153u."
     },
-    "bubble": { "x": 40, "y": 5, "w": 52, "h": 11 },
+    "bubble": {
+      "x": 40,
+      "y": 5,
+      "w": 52,
+      "h": 11
+    },
     "tailTarget": null,
     "tailCurve": "none"
   },
@@ -205,7 +303,12 @@
       "en": "HAPPY BIRTHDAY, TIFA!",
       "fr": "JOYEUX ANNIVERSAIRE, TIFA !"
     },
-    "bubble": { "x": 8, "y": 6, "w": 84, "h": 17 },
+    "bubble": {
+      "x": 8,
+      "y": 6,
+      "w": 84,
+      "h": 17
+    },
     "tailTarget": null,
     "tailCurve": "none"
   },
@@ -217,12 +320,20 @@
     "speaker": "Tifa",
     "facing": "front",
     "text": {
-      "en": "You remembered…",
-      "fr": "Vous avez pensé à moi…"
+      "en": "You remembered\u2026",
+      "fr": "Vous avez pens\u00e9 \u00e0 moi\u2026"
     },
-    "bubble": { "x": 16, "y": 6, "w": 46, "h": 13 },
-    "tailTarget": { "x": 48, "y": 30 },
-    "tailCurve": "organic-right"
+    "bubble": {
+      "x": 16,
+      "y": 6,
+      "w": 46,
+      "h": 13
+    },
+    "tailTarget": {
+      "x": 36,
+      "y": 28
+    },
+    "tailCurve": "organic-down"
   },
   "c4b7p3": {
     "board": 7,
@@ -233,10 +344,18 @@
     "facing": "front",
     "text": {
       "en": "Make a wish, Tifa!",
-      "fr": "Fais un vœu, Tifa !"
+      "fr": "Fais un v\u0153u, Tifa !"
     },
-    "bubble": { "x": 20, "y": 6, "w": 26, "h": 14 },
-    "tailTarget": { "x": 41, "y": 38 },
+    "bubble": {
+      "x": 20,
+      "y": 6,
+      "w": 26,
+      "h": 14
+    },
+    "tailTarget": {
+      "x": 40,
+      "y": 26
+    },
     "tailCurve": "organic-right"
   },
   "c4b8p1_caption": {
@@ -248,9 +367,14 @@
     "facing": "none",
     "text": {
       "en": "Keep this joy close.",
-      "fr": "Garde cette joie tout près."
+      "fr": "Garde cette joie tout pr\u00e8s."
     },
-    "bubble": { "x": 56, "y": 6, "w": 38, "h": 12 },
+    "bubble": {
+      "x": 56,
+      "y": 6,
+      "w": 38,
+      "h": 12
+    },
     "tailTarget": null,
     "tailCurve": "none"
   },
@@ -265,7 +389,12 @@
       "en": "Happy 23rd, Tifa! We love you!",
       "fr": "Joyeux 23e anniversaire, Tifa ! Avec toute notre affection !"
     },
-    "bubble": { "x": 22, "y": 70, "w": 54, "h": 18 },
+    "bubble": {
+      "x": 22,
+      "y": 70,
+      "w": 54,
+      "h": 18
+    },
     "tailTarget": null,
     "tailCurve": "none"
   }

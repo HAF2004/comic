@@ -1,31 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
   <defs>
+    <!-- Centerline curve of the cream ribbon in the 1:1 square panel -->
+    <path id="ribbonCurve" d="M 120 152 C 340 108, 660 108, 880 152" fill="none"/>
     <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#FF85A2" flood-opacity="0.4"/>
+      <feDropShadow dx="0" dy="2.5" stdDeviation="2" flood-color="#FF85A2" flood-opacity="0.4"/>
     </filter>
-    <!-- Perfectly centered upward curved path matching the authentic cream ribbon arc in the background -->
-    <path id="ribbonCurve" d="M 90 159 C 350 108, 850 108, 1110 159" fill="none"/>
   </defs>
 
-  <!-- Left and Right Hearts matching the master art curve -->
-  <g transform="translate(125, 121)" filter="url(#textGlow)">
-    <path d="M18 6 Q24 -4 34 3 Q44 11 34 24 L18 36 L2 24 Q-8 11 2 3 Q12 -4 18 6 Z" fill="#FF1E6A" stroke="#171717" stroke-width="4" stroke-linejoin="round"/>
-  </g>
-  <g transform="translate(1035, 121)" filter="url(#textGlow)">
-    <path d="M18 6 Q24 -4 34 3 Q44 11 34 24 L18 36 L2 24 Q-8 11 2 3 Q12 -4 18 6 Z" fill="#FF1E6A" stroke="#171717" stroke-width="4" stroke-linejoin="round"/>
-  </g>
-
-  <!-- Background Outline Stroke -->
-  <text font-family="'Libre Franklin', 'Arial Black', Impact, sans-serif" font-size="50" font-weight="900" letter-spacing="3">
-    <textPath href="#ribbonCurve" startOffset="50%" text-anchor="middle" fill="#171717" stroke="#171717" stroke-width="12" stroke-linejoin="round">
-      JOYEUX ANNIVERSAIRE, TIFA !
+  <!-- Background outline stroke for crisp contrast against cream paper -->
+  <text font-family="'Libre Franklin', 'Segoe UI', Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="2.2">
+    <textPath href="#ribbonCurve" startOffset="50%" text-anchor="middle" dominant-baseline="central"
+              fill="#171717" stroke="#171717" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+      &#x2665; JOYEUX ANNIVERSAIRE, TIFA ! &#x2665;
     </textPath>
   </text>
 
-  <!-- Foreground Vibrant Magenta Fill -->
-  <text font-family="'Libre Franklin', 'Arial Black', Impact, sans-serif" font-size="50" font-weight="900" letter-spacing="3" filter="url(#textGlow)">
-    <textPath href="#ribbonCurve" startOffset="50%" text-anchor="middle" fill="#FF1E6A">
-      JOYEUX ANNIVERSAIRE, TIFA !
+  <!-- Foreground Vibrant Hot Pink Fill (#E8266B) -->
+  <text font-family="'Libre Franklin', 'Segoe UI', Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="2.2" filter="url(#textGlow)">
+    <textPath href="#ribbonCurve" startOffset="50%" text-anchor="middle" dominant-baseline="central"
+              fill="#E8266B">
+      &#x2665; JOYEUX ANNIVERSAIRE, TIFA ! &#x2665;
     </textPath>
   </text>
 </svg>

@@ -18284,12 +18284,12 @@ const c4Assets = [
   { id: 'c4b6p1-hero', url: '/textures/chapters/4/c4b6p1-cake-hero.png', compress: false },
   { id: 'c4b7p1-bg', url: '/textures/chapters/4/c4b7p1-background.png', compress: false },
   { id: 'c4b7p1-fg', url: '/textures/chapters/4/c4b7p1-foreground.png', compress: false },
-  { id: 'c4b7p1-composite', url: '/textures/chapters/4/c4b7p1-friends-surprise.png', compress: false },
+  { id: 'c4b7p1-composite', url: '/textures/chapters/4/c4b7p1-friends-surprise.png?v=board7fix', compress: false },
   { id: 'c4b7p1-banner', url: '/textures/chapters/4/c4b7p1-bubble-en.svg', compress: false, locale: true },
-  { id: 'c4b7p1-banner-v2', url: '/textures/chapters/4/c4b7p1-banner-v2.svg', compress: false, locale: true },
+  { id: 'c4b7p1-banner-v2', url: '/textures/chapters/4/c4b7p1-banner-v2.svg?v=board7fix', compress: false, locale: true },
   { id: 'c4b7p2-bg', url: '/textures/chapters/4/c4b7p2-background.png', compress: false },
   { id: 'c4b7p2-fg', url: '/textures/chapters/4/c4b7p2-foreground.png', compress: false },
-  { id: 'c4b7p2-composite', url: '/textures/chapters/4/c4b7p2-tifa-emotional.png', compress: false },
+  { id: 'c4b7p2-composite', url: '/textures/chapters/4/c4b7p2-tifa-emotional.png?v=board7fix', compress: false },
   { id: 'c4b7p3-bg', url: '/textures/chapters/4/c4b7p3-background.png', compress: false },
   { id: 'c4b7p3-fg', url: '/textures/chapters/4/c4b7p3-foreground.png', compress: false },
   { id: 'c4b7p3-composite', url: '/textures/chapters/4/c4b7p3-friends-cake.png', compress: false },
@@ -18535,9 +18535,9 @@ class Chapter4Panel extends me {
       const frustumHeightBanner = 2 * Math.tan((45 * Math.PI) / 360) * distBanner;
       const frustumWidthBanner = frustumHeightBanner * props.ratio;
       this.overlayMesh.oPosition.z = 0.85;
-      // Positioned with precision to nestle inside the authentic cream ribbon
-      this.overlayMesh.oPosition.y = frustumHeightBanner * 0.345;
-      this.overlayMesh.oScale.set(frustumWidthBanner * 0.88, frustumHeightBanner * 0.17, 1);
+      this.overlayMesh.oPosition.x = 0;
+      this.overlayMesh.oPosition.y = 0;
+      this.overlayMesh.oScale.set(frustumWidthBanner, frustumHeightBanner, 1);
       this.overlayMesh.sync();
       this.overlayMesh.scale.set(0, 0, 0);
     }
@@ -19106,8 +19106,7 @@ class Board4_7 extends St {
       position: { x: t, y: t },
       size: { x: n, y: n },
       ratio: 1,
-      bgTexture: 'c4b7p2-bg',
-      fgTexture: 'c4b7p2-fg',
+      bgTexture: 'c4b7p2-composite',
       compositeTexture: 'c4b7p2-composite',
       fgScale: 1.0,
       bubbleOffsetY: 0.32

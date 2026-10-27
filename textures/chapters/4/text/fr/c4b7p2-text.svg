@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
-  <path d="M 217 60 L 563 60 A 57 57 0 0 1 620 117 L 620 133 A 57 57 0 0 1 563 190 L 519 190 C 517 240, 511 284, 480 300 C 457 284, 463 240, 464 190 L 217 190 A 57 57 0 0 1 160 133 L 160 117 A 57 57 0 0 1 217 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 217 60 L 563 60 A 57 57 0 0 1 620 117 L 620 133 A 57 57 0 0 1 563 190 L 418 190 C 414 231, 397 267, 360 280 C 344 267, 360 231, 363 190 L 217 190 A 57 57 0 0 1 160 133 L 160 117 A 57 57 0 0 1 217 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="390" y="131.075" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Vous avez pensé à moi…</text>

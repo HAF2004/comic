@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 482 60 L 904 60 A 62 62 0 0 1 966 122 L 966 138 A 62 62 0 0 1 904 200 L 846 200 C 853 281, 880 353, 861 380 C 812 353, 786 281, 781 200 L 482 200 A 62 62 0 0 1 420 138 L 420 122 A 62 62 0 0 1 482 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 482 60 L 904 60 A 62 62 0 0 1 966 122 L 966 138 A 62 62 0 0 1 904 200 L 846 200 C 850 227, 865 251, 840 260 C 799 251, 784 227, 781 200 L 482 200 A 62 62 0 0 1 420 138 L 420 122 A 62 62 0 0 1 482 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="693" y="136.75" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">Make a wish, Tifa!</text>
