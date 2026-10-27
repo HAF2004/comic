@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#FF85A2" flood-opacity="0.4"/>
+    </filter>
+    <path id="ribbonCurve" d="M 80 120 Q 600 138 1120 120" fill="none"/>
+  </defs>
+
+  <!-- Left and Right Hearts matching the master art -->
+  <g transform="translate(150, 80)" filter="url(#textGlow)">
+    <path d="M18 6 Q24 -4 34 3 Q44 11 34 24 L18 36 L2 24 Q-8 11 2 3 Q12 -4 18 6 Z" fill="#FF1E6A" stroke="#171717" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(1015, 80)" filter="url(#textGlow)">
+    <path d="M18 6 Q24 -4 34 3 Q44 11 34 24 L18 36 L2 24 Q-8 11 2 3 Q12 -4 18 6 Z" fill="#FF1E6A" stroke="#171717" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Background Outline Stroke -->
+  <text font-family="'Libre Franklin', 'Arial Black', Impact, sans-serif" font-size="58" font-weight="900" letter-spacing="4">
+    <textPath href="#ribbonCurve" startOffset="50%" text-anchor="middle" fill="#171717" stroke="#171717" stroke-width="12" stroke-linejoin="round">
+      HAPPY BIRTHDAY, TIFA!
+    </textPath>
+  </text>
+
+  <!-- Foreground Vibrant Magenta Fill -->
+  <text font-family="'Libre Franklin', 'Arial Black', Impact, sans-serif" font-size="58" font-weight="900" letter-spacing="4" filter="url(#textGlow)">
+    <textPath href="#ribbonCurve" startOffset="50%" text-anchor="middle" fill="#FF1E6A">
+      HAPPY BIRTHDAY, TIFA!
+    </textPath>
+  </text>
+</svg>

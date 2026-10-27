@@ -1,0 +1,244 @@
+{
+  "ch1": {
+    "chapter": 1,
+    "timelineCount": 12,
+    "timelines": [
+      "paused:!0,repeat:-1,repeatDelay:3",
+      "paused:!0,repeatDelay:3,repeat:-1,yoyo:!0",
+      "paused:!0,repeat:-1,repeatDelay:.6",
+      "pause:!0,repeat:-1,repeatDelay:5",
+      "pause:!0,repeat:-1,repeatDelay:5",
+      "repeat:-1,paused:!0,repeatDelay:2,yoyo:!0",
+      "paused:!0,repeat:-1",
+      "repeat:-1,paused:!0,repeatDelay:3.4",
+      "paused:!0,repeat:-1,repeatDelay:1.6",
+      "paused:!0,repeat:-1,repeatDelay:1.7"
+    ],
+    "transformCount": 0,
+    "transforms": [],
+    "tweenCount": 217,
+    "tweens": [
+      {
+        "method": "set",
+        "target": "this.plane.position",
+        "props": "z:2"
+      },
+      {
+        "method": "to",
+        "target": "this.plane.position",
+        "props": "x:0,y:0,z:2,delay:s,duration:n,onComplete:()=>{t&&this.isSelected&&t()"
+      },
+      {
+        "method": "to",
+        "target": "this.plane.scale",
+        "props": "x:this.board.width*o,y:this.board.height*o,duration:n,delay:s,ease:\"elastic.out(0.4, 0.5)\""
+      },
+      {
+        "method": "to",
+        "target": "this.panelUniforms.uSelected",
+        "props": "value:1,duration:n,delay:s,ease:\"cubic.out\""
+      },
+      {
+        "method": "to",
+        "target": "this.plane.position",
+        "props": "x:this.originalPosition.x,y:this.originalPosition.y,z:0,duration:.45,onUpdate:()=>{this.setHitMesh(),this.updateCamera()"
+      },
+      {
+        "method": "to",
+        "target": "this.plane.scale",
+        "props": "x:this.originalScale.x,y:this.originalScale.y,duration:.45,ease:\"elastic.out(1, 1)\""
+      },
+      {
+        "method": "to",
+        "target": "this.panelUniforms.uSelected",
+        "props": "value:0,duration:.4,ease:\"cubic.out\""
+      },
+      {
+        "method": "to",
+        "target": "this.panelUniforms.uHover",
+        "props": "value:1,duration:1,ease:\"power2.out\""
+      },
+      {
+        "method": "to",
+        "target": "this.mousePosTarget",
+        "props": "x:0,y:0,duration:1,ease:\"power2.out\""
+      },
+      {
+        "method": "to",
+        "target": "this.panelUniforms.uHover",
+        "props": "value:0,duration:.5,ease:\"power2.out\""
+      }
+    ],
+    "packerMeshes": [
+      "frameName:d.frameName||u,...o,...d",
+      "id:\"jean-loup\",complex:!0,frameName:\"jean-loup\",spriteId:\"c2b2p1\",injectUv:`\r\n          float hair = cmap(abs(vUv.x - 0.5), 0., 0.2, 1., 0.) * cmap(vUv.y, 0.7, 1., 0., 1.);\r\n          float cheek = cmap(vUv.x, 0.1, 0.3, 1., 0.) * cmap(vUv.y, 0.5, 1., 0., 1.);\r\n          float hand = cmap(vUv.x, 0.6, 1., 0., 1.) * cmap(vUv.y, 0.7, 1., 0., 1.);\r\n          float eyes = cmap(abs(vUv.x - 0.5), 0.1, 0.3, 1., 0.) * cmap(vUv.y, 0.4, 1., 0., 1.);\r\n          float nose =  cmap(vUv.x, 0.6, 1., 0., 1.) * cmap(abs(vUv.y - 0.6), 0., .3, 1., 0.);\r\n  \r\n          dispX += hair * sin(uLocalTime * 3.5 + vUv.x * 12.) * 0.003;\r\n          dispX += cheek * sin(uLocalTime * 1.5 + vUv.x * .5) * 0.003;\r\n          dispY += cheek * cos(uLocalTime * 1.5 + vUv.x * .5) * 0.012;\r\n          dispX += hand * sin(uLocalTime * 1.5 + 0.2) * 0.02;\r\n          dispY -= hand * sin(uLocalTime * 1.5 + 0.2) * 0.04;\r\n          dispY -= eyes * sin(uLocalTime * 1.2 + 0.2) * 0.00454;\r\n          dispY -= vUv.y * sin(uLocalTime * 1.2 + 0.2) * 0.01;\r\n          dispY -= nose * sin(uLocalTime *  0.75 + 0.2) * 0.04;\r\n        `",
+      "id:\"jl-tail\",complex:!0,frameName:\"jl-tail\",spriteId:\"c2b2p1\",injectUv:`\r\n  \r\n          dispX += cos(uLocalTime * 1.1544 + 0.98 + vUv.x * 7. + vUv.y * 0.3) * vUv.y * 0.02;\r\n        `",
+      "id:\"city-1\",frameName:\"city-1\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"city-2\",frameName:\"city-2\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"city-3\",frameName:\"city-3\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"sky-1\",frameName:\"sky-1\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"cloud-2\",frameName:\"cloud-2\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"cloud-3\",frameName:\"cloud-3\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"couch\",frameName:\"couch\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData"
+    ]
+  },
+  "ch2": {
+    "chapter": 2,
+    "timelineCount": 12,
+    "timelines": [
+      "paused:!0,repeat:-1,repeatDelay:3",
+      "paused:!0,repeatDelay:3,repeat:-1,yoyo:!0",
+      "paused:!0,repeat:-1,repeatDelay:.6",
+      "pause:!0,repeat:-1,repeatDelay:5",
+      "pause:!0,repeat:-1,repeatDelay:5",
+      "repeat:-1,paused:!0,repeatDelay:2,yoyo:!0",
+      "paused:!0,repeat:-1",
+      "repeat:-1,paused:!0,repeatDelay:3.4",
+      "paused:!0,repeat:-1,repeatDelay:1.6",
+      "paused:!0,repeat:-1,repeatDelay:1.7"
+    ],
+    "transformCount": 0,
+    "transforms": [],
+    "tweenCount": 144,
+    "tweens": [
+      {
+        "method": "to",
+        "target": "this.bubbles[0].scale",
+        "props": "x:0,y:0,duration:.24,ease:\"power2.in\""
+      },
+      {
+        "method": "to",
+        "target": "this.bubbles[0].position",
+        "props": "y:this.bubbles[0].oPosition.y-.5,duration:.24,ease:\"power2.in\""
+      },
+      {
+        "method": "to",
+        "target": "this.bubbles[1].scale",
+        "props": "x:0,y:0,duration:.24,ease:\"power2.in\""
+      },
+      {
+        "method": "to",
+        "target": "this.bubbles[1].position",
+        "props": "y:this.bubbles[1].oPosition.y-.5,duration:.24,ease:\"power2.in\""
+      },
+      {
+        "method": "to",
+        "target": "t.scale",
+        "props": "x:t.oScale.x,y:t.oScale.y,z:t.oScale.z,duration:.9,delay:.23+n*.1,ease:\"elastic.out(1.1, 0.8)\""
+      },
+      {
+        "method": "to",
+        "target": "t.position",
+        "props": "y:t.oPosition.y,duration:1.2,delay:.23+n*.1,ease:\"elastic.out(1.1, 0.8)\""
+      },
+      {
+        "method": "to",
+        "target": "t.scale",
+        "props": "x:0,y:0,duration:.24,ease:\"power2.in\""
+      },
+      {
+        "method": "to",
+        "target": "t.position",
+        "props": "y:t.oPosition.y-.5,duration:.24,ease:\"power2.in\""
+      },
+      {
+        "method": "to",
+        "target": "t.scale",
+        "props": "x:t.oScale.x,y:t.oScale.y,z:t.oScale.z,duration:.9,delay:.35+.1*n,ease:\"elastic.out(1.1, 0.8)\""
+      },
+      {
+        "method": "to",
+        "target": "t.position",
+        "props": "y:t.oPosition.y,duration:1.2,delay:.35+.1*n,ease:\"elastic.out(1.1, 0.8)\""
+      }
+    ],
+    "packerMeshes": [
+      "id:\"jean-loup\",complex:!0,frameName:\"jean-loup\",spriteId:\"c2b2p1\",injectUv:`\r\n          float hair = cmap(abs(vUv.x - 0.5), 0., 0.2, 1., 0.) * cmap(vUv.y, 0.7, 1., 0., 1.);\r\n          float cheek = cmap(vUv.x, 0.1, 0.3, 1., 0.) * cmap(vUv.y, 0.5, 1., 0., 1.);\r\n          float hand = cmap(vUv.x, 0.6, 1., 0., 1.) * cmap(vUv.y, 0.7, 1., 0., 1.);\r\n          float eyes = cmap(abs(vUv.x - 0.5), 0.1, 0.3, 1., 0.) * cmap(vUv.y, 0.4, 1., 0., 1.);\r\n          float nose =  cmap(vUv.x, 0.6, 1., 0., 1.) * cmap(abs(vUv.y - 0.6), 0., .3, 1., 0.);\r\n  \r\n          dispX += hair * sin(uLocalTime * 3.5 + vUv.x * 12.) * 0.003;\r\n          dispX += cheek * sin(uLocalTime * 1.5 + vUv.x * .5) * 0.003;\r\n          dispY += cheek * cos(uLocalTime * 1.5 + vUv.x * .5) * 0.012;\r\n          dispX += hand * sin(uLocalTime * 1.5 + 0.2) * 0.02;\r\n          dispY -= hand * sin(uLocalTime * 1.5 + 0.2) * 0.04;\r\n          dispY -= eyes * sin(uLocalTime * 1.2 + 0.2) * 0.00454;\r\n          dispY -= vUv.y * sin(uLocalTime * 1.2 + 0.2) * 0.01;\r\n          dispY -= nose * sin(uLocalTime *  0.75 + 0.2) * 0.04;\r\n        `",
+      "id:\"jl-tail\",complex:!0,frameName:\"jl-tail\",spriteId:\"c2b2p1\",injectUv:`\r\n  \r\n          dispX += cos(uLocalTime * 1.1544 + 0.98 + vUv.x * 7. + vUv.y * 0.3) * vUv.y * 0.02;\r\n        `",
+      "id:\"city-1\",frameName:\"city-1\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"city-2\",frameName:\"city-2\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"city-3\",frameName:\"city-3\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"sky-1\",frameName:\"sky-1\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"cloud-2\",frameName:\"cloud-2\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"cloud-3\",frameName:\"cloud-3\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"couch\",frameName:\"couch\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData",
+      "id:\"table\",frameName:\"table\",texture:this.getTexture(\"c2b2p1-sprite\"),spriteData:this.spriteData"
+    ]
+  },
+  "ch3": {
+    "chapter": 3,
+    "timelineCount": 7,
+    "timelines": [
+      "repeat:-1,paused:!0,repeatDelay:2,yoyo:!0",
+      "paused:!0,repeat:-1",
+      "repeat:-1,paused:!0,repeatDelay:3.4",
+      "paused:!0,repeat:-1,repeatDelay:1.6",
+      "paused:!0,repeat:-1,repeatDelay:1.7",
+      "repeat:-1,repeatDelay:1.7",
+      "repeat:-1,paused:!0,repeatDelay:2"
+    ],
+    "transformCount": 0,
+    "transforms": [],
+    "tweenCount": 132,
+    "tweens": [
+      {
+        "method": "to",
+        "target": "s.scale",
+        "props": "x:s.oScale.x,y:s.oScale.y,z:s.oScale.z,duration:.9,delay:.1*o+n,ease:\"elastic.out(1.1, 1.2)\""
+      },
+      {
+        "method": "to",
+        "target": "s.position",
+        "props": "x:s.oPosition.x,y:s.oPosition.y,duration:1.2,delay:.1*o+n,ease:\"elastic.out(1.1, 1.2)\""
+      },
+      {
+        "method": "to",
+        "target": "s.scale",
+        "props": "x:0,y:0,z:0,duration:.24,delay:0,ease:\"power2.in\""
+      },
+      {
+        "method": "to",
+        "target": "s.position",
+        "props": "x:s.oPosition.x+n,y:s.oPosition.y+n,duration:.24,ease:\"power2.in\""
+      },
+      {
+        "method": "to",
+        "target": "Uc",
+        "props": "value:.2,duration:1,ease:\"elastic.out(3, 0.6)\""
+      },
+      {
+        "method": "to",
+        "target": "Uc",
+        "props": "value:.1,duration:.5,ease:\"power2.out\""
+      },
+      {
+        "method": "to",
+        "target": "this.mousePosTarget",
+        "props": "x:.5,y:.5,delay:.3,duration:1,ease:\"power2.out\""
+      },
+      {
+        "method": "to",
+        "target": "this.panelUniforms.uHover",
+        "props": "value:0,duration:.5,delay:.3,ease:\"power2.out\""
+      },
+      {
+        "method": "set",
+        "target": "o.scale",
+        "props": "x:0,y:0"
+      },
+      {
+        "method": "to",
+        "target": "t.scale",
+        "props": "x:0,y:0,delay:Math.random()*.2,duration:.3,ease:\"power2.in\""
+      }
+    ],
+    "packerMeshes": [
+      "...t,id:\"pon-1\",frameName:\"pon-1\"",
+      "...t,id:\"pon-2\",frameName:\"pon-2\"",
+      "...t,id:\"pon-3\",frameName:\"pon-3\"",
+      "id:\"cart\",frameName:\"cart\",spriteId:\"c3b3p3\"",
+      "id:\"arrow\",frameName:\"arrow\",spriteId:\"c3b3p3\"",
+      "id:\"inside-mesh-\"+t,spriteId:n.data,frameName:n.frameName"
+    ]
+  }
+}

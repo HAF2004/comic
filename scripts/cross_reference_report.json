@@ -1,0 +1,3623 @@
+{
+  "ch1": {
+    "totalCodeAssets": 142,
+    "totalDiskFiles": 501,
+    "referencedAssetsCount": 142,
+    "missingInDisk": [],
+    "orphanCount": 0,
+    "orphanFiles": [],
+    "referencedAssets": [
+      {
+        "id": "c1b1p1-ponpon-back",
+        "url": "/textures/chapters/1/c1b1p1-ponpon-back.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 7670,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b1p1-deco",
+        "url": "/textures/chapters/1/c1b1p1-deco.jpg",
+        "size": 40765,
+        "ext": ".jpg",
+        "locale": false
+      },
+      {
+        "id": "c1b1p2-ponpon",
+        "url": "/textures/chapters/1/c1b1p2-ponpon.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 22358,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b1p2-scream",
+        "url": "/textures/chapters/1/c1b1p2-scream.jpg",
+        "size": 35611,
+        "ext": ".jpg",
+        "locale": false
+      },
+      {
+        "id": "c1b1p3-scream",
+        "url": "/textures/chapters/1/c1b1p2-scream.jpg",
+        "size": 35611,
+        "ext": ".jpg",
+        "locale": false
+      },
+      {
+        "id": "c1b1p3-ponpon-logo",
+        "url": "/textures/chapters/1/c1b1p3-ponpon-logo.png",
+        "width": 256,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 7962,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b1p3-spinning",
+        "url": "/textures/chapters/1/c1b1p3-spinning.png",
+        "width": 128,
+        "height": 128,
+        "hasAlpha": false,
+        "size": 553,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b1p3-sprite",
+        "url": "/textures/chapters/1/c1b1p3-sprite.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 51445,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b1p4-spin",
+        "url": "/textures/chapters/1/c1b1p4-spin.png",
+        "width": 56,
+        "height": 56,
+        "hasAlpha": false,
+        "size": 483,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b1p4-stage",
+        "url": "/textures/chapters/1/c1b1p4-stage.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 4401,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b1p4-ponpon",
+        "url": "/textures/chapters/1/c1b1p4-ponpon.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 16405,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b1p4-stage-depth",
+        "url": "/textures/chapters/1/c1b1p4-stage-depth.jpg",
+        "size": 5110,
+        "ext": ".jpg",
+        "locale": false
+      },
+      {
+        "id": "c1b1p4-table-map",
+        "url": "/textures/chapters/1/c1b1p4-table-map.jpg",
+        "size": 398,
+        "ext": ".jpg",
+        "locale": false
+      },
+      {
+        "id": "c1b1p4-table",
+        "url": "/textures/chapters/1/c1b1p4-table.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 6470,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p1-circle",
+        "url": "/textures/chapters/1/c1b2p1-circle.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 5397,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p1-ponpon",
+        "url": "/textures/chapters/1/c1b2p1-ponpon.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 33000,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p1-mic",
+        "url": "/textures/chapters/1/c1b2p1-mic.png",
+        "width": 256,
+        "height": 350,
+        "hasAlpha": false,
+        "size": 2249,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p1-sprite",
+        "url": "/textures/chapters/1/c1b2p1-sprite.png",
+        "width": 224,
+        "height": 56,
+        "hasAlpha": false,
+        "size": 1136,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p1-bubble",
+        "url": "/textures/chapters/1/c1b2p1-bubble-en.png",
+        "width": 512,
+        "height": 163,
+        "hasAlpha": false,
+        "size": 5175,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b2p2-ponpon",
+        "url": "/textures/chapters/1/c1b2p2-ponpon.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 16563,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p2-dj",
+        "url": "/textures/chapters/1/c1b2p2-dj.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 13917,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-table",
+        "url": "/textures/chapters/1/c1b2p3-table.png",
+        "width": 434,
+        "height": 145,
+        "hasAlpha": false,
+        "size": 10151,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-trees",
+        "url": "/textures/chapters/1/c1b2p3-trees.png",
+        "width": 1536,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 15082,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-screen",
+        "url": "/textures/chapters/1/c1b2p3-screen.png",
+        "width": 302,
+        "height": 285,
+        "hasAlpha": false,
+        "size": 2197,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-ponpon",
+        "url": "/textures/chapters/1/c1b2p3-ponpon.png",
+        "width": 664,
+        "height": 332,
+        "hasAlpha": false,
+        "size": 22370,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-grid",
+        "url": "/textures/chapters/1/c1b2p3-grid.png",
+        "width": 256,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 2851,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-depth",
+        "url": "/textures/chapters/1/c1b2p3-depth.jpg",
+        "size": 8986,
+        "ext": ".jpg",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-speakers",
+        "url": "/textures/chapters/1/c1b2p3-crowd-speakers.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 6814,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-crowd",
+        "url": "/textures/chapters/1/c1b2p3-crowd.png",
+        "width": 1280,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 38242,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-clouds",
+        "url": "/textures/chapters/1/c1b2p3-clouds.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 4400,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-stage",
+        "url": "/textures/chapters/1/c1b2p3-stage.png",
+        "width": 1455,
+        "height": 483,
+        "hasAlpha": false,
+        "size": 17528,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-bubble",
+        "url": "/textures/chapters/1/c1b2p3-bubble-en.png",
+        "width": 429,
+        "height": 336,
+        "hasAlpha": false,
+        "size": 5986,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b2p3-ponpon-logo",
+        "url": "/textures/chapters/1/c1b2p3-ponpon-logo.png",
+        "width": 256,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 3837,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b2p3-disco",
+        "url": "/textures/chapters/1/c1b2p3-disco.png",
+        "width": 87,
+        "height": 160,
+        "hasAlpha": false,
+        "size": 904,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b3p1-bubble",
+        "url": "/textures/chapters/1/c1b3p1-bubble-en.png",
+        "width": 748,
+        "height": 245,
+        "hasAlpha": false,
+        "size": 9298,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b3p1-deco",
+        "url": "/textures/chapters/1/c1b3p1-deco.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 4771,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b3p1-ponpon-body",
+        "url": "/textures/chapters/1/c1b3p1-ponpon-body.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 32899,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b3p1-ponpon-part",
+        "url": "/textures/chapters/1/c1b3p1-ponpon-part.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 5348,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b3p1-table-fridge",
+        "url": "/textures/chapters/1/c1b3p1-table-fridge.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 6093,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b3p2-kitchen",
+        "url": "/textures/chapters/1/c1b3p2-kitchen-r1.273.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 42843,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b3p2-bubble",
+        "url": "/textures/chapters/1/c1b3p2-bubble-en.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 7574,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b3p2-carrot",
+        "url": "/textures/chapters/1/c1b3p2-carrot.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 8822,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b3p3-main",
+        "url": "/textures/chapters/1/c1b3p3-main.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 24697,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b3p3-magnets",
+        "url": "/textures/chapters/1/c1b3p3-magnets.png",
+        "width": 512,
+        "height": 128,
+        "hasAlpha": false,
+        "size": 5401,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b3p3-polas",
+        "url": "/textures/chapters/1/c1b3p3-polas.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 48390,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b3p3-stickers",
+        "url": "/textures/chapters/1/c1b3p3-stickers.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 11381,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b4p1-bubble",
+        "url": "/textures/chapters/1/c1b4p1-bubble-en.png",
+        "width": 512,
+        "height": 128,
+        "hasAlpha": true,
+        "size": 8550,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b4p1-main",
+        "url": "/textures/chapters/1/c1b4p1-main.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 32304,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b4p1-main-map",
+        "url": "/textures/chapters/1/c1b4p1-main-map.jpg",
+        "size": 908,
+        "ext": ".jpg",
+        "locale": false
+      },
+      {
+        "id": "c1b4p1-ponpons",
+        "url": "/textures/chapters/1/c1b4p1-ponpons.png",
+        "width": 1536,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 47283,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b4p1-wave",
+        "url": "/textures/chapters/1/c1b4p1-wave.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 26684,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b4p1-sky",
+        "url": "/textures/chapters/1/c1b4p1-sky.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 2440,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b4p1-sprite",
+        "url": "/textures/chapters/1/c1b4p1-sprite.png",
+        "width": 512,
+        "height": 257,
+        "hasAlpha": false,
+        "size": 2569,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b4p1-floor",
+        "url": "/textures/chapters/1/c1b4p1-floor.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 3378,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b4p1-traits",
+        "url": "/textures/chapters/1/c1b4p1-traits.png",
+        "width": 768,
+        "height": 128,
+        "hasAlpha": false,
+        "size": 3651,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p1-bubble",
+        "url": "/textures/chapters/1/c1b5p1-bubble-en.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 5307,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b5p1-bubble-top",
+        "url": "/textures/chapters/1/c1b5p1-bubble-top-en.png",
+        "width": 256,
+        "height": 56,
+        "hasAlpha": true,
+        "size": 6643,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b5p1-ponpon-body",
+        "url": "/textures/chapters/1/c1b5p1-ponpon-body.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 13606,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p1-props",
+        "url": "/textures/chapters/1/c1b5p1-props.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 13779,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p1-sprite",
+        "url": "/textures/chapters/1/c1b5p1-sprite.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 4888,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p1-toot",
+        "url": "/textures/chapters/1/c1b5p1-toot.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 3546,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p2-bus-int",
+        "url": "/textures/chapters/1/c1b5p2-bus-int.png",
+        "width": 726,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 16619,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p2-bus",
+        "url": "/textures/chapters/1/c1b5p2-bus.png",
+        "width": 726,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 22581,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p2-deco-sprite",
+        "url": "/textures/chapters/1/c1b5p2-deco-sprite.png",
+        "width": 512,
+        "height": 128,
+        "hasAlpha": false,
+        "size": 2746,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p2-driver",
+        "url": "/textures/chapters/1/c1b5p2-driver.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 6648,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p2-la-sprite",
+        "url": "/textures/chapters/1/c1b5p2-la-sprite.png",
+        "width": 512,
+        "height": 128,
+        "hasAlpha": false,
+        "size": 3167,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p2-seat",
+        "url": "/textures/chapters/1/c1b5p2-seat.png",
+        "width": 256,
+        "height": 128,
+        "hasAlpha": false,
+        "size": 3180,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p3-thumbs",
+        "url": "/textures/chapters/1/c1b5p3-thumbs.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 6100,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p3-sprite",
+        "url": "/textures/chapters/1/c1b5p3-sprite.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 11095,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p3-tape",
+        "url": "/textures/chapters/1/c1b5p3-tape.png",
+        "width": 1024,
+        "height": 1025,
+        "hasAlpha": false,
+        "size": 37855,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p4-window",
+        "url": "/textures/chapters/1/c1b5p4-window.png",
+        "width": 256,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 3771,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p4-notes",
+        "url": "/textures/chapters/1/c1b5p4-notes.png",
+        "width": 384,
+        "height": 128,
+        "hasAlpha": false,
+        "size": 1634,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p4-ponpon",
+        "url": "/textures/chapters/1/c1b5p4-ponpon.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 37881,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p4-seats",
+        "url": "/textures/chapters/1/c1b5p4-seats2x.png",
+        "width": 1024,
+        "height": 2048,
+        "hasAlpha": false,
+        "size": 111338,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b5p4-landscape",
+        "url": "/textures/chapters/1/c1b5p4-landscape.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 9781,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p1-ponpon",
+        "url": "/textures/chapters/1/c1b6p1-ponpon.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 9009,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p1-clouds",
+        "url": "/textures/chapters/1/c1b6p1-clouds.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 2369,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p1-marny",
+        "url": "/textures/chapters/1/c1b6p1-marny.png",
+        "width": 256,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 8503,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p2-bubble",
+        "url": "/textures/chapters/1/c1b6p2-bubble-en.png",
+        "width": 256,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 6260,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b6p2-ponpon",
+        "url": "/textures/chapters/1/c1b6p2-ponpon.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 12567,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p2-sprite",
+        "url": "/textures/chapters/1/c1b6p2-sprite.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 5219,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p3-landscape",
+        "url": "/textures/chapters/1/c1b6p3-landscape.png",
+        "width": 2048,
+        "height": 1260,
+        "hasAlpha": false,
+        "size": 153825,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p3-bus-r-2-95",
+        "url": "/textures/chapters/1/c1b6p3-bus-r-2-95.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 19998,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p3-ponpon",
+        "url": "/textures/chapters/1/c1b6p3-ponpon.png",
+        "width": 256,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 16154,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p3-landscape-depth",
+        "url": "/textures/chapters/1/c1b6p3-landscape-depth.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 15131,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p3-sign",
+        "url": "/textures/chapters/1/c1b6p3-sign.png",
+        "width": 256,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 4142,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p3-boys",
+        "url": "/textures/chapters/1/c1b6p3-boys.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 29310,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p3-skate",
+        "url": "/textures/chapters/1/c1b6p3-skate.png",
+        "width": 1024,
+        "height": 340,
+        "hasAlpha": false,
+        "size": 11536,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p3-sprite",
+        "url": "/textures/chapters/1/c1b6p3-sprite.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 6494,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b6p3-table",
+        "url": "/textures/chapters/1/c1b6p3-table.png",
+        "width": 256,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 10122,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p1-ponpon-body",
+        "url": "/textures/chapters/1/c1b7p1-ponpon-body.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 22824,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p1-sprite",
+        "url": "/textures/chapters/1/c1b7p1-sprite.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 8878,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p1-ponpon-body-2",
+        "url": "/textures/chapters/1/c1b7p1-ponpon-body-2.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 10555,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p1-bubble",
+        "url": "/textures/chapters/1/c1b7p1-bubble-en.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 9236,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b7p2-slash",
+        "url": "/textures/chapters/1/c1b7p2-slash.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 22478,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p2-jeanloup",
+        "url": "/textures/chapters/1/c1b7p2-jeanloup.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 14795,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p2-simon",
+        "url": "/textures/chapters/1/c1b7p2-simon.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 11140,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p3-bubble-jl",
+        "url": "/textures/chapters/1/c1b7p3-bubble-jl-en.png",
+        "width": 512,
+        "height": 368,
+        "hasAlpha": false,
+        "size": 12845,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b7p3-sprite",
+        "url": "/textures/chapters/1/c1b7p3-sprite.png",
+        "width": 2048,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 58152,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p3-characters",
+        "url": "/textures/chapters/1/c1b7p3-characters.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 34915,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p3-bubble-sim",
+        "url": "/textures/chapters/1/c1b7p3-bubble-sim-en.png",
+        "width": 512,
+        "height": 235,
+        "hasAlpha": false,
+        "size": 9568,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b7p4-ponpon",
+        "url": "/textures/chapters/1/c1b7p4-ponpon.png",
+        "width": 1024,
+        "height": 651,
+        "hasAlpha": false,
+        "size": 21098,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p4-kebab",
+        "url": "/textures/chapters/1/c1b7p4-kebab.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 31789,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b7p4-sprite",
+        "url": "/textures/chapters/1/c1b7p4-sprite.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 4665,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p1-bubble-jl",
+        "url": "/textures/chapters/1/c1b8p1-bubble-jl-en.png",
+        "width": 512,
+        "height": 357,
+        "hasAlpha": false,
+        "size": 11809,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b8p1-sprite",
+        "url": "/textures/chapters/1/c1b8p1-sprite.png",
+        "width": 768,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 10532,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p1-simon",
+        "url": "/textures/chapters/1/c1b8p1-simon.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 23728,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p1-bubble-sim",
+        "url": "/textures/chapters/1/c1b8p1-bubble-sim-en.png",
+        "width": 512,
+        "height": 467,
+        "hasAlpha": false,
+        "size": 9265,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b8p2-boys",
+        "url": "/textures/chapters/1/c1b8p2-boys.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 41608,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p2-arms",
+        "url": "/textures/chapters/1/c1b8p2-arms.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 16311,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p2-bubblesim",
+        "url": "/textures/chapters/1/c1b8p2-bubblesim-en.png",
+        "width": 1024,
+        "height": 307,
+        "hasAlpha": false,
+        "size": 11720,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b8p2-bubble-jl",
+        "url": "/textures/chapters/1/c1b8p2-bubble-jl-en.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 6837,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b8p2-beers",
+        "url": "/textures/chapters/1/c1b8p2-beers.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 7989,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p3-ponpon",
+        "url": "/textures/chapters/1/c1b8p3-ponpon.png",
+        "width": 735,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 28499,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p3-bg",
+        "url": "/textures/chapters/1/c1b8p3-bg.png",
+        "width": 1024,
+        "height": 955,
+        "hasAlpha": false,
+        "size": 38651,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p3-jl-bubble",
+        "url": "/textures/chapters/1/c1b8p3-jl-bubble-en.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 12013,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b8p3-simon-bubble",
+        "url": "/textures/chapters/1/c1b8p3-simon-bubble-en.png",
+        "width": 512,
+        "height": 198,
+        "hasAlpha": false,
+        "size": 8800,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b8p3-ponpon-bubble",
+        "url": "/textures/chapters/1/c1b8p3-ponpon-bubble-en.png",
+        "width": 512,
+        "height": 329,
+        "hasAlpha": false,
+        "size": 11275,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b8p3-boys",
+        "url": "/textures/chapters/1/c1b8p3-boys.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 44862,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p3-sim-arms",
+        "url": "/textures/chapters/1/c1b8p3-sim-arms.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 8198,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p4-bubble-simon",
+        "url": "/textures/chapters/1/c1b8p4-bubble-simon-en.png",
+        "width": 256,
+        "height": 160,
+        "hasAlpha": false,
+        "size": 3639,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b8p4-bubble-ponpon",
+        "url": "/textures/chapters/1/c1b8p4-bubble-ponpon-en.png",
+        "width": 351,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 8533,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b8p4-boys",
+        "url": "/textures/chapters/1/c1b8p4-boys.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 40230,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p4-sprite",
+        "url": "/textures/chapters/1/c1b8p4-sprite.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 57734,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p4-ponpon",
+        "url": "/textures/chapters/1/c1b8p4-ponpon.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 19461,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b8p4-bubble-jl",
+        "url": "/textures/chapters/1/c1b8p4-bubble-jl-en.png",
+        "width": 512,
+        "height": 418,
+        "hasAlpha": false,
+        "size": 10768,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b8p4-table",
+        "url": "/textures/chapters/1/c1b8p4-table.png",
+        "width": 1024,
+        "height": 731,
+        "hasAlpha": false,
+        "size": 16427,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b9p1-head",
+        "url": "/textures/chapters/1/c1b9p1-head.png",
+        "width": 1024,
+        "height": 256,
+        "hasAlpha": false,
+        "size": 15730,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b9p1-sprite",
+        "url": "/textures/chapters/1/c1b9p1-sprite.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 24370,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b9p1-ponpon-bubble",
+        "url": "/textures/chapters/1/c1b9p1-ponpon-bubble-en.png",
+        "width": 873,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 26850,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b9p1-chair",
+        "url": "/textures/chapters/1/c1b9p1-chair.png",
+        "width": 612,
+        "height": 1024,
+        "hasAlpha": true,
+        "size": 102081,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b9p2-bubble",
+        "url": "/textures/chapters/1/c1b9p2-bubble-en.png",
+        "width": 1024,
+        "height": 598,
+        "hasAlpha": true,
+        "size": 66510,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b9p2-ponpon",
+        "url": "/textures/chapters/1/c1b9p2-ponpon.png",
+        "width": 2048,
+        "height": 756,
+        "hasAlpha": true,
+        "size": 529883,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b9p3-boys",
+        "url": "/textures/chapters/1/c1b9p3-boys.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": true,
+        "size": 124851,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b9p3-sprite",
+        "url": "/textures/chapters/1/c1b9p3-sprite.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": true,
+        "size": 78775,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b9p3-sim-bubble",
+        "url": "/textures/chapters/1/c1b9p3-sim-bubble-en.png",
+        "width": 512,
+        "height": 455,
+        "hasAlpha": true,
+        "size": 34325,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b9p3-jl-bubble",
+        "url": "/textures/chapters/1/c1b9p3-jl-bubble-en.png",
+        "width": 512,
+        "height": 614,
+        "hasAlpha": true,
+        "size": 43791,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b9p4-ponpon",
+        "url": "/textures/chapters/1/c1b9p4-ponpon.png",
+        "width": 1024,
+        "height": 740,
+        "hasAlpha": true,
+        "size": 119841,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b9p4-bubble",
+        "url": "/textures/chapters/1/c1b9p4-bubble-en.png",
+        "width": 1024,
+        "height": 394,
+        "hasAlpha": true,
+        "size": 32494,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c1b10p1-leafs",
+        "url": "/textures/chapters/1/c1b10p1-leafs.png",
+        "width": 256,
+        "height": 128,
+        "hasAlpha": true,
+        "size": 11358,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b10p1-big-sprite",
+        "url": "/textures/chapters/1/c1b10p1-big-sprite.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": true,
+        "size": 154325,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c1b10p1-ponpon-jl",
+        "url": "/textures/chapters/1/c1b10p1-ponpon-jl.png",
+        "width": 1024,
+        "height": 512,
+        "hasAlpha": true,
+        "size": 156345,
+        "ext": ".png",
+        "locale": false
+      }
+    ]
+  },
+  "ch2": {
+    "totalCodeAssets": 95,
+    "totalDiskFiles": 310,
+    "referencedAssetsCount": 92,
+    "missingInDisk": [
+      {
+        "id": "c1b2p1-ponpon2",
+        "url": "/textures/chapters/1/c1b2p1-ponpon.png",
+        "norm": "textures/chapters/1/c1b2p1-ponpon.png"
+      },
+      {
+        "id": "c1b2p1-mic2",
+        "url": "/textures/chapters/1/c1b2p1-mic.png",
+        "norm": "textures/chapters/1/c1b2p1-mic.png"
+      },
+      {
+        "id": "c1b2p1-sprite2",
+        "url": "/textures/chapters/1/c1b2p1-sprite.png",
+        "norm": "textures/chapters/1/c1b2p1-sprite.png"
+      }
+    ],
+    "orphanCount": 0,
+    "orphanFiles": [],
+    "referencedAssets": [
+      {
+        "id": "c2b1p1-jl-bar",
+        "url": "/textures/chapters/2/c2b1p1-jl-bar.png",
+        "width": 2048,
+        "height": 1384,
+        "hasAlpha": false,
+        "size": 176764,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b1p1-jl-bar-depth",
+        "url": "/textures/chapters/2/c2b1p1-jl-bar-depth.png",
+        "width": 512,
+        "height": 346,
+        "hasAlpha": false,
+        "size": 14064,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b1p1-sprite-data",
+        "url": "/textures/chapters/2/c2b1p1-sprite-data.json",
+        "size": 709,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 3,
+        "frameNames": [
+          "lamp-out",
+          "lamp-in",
+          "close-sign"
+        ]
+      },
+      {
+        "id": "c2b1p1-sprite",
+        "url": "/textures/chapters/2/c2b1p1-sprite.png",
+        "width": 376,
+        "height": 97,
+        "hasAlpha": false,
+        "size": 3933,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b2p1-bubble",
+        "url": "/textures/chapters/2/c2b2p1-bubble-en.png",
+        "width": 256,
+        "height": 182,
+        "hasAlpha": false,
+        "size": 5854,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b2p1-decors",
+        "url": "/textures/chapters/2/c2b2p1-decors.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 20774,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b2p1-sprite-data",
+        "url": "/textures/chapters/2/c2b2p1-sprite-data.json",
+        "size": 3040,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 15,
+        "frameNames": [
+          "couch",
+          "city-3",
+          "simon-phone",
+          "city-2",
+          "jean-loup",
+          "cloud-2",
+          "cloud-3",
+          "table",
+          "simon-body",
+          "plante"
+        ]
+      },
+      {
+        "id": "c2b2p1-sprite",
+        "url": "/textures/chapters/2/c2b2p1-sprite.png",
+        "width": 2048,
+        "height": 2048,
+        "hasAlpha": false,
+        "size": 102446,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b2p2-bubble",
+        "url": "/textures/chapters/2/c2b2p2-bubble-en.png",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": false,
+        "size": 16413,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b2p2-sprite-data",
+        "url": "/textures/chapters/2/c2b2p2-sprite-data.json",
+        "size": 2089,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 10,
+        "frameNames": [
+          "decors",
+          "simon",
+          "table",
+          "jl-body",
+          "jl-couch",
+          "couch",
+          "jl-head-idle",
+          "jl-head-burb",
+          "city-1",
+          "city-2"
+        ]
+      },
+      {
+        "id": "c2b2p2-sprite",
+        "url": "/textures/chapters/2/c2b2p2-sprite.png",
+        "width": 2048,
+        "height": 2048,
+        "hasAlpha": false,
+        "size": 126985,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b2p3-bubble",
+        "url": "/textures/chapters/2/c2b2p3-bubble-en.png",
+        "width": 512,
+        "height": 264,
+        "hasAlpha": false,
+        "size": 14147,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b2p3-sprite-data",
+        "url": "/textures/chapters/2/c2b2p3-sprite-data.json",
+        "size": 1719,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 8,
+        "frameNames": [
+          "simon-body.png",
+          "jl-body.png",
+          "jl-head-1.png",
+          "jl-head-2.png",
+          "jl-arm.png",
+          "simon-arm-left.png",
+          "simon-arm-right.png",
+          "phone.png"
+        ]
+      },
+      {
+        "id": "c2b2p3-sprite",
+        "url": "/textures/chapters/2/c2b2p3-sprite.png",
+        "width": 838,
+        "height": 961,
+        "hasAlpha": false,
+        "size": 38547,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b2p4-sprite-data",
+        "url": "/textures/chapters/2/c2b2p4-sprite-data.json",
+        "size": 3706,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 18,
+        "frameNames": [
+          "decor.png",
+          "jean-loup.png",
+          "jl-couch.png",
+          "simon-body.png",
+          "forground.png",
+          "pon-1.png",
+          "couch.png",
+          "leaf.png",
+          "room-back.png",
+          "table.png"
+        ]
+      },
+      {
+        "id": "c2b2p4-sprite",
+        "url": "/textures/chapters/2/c2b2p4-sprite.png",
+        "width": 2048,
+        "height": 2048,
+        "hasAlpha": false,
+        "size": 119148,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b3p1-sprite-data",
+        "url": "/textures/chapters/2/c2b3p1-sprite-data.json",
+        "size": 3211,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 16,
+        "frameNames": [
+          "lines-center",
+          "lines-left",
+          "lines-right",
+          "pon-4",
+          "pon-2",
+          "pon-1",
+          "pon-3",
+          "simon-nose",
+          "ponpon-arm-right",
+          "ponpon-arm-left"
+        ]
+      },
+      {
+        "id": "c2b3p1-sprite",
+        "url": "/textures/chapters/2/c2b3p1-sprite.png",
+        "width": 2008,
+        "height": 1041,
+        "hasAlpha": false,
+        "size": 56970,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b3p1-strainer",
+        "url": "/textures/chapters/2/c2b3p1-strainer.png",
+        "width": 430,
+        "height": 640,
+        "hasAlpha": true,
+        "size": 39188,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b3p2-bubble",
+        "url": "/textures/chapters/2/c2b3p2-bubble-en.png",
+        "width": 900,
+        "height": 257,
+        "hasAlpha": false,
+        "size": 9952,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b3p2-sprite-data",
+        "url": "/textures/chapters/2/c2b3p2-sprite-data.json",
+        "size": 1490,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 7,
+        "frameNames": [
+          "door",
+          "simon",
+          "simon-lines",
+          "cloud-2",
+          "cloud-1",
+          "livingroom",
+          "city"
+        ]
+      },
+      {
+        "id": "c2b3p2-sprite",
+        "url": "/textures/chapters/2/c2b3p2-sprite.png",
+        "width": 1354,
+        "height": 2018,
+        "hasAlpha": false,
+        "size": 51166,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b3p3-sprite-data",
+        "url": "/textures/chapters/2/c2b3p3-sprite-data.json",
+        "size": 2088,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 10,
+        "frameNames": [
+          "furniture",
+          "table",
+          "ponpon-body",
+          "simon",
+          "chair-top",
+          "donut",
+          "ponpon-right-arm",
+          "fridge",
+          "lamp",
+          "fridge-lines"
+        ]
+      },
+      {
+        "id": "c2b3p3-sprite",
+        "url": "/textures/chapters/2/c2b3p3-sprite.png",
+        "width": 1848,
+        "height": 1640,
+        "hasAlpha": false,
+        "size": 207328,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b3p3-simon-bubble",
+        "url": "/textures/chapters/2/c2b3p3-simon-bubble-en.png",
+        "width": 346,
+        "height": 141,
+        "hasAlpha": false,
+        "size": 2886,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b3p3-ponpon-bubble",
+        "url": "/textures/chapters/2/c2b3p3-ponpon-bubble-en.png",
+        "width": 423,
+        "height": 224,
+        "hasAlpha": false,
+        "size": 6551,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b3p4-bubble",
+        "url": "/textures/chapters/2/c2b3p4-bubble-en.png",
+        "width": 692,
+        "height": 255,
+        "hasAlpha": false,
+        "size": 10658,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b3p4-sprite-data",
+        "url": "/textures/chapters/2/c2b3p4-sprite-data.json",
+        "size": 2321,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 11,
+        "frameNames": [
+          "door",
+          "wall-furniture",
+          "simon-body",
+          "ponpon-body",
+          "table",
+          "ice-cream-d",
+          "furniture",
+          "simon-arm-right",
+          "ponpon-arm-right",
+          "ponpon-arm-left"
+        ]
+      },
+      {
+        "id": "c2b3p4-sprite",
+        "url": "/textures/chapters/2/c2b3p4-sprite.png",
+        "width": 1501,
+        "height": 2013,
+        "hasAlpha": false,
+        "size": 75747,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b4p1-sprite-data",
+        "url": "/textures/chapters/2/c2b4p1-sprite-data.json",
+        "size": 1700,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 8,
+        "frameNames": [
+          "ponpon",
+          "daft-duck",
+          "dj-chamallow",
+          "dj-snake",
+          "ponpon-text",
+          "dj-snake-text",
+          "daft-duck-text",
+          "dj-chamallow-text"
+        ]
+      },
+      {
+        "id": "c2b4p1-sprite",
+        "url": "/textures/chapters/2/c2b4p1-sprite.png",
+        "width": 1653,
+        "height": 519,
+        "hasAlpha": false,
+        "size": 43209,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b4p1-bubble",
+        "url": "/textures/chapters/2/c2b4p1-bubble-en.png",
+        "width": 958,
+        "height": 264,
+        "hasAlpha": false,
+        "size": 9083,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b4p2-sprite-data",
+        "url": "/textures/chapters/2/c2b4p2-sprite-data.json",
+        "size": 2091,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 10,
+        "frameNames": [
+          "letter-bottom",
+          "letter-top",
+          "paper",
+          "hand-right",
+          "hand-left",
+          "thumb-right",
+          "trait-2",
+          "trait-3",
+          "trait-1",
+          "thumb-left"
+        ]
+      },
+      {
+        "id": "c2b4p2-sprite",
+        "url": "/textures/chapters/2/c2b4p2-sprite.png",
+        "width": 1924,
+        "height": 1875,
+        "hasAlpha": true,
+        "size": 385565,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b4p3-sprite-data",
+        "url": "/textures/chapters/2/c2b4p3-sprite-data.json",
+        "size": 2276,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 11,
+        "frameNames": [
+          "platform-big",
+          "screen-big",
+          "ponpon-body",
+          "mic",
+          "logo",
+          "stairs",
+          "ponpon-left-arm",
+          "pnopon-right-arm",
+          "bagel",
+          "thumb"
+        ]
+      },
+      {
+        "id": "c2b4p3-sprite",
+        "url": "/textures/chapters/2/c2b4p3-sprite.png",
+        "width": 1697,
+        "height": 1702,
+        "hasAlpha": false,
+        "size": 77424,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b4p3-bubble",
+        "url": "/textures/chapters/2/c2b4p3-bubble-en.png",
+        "width": 1004,
+        "height": 482,
+        "hasAlpha": false,
+        "size": 26386,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b4p4-sprite-data",
+        "url": "/textures/chapters/2/c2b4p4-sprite-data.json",
+        "size": 2274,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 11,
+        "frameNames": [
+          "ponpon-3",
+          "ponpon-1",
+          "ponpon-2",
+          "star-1",
+          "star-3",
+          "star-2",
+          "line-rotate-2",
+          "line-jump-2",
+          "star-4",
+          "line-jump"
+        ]
+      },
+      {
+        "id": "c2b4p4-sprite",
+        "url": "/textures/chapters/2/c2b4p4-sprite.png",
+        "width": 1580,
+        "height": 1742,
+        "hasAlpha": true,
+        "size": 671320,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b5p1-jl-bubble",
+        "url": "/textures/chapters/2/c2b5p1-jl-bubble-en.png",
+        "width": 512,
+        "height": 255,
+        "hasAlpha": false,
+        "size": 11297,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b5p1-sprite-data",
+        "url": "/textures/chapters/2/c2b5p1-sprite-data.json",
+        "size": 2852,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 14,
+        "frameNames": [
+          "table",
+          "ponpon",
+          "simon-body",
+          "jl-body",
+          "simon-chair",
+          "jl-chair",
+          "simon-right-arm",
+          "jl-left-arm",
+          "jl-right-arm",
+          "line-3"
+        ]
+      },
+      {
+        "id": "c2b5p1-sprite",
+        "url": "/textures/chapters/2/c2b5p1-sprite.png",
+        "width": 2022,
+        "height": 659,
+        "hasAlpha": false,
+        "size": 44286,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b5p1-text",
+        "url": "/textures/chapters/2/c2b5p1-text-en.png",
+        "width": 399,
+        "height": 33,
+        "hasAlpha": false,
+        "size": 2460,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b5p1-simon-bubble",
+        "url": "/textures/chapters/2/c2b5p1-simon-bubble-en.png",
+        "width": 600,
+        "height": 247,
+        "hasAlpha": false,
+        "size": 13358,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b5p2-bubble",
+        "url": "/textures/chapters/2/c2b5p2-bubble-en.png",
+        "width": 496,
+        "height": 166,
+        "hasAlpha": true,
+        "size": 21051,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b5p2-sprite-data",
+        "url": "/textures/chapters/2/c2b5p2-sprite-data.json",
+        "size": 1899,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 9,
+        "frameNames": [
+          "simon",
+          "table",
+          "jean-loup",
+          "ponpon-head",
+          "simon-chair",
+          "jl-chair",
+          "ponpon-arm-left",
+          "ponpon-arm-right",
+          "juice"
+        ]
+      },
+      {
+        "id": "c2b5p2-sprite",
+        "url": "/textures/chapters/2/c2b5p2-sprite.png",
+        "width": 1511,
+        "height": 850,
+        "hasAlpha": true,
+        "size": 185917,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b6p1-sprite-data",
+        "url": "/textures/chapters/2/c2b6p1-sprite-data.json",
+        "size": 2502,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 12,
+        "frameNames": [
+          "loubar",
+          "ponpon-body",
+          "light-line-right",
+          "light-line-left",
+          "line-white",
+          "line-black",
+          "table-left",
+          "ponpon-arm-left",
+          "bam",
+          "ponpon-arm-right"
+        ]
+      },
+      {
+        "id": "c2b6p1-sprite",
+        "url": "/textures/chapters/2/c2b6p1-sprite.png",
+        "width": 2045,
+        "height": 1670,
+        "hasAlpha": false,
+        "size": 83773,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b6p1-bubble",
+        "url": "/textures/chapters/2/c2b6p1-bubble-en.png",
+        "width": 600,
+        "height": 280,
+        "hasAlpha": false,
+        "size": 8763,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b6p2-sprite-data",
+        "url": "/textures/chapters/2/c2b6p2-sprite-data.json",
+        "size": 2286,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 11,
+        "frameNames": [
+          "table",
+          "simon-body",
+          "jl-arm",
+          "jl-body",
+          "jl-tail",
+          "jl-head",
+          "simon-chair",
+          "jl-arm0right",
+          "simon-arm-left",
+          "simon-arm-right"
+        ]
+      },
+      {
+        "id": "c2b6p2-sprite",
+        "url": "/textures/chapters/2/c2b6p2-sprite.png",
+        "width": 1537,
+        "height": 1579,
+        "hasAlpha": true,
+        "size": 251103,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b6p2-bubble",
+        "url": "/textures/chapters/2/c2b6p2-bubble-en.png",
+        "width": 1024,
+        "height": 412,
+        "hasAlpha": true,
+        "size": 59938,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b6p3-sprite-data",
+        "url": "/textures/chapters/2/c2b6p3-sprite-data.json",
+        "size": 2082,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 10,
+        "frameNames": [
+          "table",
+          "simon",
+          "chair",
+          "jl-body",
+          "jl-head",
+          "jl-tail",
+          "jl-arm",
+          "target",
+          "simon-arm-left",
+          "simon-arm-right"
+        ]
+      },
+      {
+        "id": "c2b6p3-sprite",
+        "url": "/textures/chapters/2/c2b6p3-sprite.png",
+        "width": 1445,
+        "height": 1561,
+        "hasAlpha": true,
+        "size": 220840,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b6p3-bubble",
+        "url": "/textures/chapters/2/c2b6p3-bubble-en.png",
+        "width": 694,
+        "height": 276,
+        "hasAlpha": true,
+        "size": 17097,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b6p4-jl-bubble",
+        "url": "/textures/chapters/2/c2b6p4-jl-bubble-en.png",
+        "width": 628,
+        "height": 348,
+        "hasAlpha": true,
+        "size": 30645,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b6p4-simon-bubble",
+        "url": "/textures/chapters/2/c2b6p4-simon-bubble-en.png",
+        "width": 186,
+        "height": 117,
+        "hasAlpha": true,
+        "size": 10694,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b6p4-sprite-data",
+        "url": "/textures/chapters/2/c2b6p4-sprite-data.json",
+        "size": 3038,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 15,
+        "frameNames": [
+          "bar",
+          "simon-body",
+          "line-h-2",
+          "line-h-1",
+          "shelf",
+          "jl-head",
+          "jl-arm-right",
+          "chair",
+          "jl-tail",
+          "jl-body"
+        ]
+      },
+      {
+        "id": "c2b6p4-sprite",
+        "url": "/textures/chapters/2/c2b6p4-sprite.png",
+        "width": 1059,
+        "height": 2046,
+        "hasAlpha": true,
+        "size": 242387,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b7p1-bubble",
+        "url": "/textures/chapters/2/c2b7p1-bubble-en.png",
+        "width": 512,
+        "height": 256,
+        "hasAlpha": true,
+        "size": 28889,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b7p1-sprite",
+        "url": "/textures/chapters/2/c2b7p1-sprite.png",
+        "width": 2048,
+        "height": 2048,
+        "hasAlpha": false,
+        "size": 77210,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b7p1-room",
+        "url": "/textures/chapters/2/c2b7p1-room.png",
+        "width": 1024,
+        "height": 1024,
+        "hasAlpha": false,
+        "size": 40319,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b8p1-sprite-data",
+        "url": "/textures/chapters/2/c2b8p1-sprite-data.json",
+        "size": 3877,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 19,
+        "frameNames": [
+          "woosh-2.png",
+          "thunder-left.png",
+          "bagel-4.png",
+          "cross.png",
+          "arm-left.png",
+          "top-wand-line.png",
+          "bagel-5.png",
+          "ponpon-head.png",
+          "glasses.png",
+          "face-buzz.png"
+        ]
+      },
+      {
+        "id": "c2b8p1-sprite",
+        "url": "/textures/chapters/2/c2b8p1-sprite.png",
+        "width": 2028,
+        "height": 2047,
+        "hasAlpha": false,
+        "size": 91681,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b8p1-bubble",
+        "url": "/textures/chapters/2/c2b8p1-bubble-en.png",
+        "width": 1024,
+        "height": 186,
+        "hasAlpha": false,
+        "size": 10936,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b8p2-sprite-data",
+        "url": "/textures/chapters/2/c2b8p2-sprite-data.json",
+        "size": 731,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 3,
+        "frameNames": [
+          "ponpon-head",
+          "right-hand",
+          "jewel"
+        ]
+      },
+      {
+        "id": "c2b8p2-sprite",
+        "url": "/textures/chapters/2/c2b8p2-sprite.png",
+        "width": 1074,
+        "height": 1105,
+        "hasAlpha": true,
+        "size": 110098,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b8p2-bubble",
+        "url": "/textures/chapters/2/c2b8p2-bubble-en.png",
+        "width": 767,
+        "height": 186,
+        "hasAlpha": false,
+        "size": 8468,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b8p3-bubble",
+        "url": "/textures/chapters/2/c2b8p3-bubble-en.png",
+        "width": 733,
+        "height": 235,
+        "hasAlpha": false,
+        "size": 9081,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b8p3-sprite-data",
+        "url": "/textures/chapters/2/c2b8p3-sprite-data.json",
+        "size": 1713,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 8,
+        "frameNames": [
+          "head.png",
+          "body.png",
+          "gun.png",
+          "soap-bubble-4.png",
+          "tail.png",
+          "soap-bubble-3.png",
+          "soap-bubble-1.png",
+          "soap-bubble-2.png"
+        ]
+      },
+      {
+        "id": "c2b8p3-sprite",
+        "url": "/textures/chapters/2/c2b8p3-sprite.png",
+        "width": 1105,
+        "height": 1137,
+        "hasAlpha": false,
+        "size": 28944,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b8p4-sprite-data",
+        "url": "/textures/chapters/2/c2b8p4-sprite-data.json",
+        "size": 1863,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 9,
+        "frameNames": [
+          "bag",
+          "head",
+          "road-left",
+          "body",
+          "road-right",
+          "arm-left",
+          "hand",
+          "arm-right",
+          "drop"
+        ]
+      },
+      {
+        "id": "c2b8p4-sprite",
+        "url": "/textures/chapters/2/c2b8p4-sprite.png",
+        "width": 2019,
+        "height": 901,
+        "hasAlpha": true,
+        "size": 201573,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b8p4-bubble",
+        "url": "/textures/chapters/2/c2b8p4-bubble-en.png",
+        "width": 1155,
+        "height": 192,
+        "hasAlpha": true,
+        "size": 44244,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b9p1-sprite-data",
+        "url": "/textures/chapters/2/c2b9p1-sprite-data.json",
+        "size": 2900,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 14,
+        "frameNames": [
+          "ponpon-body",
+          "wall",
+          "ponpon-arm-left",
+          "ponpon-head",
+          "ponpon-arm-right",
+          "plant-right-2",
+          "plant-right",
+          "plant-left",
+          "guardrail",
+          "plant-left-2"
+        ]
+      },
+      {
+        "id": "c2b9p1-sprite",
+        "url": "/textures/chapters/2/c2b9p1-sprite.png",
+        "width": 1776,
+        "height": 1990,
+        "hasAlpha": true,
+        "size": 454825,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b9p1-jl-bubble",
+        "url": "/textures/chapters/2/c2b9p1-jl-bubble-en.png",
+        "width": 385,
+        "height": 437,
+        "hasAlpha": true,
+        "size": 10826,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b9p1-simon-bubble",
+        "url": "/textures/chapters/2/c2b9p1-simon-bubble-en.png",
+        "width": 264,
+        "height": 100,
+        "hasAlpha": false,
+        "size": 2864,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b9p1-ponpon-bubble",
+        "url": "/textures/chapters/2/c2b9p1-ponpon-bubble-en.png",
+        "width": 325,
+        "height": 150,
+        "hasAlpha": false,
+        "size": 3569,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b9p2-sprite-data",
+        "url": "/textures/chapters/2/c2b9p2-sprite-data.json",
+        "size": 1895,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 9,
+        "frameNames": [
+          "ponpon-head",
+          "simon-body",
+          "jl-body",
+          "jl-head",
+          "jl-tail",
+          "jl-arm-right",
+          "simon-right-arm",
+          "simon-left-arm",
+          "jl-arm-left"
+        ]
+      },
+      {
+        "id": "c2b9p2-sprite",
+        "url": "/textures/chapters/2/c2b9p2-sprite.png",
+        "width": 1016,
+        "height": 1100,
+        "hasAlpha": true,
+        "size": 129333,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b9p2-bubble",
+        "url": "/textures/chapters/2/c2b9p2-bubble-en.png",
+        "width": 328,
+        "height": 197,
+        "hasAlpha": true,
+        "size": 10383,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b9p3-bubble",
+        "url": "/textures/chapters/2/c2b9p3-bubble-en.png",
+        "width": 1021,
+        "height": 364,
+        "hasAlpha": false,
+        "size": 11688,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b9p3-sprite-data",
+        "url": "/textures/chapters/2/c2b9p3-sprite-data.json",
+        "size": 935,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 4,
+        "frameNames": [
+          "head.png",
+          "body.png",
+          "arm-lleft.png",
+          "arm-right.png"
+        ]
+      },
+      {
+        "id": "c2b9p3-sprite",
+        "url": "/textures/chapters/2/c2b9p3-sprite.png",
+        "width": 1502,
+        "height": 1448,
+        "hasAlpha": false,
+        "size": 36752,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b9p4-bubble",
+        "url": "/textures/chapters/2/c2b9p4-bubble-en.png",
+        "width": 638,
+        "height": 223,
+        "hasAlpha": true,
+        "size": 19385,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b9p4-sprite-data",
+        "url": "/textures/chapters/2/c2b9p4-sprite-data.json",
+        "size": 1913,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 9,
+        "frameNames": [
+          "simon-body",
+          "ponpon-head",
+          "jl-head",
+          "jl-body",
+          "simon-arm-left",
+          "jl-tail",
+          "simon-arm-right",
+          "jl-arm-right",
+          "jl-arm-left"
+        ]
+      },
+      {
+        "id": "c2b9p4-sprite",
+        "url": "/textures/chapters/2/c2b9p4-sprite.png",
+        "width": 1733,
+        "height": 1483,
+        "hasAlpha": true,
+        "size": 247205,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c2b10p1-bubble",
+        "url": "/textures/chapters/2/c2b10p1-bubble-en.png",
+        "width": 507,
+        "height": 562,
+        "hasAlpha": true,
+        "size": 21531,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c2b10p1-sprite-data",
+        "url": "/textures/chapters/2/c2b10p1-sprite-data.json",
+        "size": 1724,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 8,
+        "frameNames": [
+          "decor-right.png",
+          "simon.png",
+          "chair.png",
+          "jeanloup.png",
+          "decor-left.png",
+          "table.png",
+          "decor-bottom.png",
+          "ponpon.png"
+        ]
+      },
+      {
+        "id": "c2b10p1-sprite",
+        "url": "/textures/chapters/2/c2b10p1-sprite.png",
+        "width": 909,
+        "height": 1964,
+        "hasAlpha": true,
+        "size": 785223,
+        "ext": ".png",
+        "locale": false
+      }
+    ]
+  },
+  "ch3": {
+    "totalCodeAssets": 75,
+    "totalDiskFiles": 243,
+    "referencedAssetsCount": 73,
+    "missingInDisk": [
+      {
+        "id": "c2b7p1-sprite",
+        "url": "/textures/chapters/2/c2b7p1-sprite.png",
+        "norm": "textures/chapters/2/c2b7p1-sprite.png"
+      },
+      {
+        "id": "c2b7p1-room",
+        "url": "/textures/chapters/2/c2b7p1-room.png",
+        "norm": "textures/chapters/2/c2b7p1-room.png"
+      }
+    ],
+    "orphanCount": 0,
+    "orphanFiles": [],
+    "referencedAssets": [
+      {
+        "id": "c3b1p1-bubble-1",
+        "url": "/textures/chapters/3/c3b1p1-bubble-1-en.png",
+        "width": 587,
+        "height": 231,
+        "hasAlpha": false,
+        "size": 8446,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b1p1-bubble-2",
+        "url": "/textures/chapters/3/c3b1p1-bubble-2-en.png",
+        "width": 699,
+        "height": 421,
+        "hasAlpha": false,
+        "size": 11047,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b1p1-walls",
+        "url": "/textures/chapters/3/c3b1p1-walls.png",
+        "width": 1569,
+        "height": 907,
+        "hasAlpha": false,
+        "size": 17085,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b1p1-sprite",
+        "url": "/textures/chapters/3/c3b1p1-sprite.png",
+        "width": 1431,
+        "height": 1759,
+        "hasAlpha": false,
+        "size": 126412,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b1p1-sprite-data",
+        "url": "/textures/chapters/3/c3b1p1-sprite-data.json",
+        "size": 2685,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 13,
+        "frameNames": [
+          "gladys-desk",
+          "gladys-face-1",
+          "gladys-face-2",
+          "gladys-bottom",
+          "alpaga-left",
+          "alpaga-2",
+          "gladys-arm-right",
+          "buidlings",
+          "gladys-arm-left",
+          "cloud-1"
+        ]
+      },
+      {
+        "id": "c3b1p2-sprite",
+        "url": "/textures/chapters/3/c3b1p2-sprite.png",
+        "width": 2025,
+        "height": 1231,
+        "hasAlpha": false,
+        "size": 67406,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b1p2-sprite-data",
+        "url": "/textures/chapters/3/c3b1p2-sprite-data.json",
+        "size": 2673,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 13,
+        "frameNames": [
+          "speeker",
+          "laptop",
+          "apo-body",
+          "window",
+          "gladys-arms",
+          "cloud-1",
+          "apo-head",
+          "gladys-body",
+          "apo-left-arm",
+          "gladys-head"
+        ]
+      },
+      {
+        "id": "c3b1p2-bubble",
+        "url": "/textures/chapters/3/c3b1p2-bubble-en.png",
+        "width": 1112,
+        "height": 485,
+        "hasAlpha": false,
+        "size": 21513,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b1p3-sprite",
+        "url": "/textures/chapters/3/c3b1p3-sprite.png",
+        "width": 1352,
+        "height": 1266,
+        "hasAlpha": false,
+        "size": 201933,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b1p3-sprite-data",
+        "url": "/textures/chapters/3/c3b1p3-sprite-data.json",
+        "size": 5130,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 26,
+        "frameNames": [
+          "desk",
+          "boxes",
+          "printer",
+          "ponpon-l-head",
+          "ponpon-r-head",
+          "ponpon-c-head",
+          "ponpon-c-body",
+          "pull",
+          "ponpon-r-body",
+          "ponpon-l-body"
+        ]
+      },
+      {
+        "id": "c3b2p1-sprite",
+        "url": "/textures/chapters/3/c3b2p1-sprite.png",
+        "width": 2045,
+        "height": 2048,
+        "hasAlpha": false,
+        "size": 76300,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b2p1-sprite-data",
+        "url": "/textures/chapters/3/c3b2p1-sprite-data.json",
+        "size": 2831,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 14,
+        "frameNames": [
+          "left-part",
+          "rug",
+          "wall",
+          "floor-right",
+          "door",
+          "window",
+          "dong",
+          "bar",
+          "ding",
+          "cloud-2"
+        ]
+      },
+      {
+        "id": "c3b2p2-sprite",
+        "url": "/textures/chapters/3/c3b2p2-sprite.png",
+        "width": 1241,
+        "height": 1517,
+        "hasAlpha": false,
+        "size": 91305,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b2p2-sprite-data",
+        "url": "/textures/chapters/3/c3b2p2-sprite-data.json",
+        "size": 3642,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 18,
+        "frameNames": [
+          "plant",
+          "ponpon-head",
+          "ponpon-body",
+          "letter-hand",
+          "letter-flat",
+          "ponpon-hand-right",
+          "jl-tail",
+          "jl-body",
+          "jl-head",
+          "ponpon-hand-left"
+        ]
+      },
+      {
+        "id": "c3b2p2-bubble",
+        "url": "/textures/chapters/3/c3b2p2-bubble-en.png",
+        "width": 775,
+        "height": 302,
+        "hasAlpha": false,
+        "size": 12269,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b2p3-sprite",
+        "url": "/textures/chapters/3/c3b2p3-sprite.png",
+        "width": 1724,
+        "height": 1843,
+        "hasAlpha": false,
+        "size": 76147,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b2p3-sprite-data",
+        "url": "/textures/chapters/3/c3b2p3-sprite-data.json",
+        "size": 3631,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 18,
+        "frameNames": [
+          "bg",
+          "ponpon-back",
+          "bar",
+          "couch",
+          "landscape-left",
+          "chair",
+          "landscape-front",
+          "table",
+          "jl-body",
+          "simon"
+        ]
+      },
+      {
+        "id": "c3b2p3-simon-bubble",
+        "url": "/textures/chapters/3/c3b2p3-simon-bubble-en.png",
+        "width": 389,
+        "height": 194,
+        "hasAlpha": false,
+        "size": 8070,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b2p3-jl-bubble",
+        "url": "/textures/chapters/3/c3b2p3-jl-bubble-en.png",
+        "width": 430,
+        "height": 157,
+        "hasAlpha": false,
+        "size": 6102,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b3p1-sprite",
+        "url": "/textures/chapters/3/c3b3p1-sprite.png",
+        "width": 1708,
+        "height": 1580,
+        "hasAlpha": false,
+        "size": 90412,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b3p1-sprite-data",
+        "url": "/textures/chapters/3/c3b3p1-sprite-data.json",
+        "size": 4424,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 22,
+        "frameNames": [
+          "simon-body",
+          "door",
+          "dede-body",
+          "dede-left-arm",
+          "dede-tail",
+          "jl-body",
+          "ponpon-head",
+          "ponpon-body",
+          "jl-tail",
+          "sheets"
+        ]
+      },
+      {
+        "id": "c3b3p1-bubble",
+        "url": "/textures/chapters/3/c3b3p1-bubble-en.png",
+        "width": 553,
+        "height": 428,
+        "hasAlpha": false,
+        "size": 17859,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b3p2-sprite",
+        "url": "/textures/chapters/3/c3b3p2-sprite.png",
+        "width": 2038,
+        "height": 2002,
+        "hasAlpha": false,
+        "size": 199917,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b3p2-sprite-data",
+        "url": "/textures/chapters/3/c3b3p2-sprite-data.json",
+        "size": 3031,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 15,
+        "frameNames": [
+          "decor",
+          "door",
+          "dede-2",
+          "dede-3",
+          "lamp",
+          "dede-1",
+          "screw",
+          "pen",
+          "plate",
+          "dede-arm-left"
+        ]
+      },
+      {
+        "id": "c3b3p2-bubble",
+        "url": "/textures/chapters/3/c3b3p2-bubble-en.png",
+        "width": 863,
+        "height": 411,
+        "hasAlpha": false,
+        "size": 18086,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b3p3-sprite",
+        "url": "/textures/chapters/3/c3b3p3-sprite.png",
+        "width": 2003,
+        "height": 1928,
+        "hasAlpha": false,
+        "size": 127923,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b3p3-sprite-data",
+        "url": "/textures/chapters/3/c3b3p3-sprite-data.json",
+        "size": 3508,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 17,
+        "frameNames": [
+          "decor.png",
+          "simon-body.png",
+          "ring-light.png",
+          "camera.png",
+          "light-saber.png",
+          "simon-arm-right.png",
+          "simon-arm-left.png",
+          "mic.png",
+          "webcam.png",
+          "photocam.png"
+        ]
+      },
+      {
+        "id": "c3b3p4-sprite",
+        "url": "/textures/chapters/3/c3b3p4-sprite.png",
+        "width": 1861,
+        "height": 735,
+        "hasAlpha": false,
+        "size": 38441,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b3p4-sprite-data",
+        "url": "/textures/chapters/3/c3b3p4-sprite-data.json",
+        "size": 1617,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 8,
+        "frameNames": [
+          "dj",
+          "ponpon",
+          "t1",
+          "t6",
+          "t5",
+          "t3",
+          "t2",
+          "t4"
+        ]
+      },
+      {
+        "id": "c3b4p1-bubble-1",
+        "url": "/textures/chapters/3/c3b4p1-bubble-1-en.png",
+        "width": 843,
+        "height": 415,
+        "hasAlpha": false,
+        "size": 18203,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b4p1-bubble-2",
+        "url": "/textures/chapters/3/c3b4p1-bubble-2-en.png",
+        "width": 298,
+        "height": 339,
+        "hasAlpha": false,
+        "size": 5628,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b4p2-sprite",
+        "url": "/textures/chapters/3/c3b4p2-sprite.png",
+        "width": 1440,
+        "height": 1648,
+        "hasAlpha": false,
+        "size": 56408,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b4p2-sprite-data",
+        "url": "/textures/chapters/3/c3b4p2-sprite-data.json",
+        "size": 1112,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 5,
+        "frameNames": [
+          "phone",
+          "scroll-content",
+          "top-header",
+          "thumb",
+          "heart"
+        ]
+      },
+      {
+        "id": "c3b4p3-sprite",
+        "url": "/textures/chapters/3/c3b4p3-sprite.png",
+        "width": 1041,
+        "height": 1998,
+        "hasAlpha": false,
+        "size": 44759,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b4p3-sprite-data",
+        "url": "/textures/chapters/3/c3b4p3-sprite-data.json",
+        "size": 1715,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 8,
+        "frameNames": [
+          "simon-body",
+          "jl-head",
+          "jl-body",
+          "jl-tail",
+          "jl-left-arm",
+          "jl-right-arm",
+          "simon-arm-right",
+          "simon-arm-left"
+        ]
+      },
+      {
+        "id": "c3b4p3-simon-bubble",
+        "url": "/textures/chapters/3/c3b4p3-simon-bubble-en.png",
+        "width": 873,
+        "height": 233,
+        "hasAlpha": true,
+        "size": 18241,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b4p3-jl-bubble",
+        "url": "/textures/chapters/3/c3b4p3-jl-bubble-en.png",
+        "width": 615,
+        "height": 393,
+        "hasAlpha": true,
+        "size": 36228,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b4p4-bubble",
+        "url": "/textures/chapters/3/c3b4p4-bubble-en.png",
+        "width": 931,
+        "height": 378,
+        "hasAlpha": true,
+        "size": 28863,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b4p4-sprite",
+        "url": "/textures/chapters/3/c3b4p4-sprite.png",
+        "width": 1989,
+        "height": 1771,
+        "hasAlpha": true,
+        "size": 340285,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b4p4-sprite-data",
+        "url": "/textures/chapters/3/c3b4p4-sprite-data.json",
+        "size": 939,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 4,
+        "frameNames": [
+          "simon",
+          "ponpon-head",
+          "ponpon-body",
+          "ponpon-left-arm"
+        ]
+      },
+      {
+        "id": "c3b5p1-bubble-bloop",
+        "url": "/textures/chapters/3/c3b5p1-bubble-bloop-en.png",
+        "width": 1100,
+        "height": 512,
+        "hasAlpha": true,
+        "size": 57486,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b5p1-bubble-ponpon",
+        "url": "/textures/chapters/3/c3b5p1-bubble-ponpon-en.png",
+        "width": 549,
+        "height": 277,
+        "hasAlpha": true,
+        "size": 22400,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b5p1-sprite",
+        "url": "/textures/chapters/3/c3b5p1-sprite.png",
+        "width": 1943,
+        "height": 1885,
+        "hasAlpha": false,
+        "size": 121556,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b5p1-sprite-data",
+        "url": "/textures/chapters/3/c3b5p1-sprite-data.json",
+        "size": 2305,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 11,
+        "frameNames": [
+          "table",
+          "sauces",
+          "bloop-body",
+          "logo",
+          "bloop-arm-right",
+          "ponpon-head",
+          "ponpon-body",
+          "bloop-plate",
+          "ponpon-left-arm",
+          "ponpon-plate"
+        ]
+      },
+      {
+        "id": "c3b5p2-bloop-bubble",
+        "url": "/textures/chapters/3/c3b5p2-bloop-bubble-en.png",
+        "width": 589,
+        "height": 493,
+        "hasAlpha": true,
+        "size": 42689,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b5p2-ponpon-bubble",
+        "url": "/textures/chapters/3/c3b5p2-ponpon-bubble-en.png",
+        "width": 553,
+        "height": 356,
+        "hasAlpha": true,
+        "size": 25954,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b5p2-sprite",
+        "url": "/textures/chapters/3/c3b5p2-sprite.png",
+        "width": 2043,
+        "height": 967,
+        "hasAlpha": false,
+        "size": 68370,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b5p2-sprite-data",
+        "url": "/textures/chapters/3/c3b5p2-sprite-data.json",
+        "size": 2300,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 11,
+        "frameNames": [
+          "ponpon-head",
+          "ponpon-body",
+          "ponpon-arm-left",
+          "glasses",
+          "ponpon-hand-right",
+          "sauce-2",
+          "sauce-1",
+          "sauce-3",
+          "ponpon-arm-right",
+          "friz-right"
+        ]
+      },
+      {
+        "id": "c3b5p3-bloop-bubble",
+        "url": "/textures/chapters/3/c3b5p3-bloop-bubble-en.png",
+        "width": 1096,
+        "height": 436,
+        "hasAlpha": true,
+        "size": 41676,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b5p3-ponpon-bubble",
+        "url": "/textures/chapters/3/c3b5p3-ponpon-bubble-en.png",
+        "width": 702,
+        "height": 418,
+        "hasAlpha": true,
+        "size": 27962,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b5p3-sprite",
+        "url": "/textures/chapters/3/c3b5p3-sprite.png",
+        "width": 1903,
+        "height": 763,
+        "hasAlpha": false,
+        "size": 34970,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b5p3-sprite-data",
+        "url": "/textures/chapters/3/c3b5p3-sprite-data.json",
+        "size": 1715,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 8,
+        "frameNames": [
+          "ponpon-head",
+          "ponpon-arm-left",
+          "ponpon-arm-right",
+          "bloop-plate",
+          "ponpon-body",
+          "glasses",
+          "ponpon-plate",
+          "drop"
+        ]
+      },
+      {
+        "id": "c3b5p4-bloop-bubble",
+        "url": "/textures/chapters/3/c3b5p4-bloop-bubble-en.png",
+        "width": 574,
+        "height": 433,
+        "hasAlpha": true,
+        "size": 27504,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b5p4-ponpon-bubble",
+        "url": "/textures/chapters/3/c3b5p4-ponpon-bubble-en.png",
+        "width": 534,
+        "height": 390,
+        "hasAlpha": true,
+        "size": 26409,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b5p4-sprite",
+        "url": "/textures/chapters/3/c3b5p4-sprite.png",
+        "width": 1306,
+        "height": 909,
+        "hasAlpha": false,
+        "size": 55753,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b5p4-sprite-data",
+        "url": "/textures/chapters/3/c3b5p4-sprite-data.json",
+        "size": 1726,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 8,
+        "frameNames": [
+          "bloop-body",
+          "sauces",
+          "ponpon-head",
+          "ponpon-body",
+          "ponpon-arm-right",
+          "ponpon-arm-left",
+          "bloop-arm-right",
+          "bloop-arm-left"
+        ]
+      },
+      {
+        "id": "c3b6p1-sprite",
+        "url": "/textures/chapters/3/c3b6p1-sprite.png",
+        "width": 1117,
+        "height": 879,
+        "hasAlpha": false,
+        "size": 65847,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b6p1-sprite-data",
+        "url": "/textures/chapters/3/c3b6p1-sprite-data.json",
+        "size": 3412,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 17,
+        "frameNames": [
+          "kitchen",
+          "poster",
+          "dj",
+          "ponpon-head",
+          "yay",
+          "dj-shadow",
+          "ponpon-body",
+          "simon",
+          "laptop",
+          "headphone"
+        ]
+      },
+      {
+        "id": "c3b6p2-sprite",
+        "url": "/textures/chapters/3/c3b6p2-sprite.png",
+        "width": 1431,
+        "height": 1476,
+        "hasAlpha": false,
+        "size": 111481,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b6p2-sprite-data",
+        "url": "/textures/chapters/3/c3b6p2-sprite-data.json",
+        "size": 4950,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 25,
+        "frameNames": [
+          "decor",
+          "simon",
+          "meub;e",
+          "meuble-fond",
+          "table",
+          "plang",
+          "hat",
+          "tools",
+          "camera-stand",
+          "jl-body"
+        ]
+      },
+      {
+        "id": "c3b6p2-jl-bubble",
+        "url": "/textures/chapters/3/c3b6p2-jl-bubble-en.png",
+        "width": 190,
+        "height": 105,
+        "hasAlpha": false,
+        "size": 3578,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b6p2-simon-bubble",
+        "url": "/textures/chapters/3/c3b6p2-simon-bubble-en.png",
+        "width": 390,
+        "height": 165,
+        "hasAlpha": false,
+        "size": 7846,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b7p1-bubble",
+        "url": "/textures/chapters/3/c3b7p1-bubble-en.png",
+        "width": 843,
+        "height": 322,
+        "hasAlpha": true,
+        "size": 30605,
+        "ext": ".png",
+        "locale": true
+      },
+      {
+        "id": "c3b7p1-sprite",
+        "url": "/textures/chapters/3/c3b7p1-sprite.png",
+        "width": 1579,
+        "height": 2033,
+        "hasAlpha": false,
+        "size": 88288,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b7p1-sprite-data",
+        "url": "/textures/chapters/3/c3b7p1-sprite-data.json",
+        "size": 1955,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 9,
+        "frameNames": [
+          "decor-2.png",
+          "plant.png",
+          "ponpon-body.png",
+          "ponpon-head.png",
+          "ponpon-left-arm.png",
+          "ponpon-right-arm.png",
+          "wcloud-1.png",
+          "rope.png",
+          "wcloud-2.png"
+        ]
+      },
+      {
+        "id": "c3b7p2-sprite",
+        "url": "/textures/chapters/3/c3b7p2-sprite.png",
+        "width": 2031,
+        "height": 2044,
+        "hasAlpha": false,
+        "size": 61686,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b7p2-sprite-data",
+        "url": "/textures/chapters/3/c3b7p2-sprite-data.json",
+        "size": 3630,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 18,
+        "frameNames": [
+          "road",
+          "ponpon-body",
+          "tree-1",
+          "ponpon-arm-left",
+          "tree-4",
+          "skate",
+          "tree-2",
+          "cloud-2",
+          "bag",
+          "ponpon-head"
+        ]
+      },
+      {
+        "id": "c3b7p3-sprite",
+        "url": "/textures/chapters/3/c3b7p3-sprite.png",
+        "width": 1974,
+        "height": 1213,
+        "hasAlpha": false,
+        "size": 59043,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b7p3-sprite-data",
+        "url": "/textures/chapters/3/c3b7p3-sprite-data.json",
+        "size": 2501,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 12,
+        "frameNames": [
+          "ponpon-body",
+          "skate",
+          "bag",
+          "fire-right-2",
+          "fire-right-1",
+          "fire-right-3",
+          "fire-left-1",
+          "fire-left-2",
+          "fire-left-3",
+          "tail"
+        ]
+      },
+      {
+        "id": "c3b7p4-sprite",
+        "url": "/textures/chapters/3/c3b7p4-sprite.png",
+        "width": 1890,
+        "height": 1783,
+        "hasAlpha": false,
+        "size": 99352,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b7p4-sprite-data",
+        "url": "/textures/chapters/3/c3b7p4-sprite-data.json",
+        "size": 1705,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 8,
+        "frameNames": [
+          "road",
+          "body",
+          "skate",
+          "ponpon-head-2",
+          "bag",
+          "headphone",
+          "walkman",
+          "ponpon-lines"
+        ]
+      },
+      {
+        "id": "c3b8p1-sprite",
+        "url": "/textures/chapters/3/c3b8p1-sprite.png",
+        "width": 1713,
+        "height": 1784,
+        "hasAlpha": false,
+        "size": 150221,
+        "ext": ".png",
+        "locale": false
+      },
+      {
+        "id": "c3b8p1-sprite-data",
+        "url": "/textures/chapters/3/c3b8p1-sprite-data.json",
+        "size": 3183,
+        "ext": ".json",
+        "locale": false,
+        "isSpriteData": true,
+        "frameCount": 16,
+        "frameNames": [
+          "ponpon-body",
+          "ponpon-head",
+          "skate",
+          "poster",
+          "poster-2",
+          "walkman",
+          "bag",
+          "leaf",
+          "lines",
+          "thunder"
+        ]
+      }
+    ]
+  }
+}

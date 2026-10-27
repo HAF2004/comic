@@ -1,6 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
-  <g transform="rotate(-8 665 520)">
-    <text x="652" y="475" text-anchor="middle" font-family="Comic Sans MS, Segoe Print, cursive" font-size="19" fill="#47372d">Joyeux 23e anniversaire, Tifa !</text>
-    <text x="652" y="506" text-anchor="middle" font-family="Comic Sans MS, Segoe Print, cursive" font-size="20" fill="#47372d">Avec toute notre affection !</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="240" viewBox="0 0 680 240">
+  <g transform="rotate(-3 340 120)">
+    <rect x="20" y="20" width="640" height="200" rx="18" ry="18"
+          fill="#FFFDF8" stroke="#EB8DB7" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M 324 55 C 308 30, 290 60, 324 85 C 358 60, 340 30, 324 55 Z"
+          fill="#EB8DB7"/>
+    <text x="340" y="145" text-anchor="middle" dominant-baseline="middle"
+          font-family="'Libre Franklin', 'Segoe UI', Arial, sans-serif"
+          font-size="30" font-weight="900" fill="#171717" letter-spacing="0.5">Joyeux 23e anniversaire, Tifa ! Avec toute notre affection !</text>
   </g>
 </svg>

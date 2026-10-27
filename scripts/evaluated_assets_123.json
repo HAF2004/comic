@@ -1,0 +1,1347 @@
+{
+  "ch1": [
+    {
+      "id": "c1b1p1-ponpon-back",
+      "url": "/textures/chapters/1/c1b1p1-ponpon-back.png"
+    },
+    {
+      "id": "c1b1p1-deco",
+      "url": "/textures/chapters/1/c1b1p1-deco.jpg"
+    },
+    {
+      "id": "c1b1p2-ponpon",
+      "url": "/textures/chapters/1/c1b1p2-ponpon.png"
+    },
+    {
+      "id": "c1b1p2-scream",
+      "url": "/textures/chapters/1/c1b1p2-scream.jpg"
+    },
+    {
+      "id": "c1b1p3-scream",
+      "url": "/textures/chapters/1/c1b1p2-scream.jpg"
+    },
+    {
+      "id": "c1b1p3-ponpon-logo",
+      "url": "/textures/chapters/1/c1b1p3-ponpon-logo.png"
+    },
+    {
+      "id": "c1b1p3-spinning",
+      "url": "/textures/chapters/1/c1b1p3-spinning.png"
+    },
+    {
+      "id": "c1b1p3-sprite",
+      "url": "/textures/chapters/1/c1b1p3-sprite.png"
+    },
+    {
+      "id": "c1b1p4-spin",
+      "url": "/textures/chapters/1/c1b1p4-spin.png"
+    },
+    {
+      "id": "c1b1p4-stage",
+      "url": "/textures/chapters/1/c1b1p4-stage.png"
+    },
+    {
+      "id": "c1b1p4-ponpon",
+      "url": "/textures/chapters/1/c1b1p4-ponpon.png"
+    },
+    {
+      "id": "c1b1p4-stage-depth",
+      "url": "/textures/chapters/1/c1b1p4-stage-depth.jpg"
+    },
+    {
+      "id": "c1b1p4-table-map",
+      "url": "/textures/chapters/1/c1b1p4-table-map.jpg"
+    },
+    {
+      "id": "c1b1p4-table",
+      "url": "/textures/chapters/1/c1b1p4-table.png"
+    },
+    {
+      "id": "c1b2p1-circle",
+      "url": "/textures/chapters/1/c1b2p1-circle.png"
+    },
+    {
+      "id": "c1b2p1-ponpon",
+      "url": "/textures/chapters/1/c1b2p1-ponpon.png"
+    },
+    {
+      "id": "c1b2p1-mic",
+      "url": "/textures/chapters/1/c1b2p1-mic.png"
+    },
+    {
+      "id": "c1b2p1-sprite",
+      "url": "/textures/chapters/1/c1b2p1-sprite.png"
+    },
+    {
+      "id": "c1b2p1-bubble",
+      "url": "/textures/chapters/1/c1b2p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b2p2-ponpon",
+      "url": "/textures/chapters/1/c1b2p2-ponpon.png"
+    },
+    {
+      "id": "c1b2p2-dj",
+      "url": "/textures/chapters/1/c1b2p2-dj.png"
+    },
+    {
+      "id": "c1b2p3-table",
+      "url": "/textures/chapters/1/c1b2p3-table.png"
+    },
+    {
+      "id": "c1b2p3-trees",
+      "url": "/textures/chapters/1/c1b2p3-trees.png"
+    },
+    {
+      "id": "c1b2p3-screen",
+      "url": "/textures/chapters/1/c1b2p3-screen.png"
+    },
+    {
+      "id": "c1b2p3-ponpon",
+      "url": "/textures/chapters/1/c1b2p3-ponpon.png"
+    },
+    {
+      "id": "c1b2p3-grid",
+      "url": "/textures/chapters/1/c1b2p3-grid.png"
+    },
+    {
+      "id": "c1b2p3-depth",
+      "url": "/textures/chapters/1/c1b2p3-depth.jpg"
+    },
+    {
+      "id": "c1b2p3-speakers",
+      "url": "/textures/chapters/1/c1b2p3-crowd-speakers.png"
+    },
+    {
+      "id": "c1b2p3-crowd",
+      "url": "/textures/chapters/1/c1b2p3-crowd.png"
+    },
+    {
+      "id": "c1b2p3-clouds",
+      "url": "/textures/chapters/1/c1b2p3-clouds.png"
+    },
+    {
+      "id": "c1b2p3-stage",
+      "url": "/textures/chapters/1/c1b2p3-stage.png"
+    },
+    {
+      "id": "c1b2p3-bubble",
+      "url": "/textures/chapters/1/c1b2p3-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b2p3-ponpon-logo",
+      "url": "/textures/chapters/1/c1b2p3-ponpon-logo.png"
+    },
+    {
+      "id": "c1b2p3-disco",
+      "url": "/textures/chapters/1/c1b2p3-disco.png"
+    },
+    {
+      "id": "c1b3p1-bubble",
+      "url": "/textures/chapters/1/c1b3p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b3p1-deco",
+      "url": "/textures/chapters/1/c1b3p1-deco.png"
+    },
+    {
+      "id": "c1b3p1-ponpon-body",
+      "url": "/textures/chapters/1/c1b3p1-ponpon-body.png"
+    },
+    {
+      "id": "c1b3p1-ponpon-part",
+      "url": "/textures/chapters/1/c1b3p1-ponpon-part.png"
+    },
+    {
+      "id": "c1b3p1-table-fridge",
+      "url": "/textures/chapters/1/c1b3p1-table-fridge.png"
+    },
+    {
+      "id": "c1b3p2-kitchen",
+      "url": "/textures/chapters/1/c1b3p2-kitchen-r1.273.png"
+    },
+    {
+      "id": "c1b3p2-bubble",
+      "url": "/textures/chapters/1/c1b3p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b3p2-carrot",
+      "url": "/textures/chapters/1/c1b3p2-carrot.png"
+    },
+    {
+      "id": "c1b3p3-main",
+      "url": "/textures/chapters/1/c1b3p3-main.png"
+    },
+    {
+      "id": "c1b3p3-magnets",
+      "url": "/textures/chapters/1/c1b3p3-magnets.png"
+    },
+    {
+      "id": "c1b3p3-polas",
+      "url": "/textures/chapters/1/c1b3p3-polas.png"
+    },
+    {
+      "id": "c1b3p3-stickers",
+      "url": "/textures/chapters/1/c1b3p3-stickers.png"
+    },
+    {
+      "id": "c1b4p1-bubble",
+      "url": "/textures/chapters/1/c1b4p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b4p1-main",
+      "url": "/textures/chapters/1/c1b4p1-main.png"
+    },
+    {
+      "id": "c1b4p1-main-map",
+      "url": "/textures/chapters/1/c1b4p1-main-map.jpg"
+    },
+    {
+      "id": "c1b4p1-ponpons",
+      "url": "/textures/chapters/1/c1b4p1-ponpons.png"
+    },
+    {
+      "id": "c1b4p1-wave",
+      "url": "/textures/chapters/1/c1b4p1-wave.png"
+    },
+    {
+      "id": "c1b4p1-sky",
+      "url": "/textures/chapters/1/c1b4p1-sky.png"
+    },
+    {
+      "id": "c1b4p1-sprite",
+      "url": "/textures/chapters/1/c1b4p1-sprite.png"
+    },
+    {
+      "id": "c1b4p1-floor",
+      "url": "/textures/chapters/1/c1b4p1-floor.png"
+    },
+    {
+      "id": "c1b4p1-traits",
+      "url": "/textures/chapters/1/c1b4p1-traits.png"
+    },
+    {
+      "id": "c1b5p1-bubble",
+      "url": "/textures/chapters/1/c1b5p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b5p1-bubble-top",
+      "url": "/textures/chapters/1/c1b5p1-bubble-top-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b5p1-ponpon-body",
+      "url": "/textures/chapters/1/c1b5p1-ponpon-body.png"
+    },
+    {
+      "id": "c1b5p1-props",
+      "url": "/textures/chapters/1/c1b5p1-props.png"
+    },
+    {
+      "id": "c1b5p1-sprite",
+      "url": "/textures/chapters/1/c1b5p1-sprite.png"
+    },
+    {
+      "id": "c1b5p1-toot",
+      "url": "/textures/chapters/1/c1b5p1-toot.png"
+    },
+    {
+      "id": "c1b5p2-bus-int",
+      "url": "/textures/chapters/1/c1b5p2-bus-int.png"
+    },
+    {
+      "id": "c1b5p2-bus",
+      "url": "/textures/chapters/1/c1b5p2-bus.png"
+    },
+    {
+      "id": "c1b5p2-deco-sprite",
+      "url": "/textures/chapters/1/c1b5p2-deco-sprite.png"
+    },
+    {
+      "id": "c1b5p2-driver",
+      "url": "/textures/chapters/1/c1b5p2-driver.png"
+    },
+    {
+      "id": "c1b5p2-la-sprite",
+      "url": "/textures/chapters/1/c1b5p2-la-sprite.png"
+    },
+    {
+      "id": "c1b5p2-seat",
+      "url": "/textures/chapters/1/c1b5p2-seat.png"
+    },
+    {
+      "id": "c1b5p3-thumbs",
+      "url": "/textures/chapters/1/c1b5p3-thumbs.png"
+    },
+    {
+      "id": "c1b5p3-sprite",
+      "url": "/textures/chapters/1/c1b5p3-sprite.png"
+    },
+    {
+      "id": "c1b5p3-tape",
+      "url": "/textures/chapters/1/c1b5p3-tape.png"
+    },
+    {
+      "id": "c1b5p4-window",
+      "url": "/textures/chapters/1/c1b5p4-window.png"
+    },
+    {
+      "id": "c1b5p4-notes",
+      "url": "/textures/chapters/1/c1b5p4-notes.png"
+    },
+    {
+      "id": "c1b5p4-ponpon",
+      "url": "/textures/chapters/1/c1b5p4-ponpon.png"
+    },
+    {
+      "id": "c1b5p4-seats",
+      "url": "/textures/chapters/1/c1b5p4-seats2x.png"
+    },
+    {
+      "id": "c1b5p4-landscape",
+      "url": "/textures/chapters/1/c1b5p4-landscape.png"
+    },
+    {
+      "id": "c1b6p1-ponpon",
+      "url": "/textures/chapters/1/c1b6p1-ponpon.png"
+    },
+    {
+      "id": "c1b6p1-clouds",
+      "url": "/textures/chapters/1/c1b6p1-clouds.png"
+    },
+    {
+      "id": "c1b6p1-marny",
+      "url": "/textures/chapters/1/c1b6p1-marny.png"
+    },
+    {
+      "id": "c1b6p2-bubble",
+      "url": "/textures/chapters/1/c1b6p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b6p2-ponpon",
+      "url": "/textures/chapters/1/c1b6p2-ponpon.png"
+    },
+    {
+      "id": "c1b6p2-sprite",
+      "url": "/textures/chapters/1/c1b6p2-sprite.png"
+    },
+    {
+      "id": "c1b6p3-landscape",
+      "url": "/textures/chapters/1/c1b6p3-landscape.png"
+    },
+    {
+      "id": "c1b6p3-bus-r-2-95",
+      "url": "/textures/chapters/1/c1b6p3-bus-r-2-95.png"
+    },
+    {
+      "id": "c1b6p3-ponpon",
+      "url": "/textures/chapters/1/c1b6p3-ponpon.png"
+    },
+    {
+      "id": "c1b6p3-landscape-depth",
+      "url": "/textures/chapters/1/c1b6p3-landscape-depth.png"
+    },
+    {
+      "id": "c1b6p3-sign",
+      "url": "/textures/chapters/1/c1b6p3-sign.png"
+    },
+    {
+      "id": "c1b6p3-boys",
+      "url": "/textures/chapters/1/c1b6p3-boys.png"
+    },
+    {
+      "id": "c1b6p3-skate",
+      "url": "/textures/chapters/1/c1b6p3-skate.png"
+    },
+    {
+      "id": "c1b6p3-sprite",
+      "url": "/textures/chapters/1/c1b6p3-sprite.png"
+    },
+    {
+      "id": "c1b6p3-table",
+      "url": "/textures/chapters/1/c1b6p3-table.png"
+    },
+    {
+      "id": "c1b7p1-ponpon-body",
+      "url": "/textures/chapters/1/c1b7p1-ponpon-body.png"
+    },
+    {
+      "id": "c1b7p1-sprite",
+      "url": "/textures/chapters/1/c1b7p1-sprite.png"
+    },
+    {
+      "id": "c1b7p1-ponpon-body-2",
+      "url": "/textures/chapters/1/c1b7p1-ponpon-body-2.png"
+    },
+    {
+      "id": "c1b7p1-bubble",
+      "url": "/textures/chapters/1/c1b7p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b7p2-slash",
+      "url": "/textures/chapters/1/c1b7p2-slash.png"
+    },
+    {
+      "id": "c1b7p2-jeanloup",
+      "url": "/textures/chapters/1/c1b7p2-jeanloup.png"
+    },
+    {
+      "id": "c1b7p2-simon",
+      "url": "/textures/chapters/1/c1b7p2-simon.png"
+    },
+    {
+      "id": "c1b7p3-bubble-jl",
+      "url": "/textures/chapters/1/c1b7p3-bubble-jl-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b7p3-sprite",
+      "url": "/textures/chapters/1/c1b7p3-sprite.png"
+    },
+    {
+      "id": "c1b7p3-characters",
+      "url": "/textures/chapters/1/c1b7p3-characters.png"
+    },
+    {
+      "id": "c1b7p3-bubble-sim",
+      "url": "/textures/chapters/1/c1b7p3-bubble-sim-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b7p4-ponpon",
+      "url": "/textures/chapters/1/c1b7p4-ponpon.png"
+    },
+    {
+      "id": "c1b7p4-kebab",
+      "url": "/textures/chapters/1/c1b7p4-kebab.png"
+    },
+    {
+      "id": "c1b7p4-sprite",
+      "url": "/textures/chapters/1/c1b7p4-sprite.png"
+    },
+    {
+      "id": "c1b8p1-bubble-jl",
+      "url": "/textures/chapters/1/c1b8p1-bubble-jl-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b8p1-sprite",
+      "url": "/textures/chapters/1/c1b8p1-sprite.png"
+    },
+    {
+      "id": "c1b8p1-simon",
+      "url": "/textures/chapters/1/c1b8p1-simon.png"
+    },
+    {
+      "id": "c1b8p1-bubble-sim",
+      "url": "/textures/chapters/1/c1b8p1-bubble-sim-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b8p2-boys",
+      "url": "/textures/chapters/1/c1b8p2-boys.png"
+    },
+    {
+      "id": "c1b8p2-arms",
+      "url": "/textures/chapters/1/c1b8p2-arms.png"
+    },
+    {
+      "id": "c1b8p2-bubblesim",
+      "url": "/textures/chapters/1/c1b8p2-bubblesim-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b8p2-bubble-jl",
+      "url": "/textures/chapters/1/c1b8p2-bubble-jl-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b8p2-beers",
+      "url": "/textures/chapters/1/c1b8p2-beers.png"
+    },
+    {
+      "id": "c1b8p3-ponpon",
+      "url": "/textures/chapters/1/c1b8p3-ponpon.png"
+    },
+    {
+      "id": "c1b8p3-bg",
+      "url": "/textures/chapters/1/c1b8p3-bg.png"
+    },
+    {
+      "id": "c1b8p3-jl-bubble",
+      "url": "/textures/chapters/1/c1b8p3-jl-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b8p3-simon-bubble",
+      "url": "/textures/chapters/1/c1b8p3-simon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b8p3-ponpon-bubble",
+      "url": "/textures/chapters/1/c1b8p3-ponpon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b8p3-boys",
+      "url": "/textures/chapters/1/c1b8p3-boys.png",
+      "locale": false
+    },
+    {
+      "id": "c1b8p3-sim-arms",
+      "url": "/textures/chapters/1/c1b8p3-sim-arms.png",
+      "locale": false
+    },
+    {
+      "id": "c1b8p4-bubble-simon",
+      "url": "/textures/chapters/1/c1b8p4-bubble-simon-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b8p4-bubble-ponpon",
+      "url": "/textures/chapters/1/c1b8p4-bubble-ponpon-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b8p4-boys",
+      "url": "/textures/chapters/1/c1b8p4-boys.png",
+      "locale": false
+    },
+    {
+      "id": "c1b8p4-sprite",
+      "url": "/textures/chapters/1/c1b8p4-sprite.png",
+      "locale": false
+    },
+    {
+      "id": "c1b8p4-ponpon",
+      "url": "/textures/chapters/1/c1b8p4-ponpon.png",
+      "locale": false
+    },
+    {
+      "id": "c1b8p4-bubble-jl",
+      "url": "/textures/chapters/1/c1b8p4-bubble-jl-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b8p4-table",
+      "url": "/textures/chapters/1/c1b8p4-table.png",
+      "locale": false
+    },
+    {
+      "id": "c1b9p1-head",
+      "url": "/textures/chapters/1/c1b9p1-head.png"
+    },
+    {
+      "id": "c1b9p1-sprite",
+      "url": "/textures/chapters/1/c1b9p1-sprite.png"
+    },
+    {
+      "id": "c1b9p1-ponpon-bubble",
+      "url": "/textures/chapters/1/c1b9p1-ponpon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b9p1-chair",
+      "url": "/textures/chapters/1/c1b9p1-chair.png"
+    },
+    {
+      "id": "c1b9p2-bubble",
+      "url": "/textures/chapters/1/c1b9p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b9p2-ponpon",
+      "url": "/textures/chapters/1/c1b9p2-ponpon.png",
+      "useSmall": false
+    },
+    {
+      "id": "c1b9p3-boys",
+      "url": "/textures/chapters/1/c1b9p3-boys.png"
+    },
+    {
+      "id": "c1b9p3-sprite",
+      "url": "/textures/chapters/1/c1b9p3-sprite.png"
+    },
+    {
+      "id": "c1b9p3-sim-bubble",
+      "url": "/textures/chapters/1/c1b9p3-sim-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b9p3-jl-bubble",
+      "url": "/textures/chapters/1/c1b9p3-jl-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b9p4-ponpon",
+      "url": "/textures/chapters/1/c1b9p4-ponpon.png"
+    },
+    {
+      "id": "c1b9p4-bubble",
+      "url": "/textures/chapters/1/c1b9p4-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c1b10p1-leafs",
+      "url": "/textures/chapters/1/c1b10p1-leafs.png"
+    },
+    {
+      "id": "c1b10p1-big-sprite",
+      "url": "/textures/chapters/1/c1b10p1-big-sprite.png"
+    },
+    {
+      "id": "c1b10p1-ponpon-jl",
+      "url": "/textures/chapters/1/c1b10p1-ponpon-jl.png"
+    }
+  ],
+  "ch2": [
+    {
+      "id": "c2b1p1-jl-bar",
+      "url": "/textures/chapters/2/c2b1p1-jl-bar.png"
+    },
+    {
+      "id": "c2b1p1-jl-bar-depth",
+      "url": "/textures/chapters/2/c2b1p1-jl-bar-depth.png"
+    },
+    {
+      "id": "c2b1p1-sprite-data",
+      "url": "/textures/chapters/2/c2b1p1-sprite-data.json"
+    },
+    {
+      "id": "c2b1p1-sprite",
+      "url": "/textures/chapters/2/c2b1p1-sprite.png"
+    },
+    {
+      "id": "c1b2p1-ponpon2",
+      "url": "/textures/chapters/1/c1b2p1-ponpon.png"
+    },
+    {
+      "id": "c1b2p1-mic2",
+      "url": "/textures/chapters/1/c1b2p1-mic.png"
+    },
+    {
+      "id": "c1b2p1-sprite2",
+      "url": "/textures/chapters/1/c1b2p1-sprite.png"
+    },
+    {
+      "id": "c2b2p1-bubble",
+      "url": "/textures/chapters/2/c2b2p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b2p1-decors",
+      "url": "/textures/chapters/2/c2b2p1-decors.png"
+    },
+    {
+      "id": "c2b2p1-sprite-data",
+      "url": "/textures/chapters/2/c2b2p1-sprite-data.json"
+    },
+    {
+      "id": "c2b2p1-sprite",
+      "url": "/textures/chapters/2/c2b2p1-sprite.png"
+    },
+    {
+      "id": "c2b2p2-bubble",
+      "url": "/textures/chapters/2/c2b2p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b2p2-sprite-data",
+      "url": "/textures/chapters/2/c2b2p2-sprite-data.json"
+    },
+    {
+      "id": "c2b2p2-sprite",
+      "url": "/textures/chapters/2/c2b2p2-sprite.png"
+    },
+    {
+      "id": "c2b2p3-bubble",
+      "url": "/textures/chapters/2/c2b2p3-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b2p3-sprite-data",
+      "url": "/textures/chapters/2/c2b2p3-sprite-data.json"
+    },
+    {
+      "id": "c2b2p3-sprite",
+      "url": "/textures/chapters/2/c2b2p3-sprite.png"
+    },
+    {
+      "id": "c2b2p4-sprite-data",
+      "url": "/textures/chapters/2/c2b2p4-sprite-data.json"
+    },
+    {
+      "id": "c2b2p4-sprite",
+      "url": "/textures/chapters/2/c2b2p4-sprite.png"
+    },
+    {
+      "id": "c2b3p1-sprite-data",
+      "url": "/textures/chapters/2/c2b3p1-sprite-data.json"
+    },
+    {
+      "id": "c2b3p1-sprite",
+      "url": "/textures/chapters/2/c2b3p1-sprite.png"
+    },
+    {
+      "id": "c2b3p1-strainer",
+      "url": "/textures/chapters/2/c2b3p1-strainer.png"
+    },
+    {
+      "id": "c2b3p2-bubble",
+      "url": "/textures/chapters/2/c2b3p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b3p2-sprite-data",
+      "url": "/textures/chapters/2/c2b3p2-sprite-data.json"
+    },
+    {
+      "id": "c2b3p2-sprite",
+      "url": "/textures/chapters/2/c2b3p2-sprite.png"
+    },
+    {
+      "id": "c2b3p3-sprite-data",
+      "url": "/textures/chapters/2/c2b3p3-sprite-data.json"
+    },
+    {
+      "id": "c2b3p3-sprite",
+      "url": "/textures/chapters/2/c2b3p3-sprite.png"
+    },
+    {
+      "id": "c2b3p3-simon-bubble",
+      "url": "/textures/chapters/2/c2b3p3-simon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b3p3-ponpon-bubble",
+      "url": "/textures/chapters/2/c2b3p3-ponpon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b3p4-bubble",
+      "url": "/textures/chapters/2/c2b3p4-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b3p4-sprite-data",
+      "url": "/textures/chapters/2/c2b3p4-sprite-data.json"
+    },
+    {
+      "id": "c2b3p4-sprite",
+      "url": "/textures/chapters/2/c2b3p4-sprite.png"
+    },
+    {
+      "id": "c2b4p1-sprite-data",
+      "url": "/textures/chapters/2/c2b4p1-sprite-data.json"
+    },
+    {
+      "id": "c2b4p1-sprite",
+      "url": "/textures/chapters/2/c2b4p1-sprite.png"
+    },
+    {
+      "id": "c2b4p1-bubble",
+      "url": "/textures/chapters/2/c2b4p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b4p2-sprite-data",
+      "url": "/textures/chapters/2/c2b4p2-sprite-data.json"
+    },
+    {
+      "id": "c2b4p2-sprite",
+      "url": "/textures/chapters/2/c2b4p2-sprite.png"
+    },
+    {
+      "id": "c2b4p3-sprite-data",
+      "url": "/textures/chapters/2/c2b4p3-sprite-data.json"
+    },
+    {
+      "id": "c2b4p3-sprite",
+      "url": "/textures/chapters/2/c2b4p3-sprite.png"
+    },
+    {
+      "id": "c2b4p3-bubble",
+      "url": "/textures/chapters/2/c2b4p3-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b4p4-sprite-data",
+      "url": "/textures/chapters/2/c2b4p4-sprite-data.json"
+    },
+    {
+      "id": "c2b4p4-sprite",
+      "url": "/textures/chapters/2/c2b4p4-sprite.png"
+    },
+    {
+      "id": "c2b5p1-jl-bubble",
+      "url": "/textures/chapters/2/c2b5p1-jl-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b5p1-sprite-data",
+      "url": "/textures/chapters/2/c2b5p1-sprite-data.json"
+    },
+    {
+      "id": "c2b5p1-sprite",
+      "url": "/textures/chapters/2/c2b5p1-sprite.png"
+    },
+    {
+      "id": "c2b5p1-text",
+      "url": "/textures/chapters/2/c2b5p1-text-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b5p1-simon-bubble",
+      "url": "/textures/chapters/2/c2b5p1-simon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b5p2-bubble",
+      "url": "/textures/chapters/2/c2b5p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b5p2-sprite-data",
+      "url": "/textures/chapters/2/c2b5p2-sprite-data.json"
+    },
+    {
+      "id": "c2b5p2-sprite",
+      "url": "/textures/chapters/2/c2b5p2-sprite.png"
+    },
+    {
+      "id": "c2b6p1-sprite-data",
+      "url": "/textures/chapters/2/c2b6p1-sprite-data.json"
+    },
+    {
+      "id": "c2b6p1-sprite",
+      "url": "/textures/chapters/2/c2b6p1-sprite.png"
+    },
+    {
+      "id": "c2b6p1-bubble",
+      "url": "/textures/chapters/2/c2b6p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b6p2-sprite-data",
+      "url": "/textures/chapters/2/c2b6p2-sprite-data.json"
+    },
+    {
+      "id": "c2b6p2-sprite",
+      "url": "/textures/chapters/2/c2b6p2-sprite.png"
+    },
+    {
+      "id": "c2b6p2-bubble",
+      "url": "/textures/chapters/2/c2b6p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b6p3-sprite-data",
+      "url": "/textures/chapters/2/c2b6p3-sprite-data.json"
+    },
+    {
+      "id": "c2b6p3-sprite",
+      "url": "/textures/chapters/2/c2b6p3-sprite.png"
+    },
+    {
+      "id": "c2b6p3-bubble",
+      "url": "/textures/chapters/2/c2b6p3-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b6p4-jl-bubble",
+      "url": "/textures/chapters/2/c2b6p4-jl-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b6p4-simon-bubble",
+      "url": "/textures/chapters/2/c2b6p4-simon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b6p4-sprite-data",
+      "url": "/textures/chapters/2/c2b6p4-sprite-data.json"
+    },
+    {
+      "id": "c2b6p4-sprite",
+      "url": "/textures/chapters/2/c2b6p4-sprite.png"
+    },
+    {
+      "id": "c2b7p1-bubble",
+      "url": "/textures/chapters/2/c2b7p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b7p1-sprite",
+      "url": "/textures/chapters/2/c2b7p1-sprite.png",
+      "keepAlive": true
+    },
+    {
+      "id": "c2b7p1-room",
+      "url": "/textures/chapters/2/c2b7p1-room.png",
+      "keepAlive": true
+    },
+    {
+      "id": "c2b8p1-sprite-data",
+      "url": "/textures/chapters/2/c2b8p1-sprite-data.json"
+    },
+    {
+      "id": "c2b8p1-sprite",
+      "url": "/textures/chapters/2/c2b8p1-sprite.png"
+    },
+    {
+      "id": "c2b8p1-bubble",
+      "url": "/textures/chapters/2/c2b8p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b8p2-sprite-data",
+      "url": "/textures/chapters/2/c2b8p2-sprite-data.json"
+    },
+    {
+      "id": "c2b8p2-sprite",
+      "url": "/textures/chapters/2/c2b8p2-sprite.png"
+    },
+    {
+      "id": "c2b8p2-bubble",
+      "url": "/textures/chapters/2/c2b8p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b8p3-bubble",
+      "url": "/textures/chapters/2/c2b8p3-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b8p3-sprite-data",
+      "url": "/textures/chapters/2/c2b8p3-sprite-data.json"
+    },
+    {
+      "id": "c2b8p3-sprite",
+      "url": "/textures/chapters/2/c2b8p3-sprite.png"
+    },
+    {
+      "id": "c2b8p4-sprite-data",
+      "url": "/textures/chapters/2/c2b8p4-sprite-data.json"
+    },
+    {
+      "id": "c2b8p4-sprite",
+      "url": "/textures/chapters/2/c2b8p4-sprite.png"
+    },
+    {
+      "id": "c2b8p4-bubble",
+      "url": "/textures/chapters/2/c2b8p4-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b9p1-sprite-data",
+      "url": "/textures/chapters/2/c2b9p1-sprite-data.json"
+    },
+    {
+      "id": "c2b9p1-sprite",
+      "url": "/textures/chapters/2/c2b9p1-sprite.png"
+    },
+    {
+      "id": "c2b9p1-jl-bubble",
+      "url": "/textures/chapters/2/c2b9p1-jl-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b9p1-simon-bubble",
+      "url": "/textures/chapters/2/c2b9p1-simon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b9p1-ponpon-bubble",
+      "url": "/textures/chapters/2/c2b9p1-ponpon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b9p2-sprite-data",
+      "url": "/textures/chapters/2/c2b9p2-sprite-data.json"
+    },
+    {
+      "id": "c2b9p2-sprite",
+      "url": "/textures/chapters/2/c2b9p2-sprite.png"
+    },
+    {
+      "id": "c2b9p2-bubble",
+      "url": "/textures/chapters/2/c2b9p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b9p3-bubble",
+      "url": "/textures/chapters/2/c2b9p3-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b9p3-sprite-data",
+      "url": "/textures/chapters/2/c2b9p3-sprite-data.json"
+    },
+    {
+      "id": "c2b9p3-sprite",
+      "url": "/textures/chapters/2/c2b9p3-sprite.png"
+    },
+    {
+      "id": "c2b9p4-bubble",
+      "url": "/textures/chapters/2/c2b9p4-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b9p4-sprite-data",
+      "url": "/textures/chapters/2/c2b9p4-sprite-data.json"
+    },
+    {
+      "id": "c2b9p4-sprite",
+      "url": "/textures/chapters/2/c2b9p4-sprite.png"
+    },
+    {
+      "id": "c2b10p1-bubble",
+      "url": "/textures/chapters/2/c2b10p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c2b10p1-sprite-data",
+      "url": "/textures/chapters/2/c2b10p1-sprite-data.json"
+    },
+    {
+      "id": "c2b10p1-sprite",
+      "url": "/textures/chapters/2/c2b10p1-sprite.png"
+    }
+  ],
+  "ch3": [
+    {
+      "id": "c3b1p1-bubble-1",
+      "url": "/textures/chapters/3/c3b1p1-bubble-1-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b1p1-bubble-2",
+      "url": "/textures/chapters/3/c3b1p1-bubble-2-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b1p1-walls",
+      "url": "/textures/chapters/3/c3b1p1-walls.png"
+    },
+    {
+      "id": "c3b1p1-sprite",
+      "url": "/textures/chapters/3/c3b1p1-sprite.png"
+    },
+    {
+      "id": "c3b1p1-sprite-data",
+      "url": "/textures/chapters/3/c3b1p1-sprite-data.json"
+    },
+    {
+      "id": "c3b1p2-sprite",
+      "url": "/textures/chapters/3/c3b1p2-sprite.png"
+    },
+    {
+      "id": "c3b1p2-sprite-data",
+      "url": "/textures/chapters/3/c3b1p2-sprite-data.json"
+    },
+    {
+      "id": "c3b1p2-bubble",
+      "url": "/textures/chapters/3/c3b1p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b1p3-sprite",
+      "url": "/textures/chapters/3/c3b1p3-sprite.png"
+    },
+    {
+      "id": "c3b1p3-sprite-data",
+      "url": "/textures/chapters/3/c3b1p3-sprite-data.json"
+    },
+    {
+      "id": "c3b2p1-sprite",
+      "url": "/textures/chapters/3/c3b2p1-sprite.png"
+    },
+    {
+      "id": "c3b2p1-sprite-data",
+      "url": "/textures/chapters/3/c3b2p1-sprite-data.json"
+    },
+    {
+      "id": "c3b2p2-sprite",
+      "url": "/textures/chapters/3/c3b2p2-sprite.png"
+    },
+    {
+      "id": "c3b2p2-sprite-data",
+      "url": "/textures/chapters/3/c3b2p2-sprite-data.json"
+    },
+    {
+      "id": "c3b2p2-bubble",
+      "url": "/textures/chapters/3/c3b2p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b2p3-sprite",
+      "url": "/textures/chapters/3/c3b2p3-sprite.png"
+    },
+    {
+      "id": "c3b2p3-sprite-data",
+      "url": "/textures/chapters/3/c3b2p3-sprite-data.json"
+    },
+    {
+      "id": "c3b2p3-simon-bubble",
+      "url": "/textures/chapters/3/c3b2p3-simon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b2p3-jl-bubble",
+      "url": "/textures/chapters/3/c3b2p3-jl-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b3p1-sprite",
+      "url": "/textures/chapters/3/c3b3p1-sprite.png"
+    },
+    {
+      "id": "c3b3p1-sprite-data",
+      "url": "/textures/chapters/3/c3b3p1-sprite-data.json"
+    },
+    {
+      "id": "c3b3p1-bubble",
+      "url": "/textures/chapters/3/c3b3p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b3p2-sprite",
+      "url": "/textures/chapters/3/c3b3p2-sprite.png"
+    },
+    {
+      "id": "c3b3p2-sprite-data",
+      "url": "/textures/chapters/3/c3b3p2-sprite-data.json"
+    },
+    {
+      "id": "c3b3p2-bubble",
+      "url": "/textures/chapters/3/c3b3p2-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b3p3-sprite",
+      "url": "/textures/chapters/3/c3b3p3-sprite.png"
+    },
+    {
+      "id": "c3b3p3-sprite-data",
+      "url": "/textures/chapters/3/c3b3p3-sprite-data.json"
+    },
+    {
+      "id": "c3b3p4-sprite",
+      "url": "/textures/chapters/3/c3b3p4-sprite.png"
+    },
+    {
+      "id": "c3b3p4-sprite-data",
+      "url": "/textures/chapters/3/c3b3p4-sprite-data.json"
+    },
+    {
+      "id": "c3b4p1-bubble-1",
+      "url": "/textures/chapters/3/c3b4p1-bubble-1-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b4p1-bubble-2",
+      "url": "/textures/chapters/3/c3b4p1-bubble-2-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b4p2-sprite",
+      "url": "/textures/chapters/3/c3b4p2-sprite.png"
+    },
+    {
+      "id": "c3b4p2-sprite-data",
+      "url": "/textures/chapters/3/c3b4p2-sprite-data.json"
+    },
+    {
+      "id": "c3b4p3-sprite",
+      "url": "/textures/chapters/3/c3b4p3-sprite.png"
+    },
+    {
+      "id": "c3b4p3-sprite-data",
+      "url": "/textures/chapters/3/c3b4p3-sprite-data.json"
+    },
+    {
+      "id": "c3b4p3-simon-bubble",
+      "url": "/textures/chapters/3/c3b4p3-simon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b4p3-jl-bubble",
+      "url": "/textures/chapters/3/c3b4p3-jl-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b4p4-bubble",
+      "url": "/textures/chapters/3/c3b4p4-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b4p4-sprite",
+      "url": "/textures/chapters/3/c3b4p4-sprite.png"
+    },
+    {
+      "id": "c3b4p4-sprite-data",
+      "url": "/textures/chapters/3/c3b4p4-sprite-data.json"
+    },
+    {
+      "id": "c3b5p1-bubble-bloop",
+      "url": "/textures/chapters/3/c3b5p1-bubble-bloop-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b5p1-bubble-ponpon",
+      "url": "/textures/chapters/3/c3b5p1-bubble-ponpon-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b5p1-sprite",
+      "url": "/textures/chapters/3/c3b5p1-sprite.png"
+    },
+    {
+      "id": "c3b5p1-sprite-data",
+      "url": "/textures/chapters/3/c3b5p1-sprite-data.json"
+    },
+    {
+      "id": "c3b5p2-bloop-bubble",
+      "url": "/textures/chapters/3/c3b5p2-bloop-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b5p2-ponpon-bubble",
+      "url": "/textures/chapters/3/c3b5p2-ponpon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b5p2-sprite",
+      "url": "/textures/chapters/3/c3b5p2-sprite.png"
+    },
+    {
+      "id": "c3b5p2-sprite-data",
+      "url": "/textures/chapters/3/c3b5p2-sprite-data.json"
+    },
+    {
+      "id": "c3b5p3-bloop-bubble",
+      "url": "/textures/chapters/3/c3b5p3-bloop-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b5p3-ponpon-bubble",
+      "url": "/textures/chapters/3/c3b5p3-ponpon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b5p3-sprite",
+      "url": "/textures/chapters/3/c3b5p3-sprite.png"
+    },
+    {
+      "id": "c3b5p3-sprite-data",
+      "url": "/textures/chapters/3/c3b5p3-sprite-data.json"
+    },
+    {
+      "id": "c3b5p4-bloop-bubble",
+      "url": "/textures/chapters/3/c3b5p4-bloop-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b5p4-ponpon-bubble",
+      "url": "/textures/chapters/3/c3b5p4-ponpon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b5p4-sprite",
+      "url": "/textures/chapters/3/c3b5p4-sprite.png"
+    },
+    {
+      "id": "c3b5p4-sprite-data",
+      "url": "/textures/chapters/3/c3b5p4-sprite-data.json"
+    },
+    {
+      "id": "c2b7p1-sprite",
+      "url": "/textures/chapters/2/c2b7p1-sprite.png",
+      "keepAlive": true
+    },
+    {
+      "id": "c2b7p1-room",
+      "url": "/textures/chapters/2/c2b7p1-room.png",
+      "keepAlive": true
+    },
+    {
+      "id": "c3b6p1-sprite",
+      "url": "/textures/chapters/3/c3b6p1-sprite.png"
+    },
+    {
+      "id": "c3b6p1-sprite-data",
+      "url": "/textures/chapters/3/c3b6p1-sprite-data.json"
+    },
+    {
+      "id": "c3b6p2-sprite",
+      "url": "/textures/chapters/3/c3b6p2-sprite.png"
+    },
+    {
+      "id": "c3b6p2-sprite-data",
+      "url": "/textures/chapters/3/c3b6p2-sprite-data.json"
+    },
+    {
+      "id": "c3b6p2-jl-bubble",
+      "url": "/textures/chapters/3/c3b6p2-jl-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b6p2-simon-bubble",
+      "url": "/textures/chapters/3/c3b6p2-simon-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b7p1-bubble",
+      "url": "/textures/chapters/3/c3b7p1-bubble-en.png",
+      "locale": true
+    },
+    {
+      "id": "c3b7p1-sprite",
+      "url": "/textures/chapters/3/c3b7p1-sprite.png"
+    },
+    {
+      "id": "c3b7p1-sprite-data",
+      "url": "/textures/chapters/3/c3b7p1-sprite-data.json"
+    },
+    {
+      "id": "c3b7p2-sprite",
+      "url": "/textures/chapters/3/c3b7p2-sprite.png"
+    },
+    {
+      "id": "c3b7p2-sprite-data",
+      "url": "/textures/chapters/3/c3b7p2-sprite-data.json"
+    },
+    {
+      "id": "c3b7p3-sprite",
+      "url": "/textures/chapters/3/c3b7p3-sprite.png"
+    },
+    {
+      "id": "c3b7p3-sprite-data",
+      "url": "/textures/chapters/3/c3b7p3-sprite-data.json"
+    },
+    {
+      "id": "c3b7p4-sprite",
+      "url": "/textures/chapters/3/c3b7p4-sprite.png"
+    },
+    {
+      "id": "c3b7p4-sprite-data",
+      "url": "/textures/chapters/3/c3b7p4-sprite-data.json"
+    },
+    {
+      "id": "c3b8p1-sprite",
+      "url": "/textures/chapters/3/c3b8p1-sprite.png"
+    },
+    {
+      "id": "c3b8p1-sprite-data",
+      "url": "/textures/chapters/3/c3b8p1-sprite-data.json"
+    }
+  ]
+}

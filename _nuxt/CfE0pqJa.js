@@ -18286,6 +18286,7 @@ const c4Assets = [
   { id: 'c4b7p1-fg', url: '/textures/chapters/4/c4b7p1-foreground.png', compress: false },
   { id: 'c4b7p1-composite', url: '/textures/chapters/4/c4b7p1-friends-surprise.png', compress: false },
   { id: 'c4b7p1-banner', url: '/textures/chapters/4/c4b7p1-bubble-en.svg', compress: false, locale: true },
+  { id: 'c4b7p1-banner-v2', url: '/textures/chapters/4/c4b7p1-banner-v2.svg', compress: false, locale: true },
   { id: 'c4b7p2-bg', url: '/textures/chapters/4/c4b7p2-background.png', compress: false },
   { id: 'c4b7p2-fg', url: '/textures/chapters/4/c4b7p2-foreground.png', compress: false },
   { id: 'c4b7p2-composite', url: '/textures/chapters/4/c4b7p2-tifa-emotional.png', compress: false },
@@ -18352,88 +18353,210 @@ class Chapter4Panel extends me {
     props.usePerspective = true;
     props.fov = 45;
     super(world, props);
-    const { bgTexture, fgTexture, compositeTexture, overlayTexture, zBg = -0.6, zFg = 0.35, fgScale = 1.0, fgOffset = {x: 0, y: 0} } = props;
+    const {
+      bgTexture,
+      fgTexture,
+      compositeTexture,
+      overlayTexture,
+      zBg = -0.72,
+      zFg = 0.35,
+      fgScale = 0.95,
+      fgOffset = { x: 0, y: 0 },
+      bubbleOffsetY = 0.26,
+      bubbleOffsetX = 0,
+      hasBreathing = true
+    } = props;
 
-    const textureToUse = fgTexture ? (bgTexture || compositeTexture) : (compositeTexture || bgTexture);
+    this.hasBreathing = hasBreathing;
+    this.timeAccumulator = Math.random() * 10;
     this.textOverlayMeshes = [];
     this.textOverlayTweens = [];
-    if (textureToUse) {
-      const bgTextureMap = this.getTexture(textureToUse);
+
+    // 1. Base Plate: anti-ghosting architecture
+    // Always prefer clean background texture over composite when fg cutout is present
+    const plateId = (fgTexture && bgTexture) ? bgTexture : (compositeTexture || bgTexture);
+    if (plateId) {
+      const bgTextureMap = this.getTexture(plateId);
       const bgImage = bgTextureMap && bgTextureMap.image;
       const bgWidth = bgImage && (bgImage.naturalWidth || bgImage.width);
       const bgHeight = bgImage && (bgImage.naturalHeight || bgImage.height);
       const bgAspect = bgWidth && bgHeight ? bgWidth / bgHeight : props.ratio;
+
       this.bgMesh = this.createMesh({
-        meshId: props.id + '-bg',
+        meshId: `${props.id}-plate`,
         id: 'map',
         uniforms: { tMap: { value: bgTextureMap } }
       });
       const distBg = 5 - zBg;
-      const hBg = 2 * Math.tan(45 * Math.PI / 360) * distBg;
+      const frustumHeightBg = 2 * Math.tan((45 * Math.PI) / 360) * distBg;
       const bgCoverScale = Math.max(1, props.ratio / bgAspect);
       this.bgMesh.oPosition.z = zBg;
-      this.bgMesh.oScale.set(hBg * bgAspect * bgCoverScale, hBg * bgCoverScale, 1);
+      this.bgMesh.oScale.set(frustumHeightBg * bgAspect * bgCoverScale, frustumHeightBg * bgCoverScale, 1);
       this.bgMesh.sync();
     }
 
+    // 2. Foreground Character Cutout with native aspect ratio fit
     if (fgTexture) {
       const fgTextureMap = this.getTexture(fgTexture);
       const fgImage = fgTextureMap && fgTextureMap.image;
       const fgWidth = fgImage && (fgImage.naturalWidth || fgImage.width);
       const fgHeight = fgImage && (fgImage.naturalHeight || fgImage.height);
       const fgAspect = fgWidth && fgHeight ? fgWidth / fgHeight : props.ratio;
+
       this.fgMesh = this.createMesh({
-        meshId: props.id + '-fg',
+        meshId: `${props.id}-character`,
         id: 'map',
         params: { transparent: true },
         uniforms: { tMap: { value: fgTextureMap } }
       });
       const distFg = 5 - zFg;
-      const hFg = 2 * Math.tan(45 * Math.PI / 360) * distFg;
-      const fgWidthFit = hFg * Math.min(props.ratio, fgAspect) * fgScale;
-      const fgHeightFit = fgWidthFit / fgAspect;
+      const frustumHeightFg = 2 * Math.tan((45 * Math.PI) / 360) * distFg;
+      const frustumWidthFg = frustumHeightFg * props.ratio;
+
+      let meshW, meshH;
+      if (fgAspect > props.ratio) {
+        meshW = frustumWidthFg * fgScale;
+        meshH = meshW / fgAspect;
+      } else {
+        meshH = frustumHeightFg * fgScale;
+        meshW = meshH * fgAspect;
+      }
+
       this.fgMesh.oPosition.z = zFg;
-      this.fgMesh.oPosition.x = fgOffset.x;
-      this.fgMesh.oPosition.y = fgOffset.y;
-      this.fgMesh.oScale.set(fgWidthFit, fgHeightFit, 1);
+      this.fgMesh.oPosition.x = frustumWidthFg * (fgOffset.x || 0);
+      this.fgMesh.oPosition.y = frustumHeightFg * (fgOffset.y || 0);
+      this.fgMesh.oScale.set(meshW, meshH, 1);
       this.fgMesh.sync();
     }
 
-    const textTextures = [...(c4TextOverlays[props.id] || []), ...(overlayTexture ? [overlayTexture] : [])];
+    // 3. Speech Bubbles / Localized Overlays with authentic Ponpon Mania proportions
+    const textTextures = [...(c4TextOverlays[props.id] || [])];
     textTextures.forEach((textureId, index) => {
       const textTextureMap = this.getTexture(textureId);
       const textImage = textTextureMap && textTextureMap.image;
       const textWidth = textImage && (textImage.naturalWidth || textImage.width);
       const textHeight = textImage && (textImage.naturalHeight || textImage.height);
-      const textAspect = textWidth && textHeight ? textWidth / textHeight : props.ratio;
+      const textAspect = textWidth && textHeight ? textWidth / textHeight : 3.0;
+
       const textMesh = this.createMesh({
         meshId: `${props.id}-text-${index}`,
         id: 'map',
         params: { transparent: true, depthTest: false },
         uniforms: { tMap: { value: textTextureMap } }
       });
-      const textZ = 0.8 + index * 0.002;
-      const textFrustumHeight = 2 * Math.tan(45 * Math.PI / 360) * (5 - textZ);
-      const textWidthFit = textFrustumHeight * Math.min(props.ratio, textAspect);
-      const textMeshHeightFit = textWidthFit / textAspect;
+      const textZ = 0.82 + index * 0.003;
+      const distText = 5 - textZ;
+      const frustumHeightText = 2 * Math.tan((45 * Math.PI) / 360) * distText;
+      const frustumWidthText = frustumHeightText * props.ratio;
+
+      // Smart responsive sizing
+      const maxBubbleWidth = frustumWidthText * (props.ratio > 1.5 ? 0.58 : 0.78);
+      const targetHeight = frustumHeightText * (props.bubbleHeightScale || (props.ratio > 1.5 ? 0.25 : 0.22));
+      let bubbleWidth = targetHeight * textAspect;
+      let bubbleHeight = targetHeight;
+      if (bubbleWidth > maxBubbleWidth) {
+        bubbleWidth = maxBubbleWidth;
+        bubbleHeight = bubbleWidth / textAspect;
+      }
+
+      // Panel-specific position tuning
+      let bOffsetX = bubbleOffsetX;
+      let bOffsetY = bubbleOffsetY;
+      if (props.id === 'c4b8p1') {
+        if (index === 0) {
+          // Closing caption in dedicated open space in upper right with safe margin
+          bOffsetX = 0.14;
+          bOffsetY = 0.35;
+        } else {
+          // Letter card placed over letter without blocking cake candles or bottom border
+          bOffsetX = -0.02;
+          bOffsetY = -0.27;
+        }
+      }
+
       textMesh.oPosition.z = textZ;
-      textMesh.oScale.set(textWidthFit, textMeshHeightFit, 1);
+      textMesh.oPosition.x = frustumWidthText * bOffsetX;
+      textMesh.oPosition.y = frustumHeightText * bOffsetY;
+      textMesh.oScale.set(bubbleWidth, bubbleHeight, 1);
       textMesh.sync();
       textMesh.scale.set(0, 0, 0);
       this.textOverlayMeshes.push(textMesh);
     });
+
+    // 4. Celebration Banner (Board 7)
+    if (overlayTexture) {
+      this.overlayMesh = this.createMesh({
+        meshId: `${props.id}-banner`,
+        id: 'map',
+        params: { transparent: true, depthTest: false },
+        uniforms: { tMap: { value: this.getTexture(overlayTexture) } }
+      });
+      const distBanner = 5 - 0.85;
+      const frustumHeightBanner = 2 * Math.tan((45 * Math.PI) / 360) * distBanner;
+      const frustumWidthBanner = frustumHeightBanner * props.ratio;
+      this.overlayMesh.oPosition.z = 0.85;
+      // Positioned with precision to nestle inside the authentic cream ribbon
+      this.overlayMesh.oPosition.y = frustumHeightBanner * 0.345;
+      this.overlayMesh.oScale.set(frustumWidthBanner * 0.88, frustumHeightBanner * 0.17, 1);
+      this.overlayMesh.sync();
+      this.overlayMesh.scale.set(0, 0, 0);
+    }
+  }
+
+  update(t, n) {
+    super.update(t, n);
+    this.timeAccumulator += (n || 16) * 0.001;
+
+    // A. Idle breathing & subtle floating on character cutout
+    if (this.fgMesh && this.fgMesh.mesh && this.hasBreathing) {
+      const breath = Math.sin(this.timeAccumulator * 2.2);
+      const bobY = Math.sin(this.timeAccumulator * 1.6) * 0.012;
+      this.fgMesh.mesh.scale.y = this.fgMesh.oScale.y * (1 + breath * 0.008);
+      this.fgMesh.mesh.position.y = this.fgMesh.oPosition.y + bobY;
+    }
+
+    // B. Subtle organic floating on text speech bubbles
+    if (this.textOverlayMeshes && this.textOverlayMeshes.length > 0) {
+      this.textOverlayMeshes.forEach((mesh, idx) => {
+        if (mesh && mesh.mesh && mesh.mesh.visible) {
+          const floatOffset = Math.sin(this.timeAccumulator * 2.2 + idx * 1.2) * 0.008;
+          mesh.mesh.position.y = mesh.oPosition.y + floatOffset;
+        }
+      });
+    }
+
+    // C. Gentle festive sway on party banner
+    if (this.overlayMesh && this.overlayMesh.mesh && this.overlayMesh.mesh.visible) {
+      this.overlayMesh.mesh.rotation.z = Math.sin(this.timeAccumulator * 2.5) * 0.018;
+    }
   }
 
   onEnterCb() {
     super.onEnterCb();
     this.textOverlayTweens.forEach(tween => tween.kill());
-    this.textOverlayTweens = this.textOverlayMeshes.map(mesh => S.to(mesh.scale, {
-      x: mesh.oScale.x,
-      y: mesh.oScale.y,
-      z: mesh.oScale.z,
-      duration: 0.38,
-      ease: 'back.out(1.2)'
-    }));
+    this.textOverlayTweens = this.textOverlayMeshes.map((mesh, idx) => {
+      mesh.mesh.visible = true;
+      return S.to(mesh.scale, {
+        x: mesh.oScale.x,
+        y: mesh.oScale.y,
+        z: mesh.oScale.z,
+        duration: 0.42,
+        delay: idx * 0.12,
+        ease: 'back.out(1.6)'
+      });
+    });
+
+    if (this.overlayMesh) {
+      this.overlayMesh.mesh.visible = true;
+      S.killTweensOf(this.overlayMesh.scale);
+      S.to(this.overlayMesh.scale, {
+        x: this.overlayMesh.oScale.x,
+        y: this.overlayMesh.oScale.y,
+        z: this.overlayMesh.oScale.z,
+        duration: 0.5,
+        ease: 'back.out(1.7)'
+      });
+    }
   }
 
   onLeaveCb() {
@@ -18443,9 +18566,21 @@ class Chapter4Panel extends me {
       x: 0,
       y: 0,
       z: 0,
-      duration: 0.2,
-      ease: 'power2.in'
+      duration: 0.22,
+      ease: 'power2.in',
+      onComplete: () => { mesh.mesh.visible = false; }
     }));
+
+    if (this.overlayMesh) {
+      S.to(this.overlayMesh.scale, {
+        x: 0,
+        y: 0,
+        z: 0,
+        duration: 0.22,
+        ease: 'power2.in',
+        onComplete: () => { this.overlayMesh.mesh.visible = false; }
+      });
+    }
   }
 }
 
@@ -18470,8 +18605,10 @@ class Board4_1 extends St {
       bgTexture: 'c4b1p1-bg',
       fgTexture: 'c4b1p1-fg',
       compositeTexture: 'c4b1p1-composite',
-      zBg: -0.7,
-      zFg: 0.35
+      fgScale: 0.95,
+      fgOffset: { x: 0.18, y: -0.04 },
+      bubbleOffsetY: 0.28,
+      bubbleOffsetX: -0.15
     });
     this.addPanel(this.topPanel);
     this.bottomPanel = new Chapter4Panel(this.world, {
@@ -18483,8 +18620,10 @@ class Board4_1 extends St {
       bgTexture: 'c4b1p2-bg',
       fgTexture: 'c4b1p2-fg',
       compositeTexture: 'c4b1p2-composite',
-      zBg: -0.7,
-      zFg: 0.35
+      fgScale: 0.95,
+      fgOffset: { x: -0.15, y: -0.04 },
+      bubbleOffsetY: 0.28,
+      bubbleOffsetX: 0.20
     });
     this.addPanel(this.bottomPanel);
   }
@@ -18526,8 +18665,10 @@ class Board4_2 extends St {
       bgTexture: 'c4b2p1-bg',
       fgTexture: 'c4b2p1-fg',
       compositeTexture: 'c4b2p1-composite',
-      zBg: -0.7,
-      zFg: 0.3
+      fgScale: 0.92,
+      // Align Tifa hand directly onto front door handle
+      fgOffset: { x: 0.12, y: -0.04 },
+      bubbleOffsetY: 0.32
     });
     this.addPanel(this.topLeftPanel);
     this.topRightPanel = new Chapter4Panel(this.world, {
@@ -18536,11 +18677,11 @@ class Board4_2 extends St {
       position: { x: t, y: t },
       size: { x: n, y: n },
       ratio: 1,
-      bgTexture: 'c4b2p2-bg',
-      fgTexture: 'c4b2p2-fg',
+      // Eliminate duplicate door handle by using ground truth composite plate
+      bgTexture: 'c4b2p2-composite',
       compositeTexture: 'c4b2p2-composite',
-      zBg: -0.7,
-      zFg: 0.3
+      fgScale: 1.0,
+      bubbleOffsetY: 0.32
     });
     this.addPanel(this.topRightPanel);
     this.bottomPanel = new Chapter4Panel(this.world, {
@@ -18552,8 +18693,10 @@ class Board4_2 extends St {
       bgTexture: 'c4b2p3-bg',
       fgTexture: 'c4b2p3-fg',
       compositeTexture: 'c4b2p3-composite',
-      zBg: -0.7,
-      zFg: 0.3
+      fgScale: 0.95,
+      fgOffset: { x: 0.12, y: -0.04 },
+      bubbleOffsetY: 0.28,
+      bubbleOffsetX: -0.18
     });
     this.addPanel(this.bottomPanel);
   }
@@ -18575,8 +18718,9 @@ class Board4_3 extends St {
       bgTexture: 'c4b3p1-bg',
       fgTexture: 'c4b3p1-fg',
       compositeTexture: 'c4b3p1-composite',
-      zBg: -0.7,
-      zFg: 0.3
+      fgScale: 0.95,
+      fgOffset: { x: 0, y: -0.04 },
+      bubbleOffsetY: 0.28
     });
     this.addPanel(this.topPanel);
     this.bottomPanel = new Chapter4Panel(this.world, {
@@ -18588,8 +18732,9 @@ class Board4_3 extends St {
       bgTexture: 'c4b3p2-bg',
       fgTexture: 'c4b3p2-fg',
       compositeTexture: 'c4b3p2-composite',
-      zBg: -0.7,
-      zFg: 0.3
+      fgScale: 0.95,
+      fgOffset: { x: 0, y: -0.04 },
+      bubbleOffsetY: 0.28
     });
     this.addPanel(this.bottomPanel);
   }
@@ -18610,7 +18755,7 @@ class Board4_4 extends St {
       ratio: 1,
       compositeTexture: 'c4b4p1-golden-mark',
       bgTexture: 'c4b4p1-bg',
-      zBg: -0.6
+      bubbleOffsetY: 0.32
     });
     this.addPanel(this.topLeftPanel);
     this.topRightPanel = new Chapter4Panel(this.world, {
@@ -18621,7 +18766,7 @@ class Board4_4 extends St {
       ratio: 1,
       compositeTexture: 'c4b4p2-petals',
       bgTexture: 'c4b4p2-bg',
-      zBg: -0.6
+      bubbleOffsetY: 0.32
     });
     this.addPanel(this.topRightPanel);
     this.bottomPanel = new Chapter4Panel(this.world, {
@@ -18633,8 +18778,9 @@ class Board4_4 extends St {
       bgTexture: 'c4b4p3-bg',
       fgTexture: 'c4b4p3-fg',
       compositeTexture: 'c4b4p3-composite',
-      zBg: -0.7,
-      zFg: 0.35
+      fgScale: 0.95,
+      fgOffset: { x: 0, y: -0.04 },
+      bubbleOffsetY: 0.28
     });
     this.addPanel(this.bottomPanel);
   }
@@ -18655,7 +18801,9 @@ class Board4_5 extends St {
       ratio: 2.1,
       compositeTexture: 'c4b5p1-cake',
       bgTexture: 'c4b5p1-bg',
-      zBg: -0.6
+      // Move bubble to the right above cake, leaving Tifa face completely unobstructed
+      bubbleOffsetX: 0.15,
+      bubbleOffsetY: 0.36
     });
     this.addPanel(this.topPanel);
     this.bottomPanel = new Chapter4Panel(this.world, {
@@ -18667,8 +18815,9 @@ class Board4_5 extends St {
       bgTexture: 'c4b5p2-bg',
       fgTexture: 'c4b5p2-fg',
       compositeTexture: 'c4b5p2-composite',
-      zBg: -0.7,
-      zFg: 0.35
+      fgScale: 0.95,
+      fgOffset: { x: 0, y: -0.04 },
+      bubbleOffsetY: 0.28
     });
     this.addPanel(this.bottomPanel);
   }
@@ -18689,30 +18838,19 @@ class Board4_6 extends St {
       ratio: 1,
       bgTexture: 'c4b6p1-bg',
       compositeTexture: 'c4b6p1-hero',
-      zBg: -0.6
+      // Position bubble above Tifa hair in clear sky area
+      bubbleOffsetX: 0.16,
+      bubbleOffsetY: 0.42
     });
 
-    this.heroPanel.candleGlow = this.heroPanel.createMesh({
-      meshId: 'candle-glow',
-      id: 'circle',
-      params: { transparent: true, depthTest: false },
-      uniforms: {
-        uColor: { value: new A(1.0, 0.85, 0.4) },
-        uRadius: { value: 0.5 },
-        uBlur: { value: 0.4 },
-        uAlpha: { value: 0.45 }
-      }
-    });
-    this.heroPanel.candleGlow.oPosition.set(0, 0.22, 0.2);
-    this.heroPanel.candleGlow.oScale.set(2.8, 1.2, 1);
-    this.heroPanel.candleGlow.sync();
-
+    // Clean hand-drawn candle glow from master artwork preserved without diagonal shader artifacts
     this.addPanel(this.heroPanel);
   }
   update(t, n) {
     super.update(t, n);
     if (this.heroPanel && this.heroPanel.candleGlow) {
-      this.heroPanel.candleGlow.program.uniforms.uAlpha.value = 0.38 + Math.sin(t * 6.0) * 0.12;
+      const flicker = Math.sin(t * 7.5) * 0.12 + Math.cos(t * 13.0) * 0.06;
+      this.heroPanel.candleGlow.program.uniforms.uAlpha.value = 0.42 + flicker;
     }
   }
 }
@@ -18730,12 +18868,12 @@ class Board4_7 extends St {
       position: { x: -t, y: t },
       size: { x: n, y: n },
       ratio: 1,
-      bgTexture: 'c4b7p1-bg',
-      fgTexture: 'c4b7p1-fg',
+      // Restore authentic composition: characters visible to skirt/thighs, flower pillow, lamp
+      bgTexture: 'c4b7p1-composite',
       compositeTexture: 'c4b7p1-composite',
-      overlayTexture: 'c4b7p1-banner',
-      zBg: -0.7,
-      zFg: 0.3
+      overlayTexture: 'c4b7p1-banner-v2',
+      fgScale: 1.0,
+      bubbleOffsetY: 0.32
     });
     this.addPanel(this.topLeftPanel);
     this.topRightPanel = new Chapter4Panel(this.world, {
@@ -18747,8 +18885,8 @@ class Board4_7 extends St {
       bgTexture: 'c4b7p2-bg',
       fgTexture: 'c4b7p2-fg',
       compositeTexture: 'c4b7p2-composite',
-      zBg: -0.7,
-      zFg: 0.3
+      fgScale: 1.0,
+      bubbleOffsetY: 0.32
     });
     this.addPanel(this.topRightPanel);
     this.bottomPanel = new Chapter4Panel(this.world, {
@@ -18760,8 +18898,9 @@ class Board4_7 extends St {
       bgTexture: 'c4b7p3-bg',
       fgTexture: 'c4b7p3-fg',
       compositeTexture: 'c4b7p3-composite',
-      zBg: -0.7,
-      zFg: 0.3
+      fgScale: 0.95,
+      fgOffset: { x: 0, y: -0.04 },
+      bubbleOffsetY: 0.28
     });
     this.addPanel(this.bottomPanel);
   }
@@ -18786,8 +18925,8 @@ class Board4_8 extends St {
       bgTexture: 'c4b8p1-bg',
       fgTexture: 'c4b8p1-fg',
       compositeTexture: 'c4b8p1-composite',
-      zBg: -0.7,
-      zFg: 0.35
+      fgScale: 1.0,
+      bubbleOffsetY: 0.34
     });
     this.addPanel(this.heroPanel);
   }

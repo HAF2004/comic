@@ -15,5 +15,8 @@
     "basis-universal"
   ],
   "author": "Patrick Heng & Justine Soulié (Original Authors)",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "puppeteer-core": "^25.16.0"
+  }
 }

@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
-  <path d="M188 77 Q190 48 232 52 Q350 62 468 51 Q580 43 690 53 Q810 65 928 52 Q1050 42 1162 53 Q1280 65 1344 53 Q1370 58 1368 90 L1356 205 Q1352 231 1321 229 Q1200 218 1084 231 Q964 243 846 230 Q724 217 608 230 Q488 242 372 229 Q268 219 212 231 Q184 222 184 194 Z" fill="#fff8ef" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
-  <path d="M394 226 Q372 265 331 278 Q354 246 343 228" fill="#fff8ef" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
-  <text x="768" y="0" text-anchor="middle" dominant-baseline="middle" font-family="Comic Sans MS, Segoe Print, cursive" font-size="56" font-weight="700" fill="#171717"><tspan x='768' dy='154'>Whew. Made it.</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="180" viewBox="0 0 520 180">
+  <path d="M 50 22 Q 260 14 470 22 Q 503 73.5 483 125 L 282 125 Q 248.5 146.5 215 168 Q 226.5 146.5 238 125 L 50 125 Q 15 73.5 50 22 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="260" y="71.5" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
+        font-size="33" font-weight="800" fill="#171717" letter-spacing="0.6">Whew. Made it.</text>
 </svg>
