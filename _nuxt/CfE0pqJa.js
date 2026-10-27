@@ -18361,7 +18361,14 @@ const C4_MOTION_CONFIG = {
   ENABLE_HAIR_DEFORMATION: true,
   HAIR_SPEED: 3.2,
   HAIR_AMP_X: 0.0030,
-  HAIR_AMP_Y: 0.0018
+  HAIR_AMP_Y: 0.0018,
+
+  // 1.3 Staggered Entrance
+  ENABLE_STAGGERED_ENTRANCE: true,
+  ENTRANCE_BG_DELAY: 0.0,
+  ENTRANCE_FG_DELAY: 0.10,
+  ENTRANCE_OVERLAY_DELAY: 0.20,
+  ENTRANCE_BUBBLE_DELAY: 0.28
 };
 
 const c4CharacterFrag = `uniform sampler2D tMap;
@@ -18425,6 +18432,7 @@ class Chapter4Panel extends me {
     this.timeAccumulator = Math.random() * 10;
     this.textOverlayMeshes = [];
     this.textOverlayTweens = [];
+    this.entranceTweens = [];
 
     // 1. Base Plate: anti-ghosting architecture
     // Always prefer clean background texture over composite when fg cutout is present
@@ -18579,40 +18587,106 @@ class Chapter4Panel extends me {
 
   onEnterCb() {
     super.onEnterCb();
+    const prefersReducedMotion = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     this.textOverlayTweens.forEach(tween => tween.kill());
+    this.textOverlayTweens = [];
+    if (this.entranceTweens) {
+      this.entranceTweens.forEach(t => t.kill());
+    }
+    this.entranceTweens = [];
+
+    if (!C4_MOTION_CONFIG.ENABLE_STAGGERED_ENTRANCE || prefersReducedMotion) {
+      if (this.bgMesh) { this.bgMesh.scale.copy(this.bgMesh.oScale); }
+      if (this.fgMesh) { this.fgMesh.scale.copy(this.fgMesh.oScale); this.fgMesh.position.copy(this.fgMesh.oPosition); }
+      if (this.overlayMesh) { this.overlayMesh.mesh.visible = true; this.overlayMesh.scale.copy(this.overlayMesh.oScale); }
+      this.textOverlayMeshes.forEach(mesh => {
+        mesh.mesh.visible = true;
+        mesh.scale.copy(mesh.oScale);
+      });
+      return;
+    }
+
+    // 1. Background subtle settle
+    if (this.bgMesh) {
+      this.bgMesh.scale.set(this.bgMesh.oScale.x * 0.98, this.bgMesh.oScale.y * 0.98, this.bgMesh.oScale.z);
+      this.entranceTweens.push(
+        S.to(this.bgMesh.scale, {
+          x: this.bgMesh.oScale.x,
+          y: this.bgMesh.oScale.y,
+          z: this.bgMesh.oScale.z,
+          duration: 0.55,
+          ease: 'power2.out'
+        })
+      );
+    }
+
+    // 2. Character cutout pop-in with slight vertical settle
+    if (this.fgMesh) {
+      this.fgMesh.scale.set(this.fgMesh.oScale.x * 0.92, this.fgMesh.oScale.y * 0.92, this.fgMesh.oScale.z);
+      this.fgMesh.position.y = this.fgMesh.oPosition.y - 0.035;
+      this.entranceTweens.push(
+        S.to(this.fgMesh.scale, {
+          x: this.fgMesh.oScale.x,
+          y: this.fgMesh.oScale.y,
+          z: this.fgMesh.oScale.z,
+          duration: 0.48,
+          delay: C4_MOTION_CONFIG.ENTRANCE_FG_DELAY,
+          ease: 'back.out(1.4)'
+        })
+      );
+      this.entranceTweens.push(
+        S.to(this.fgMesh.position, {
+          y: this.fgMesh.oPosition.y,
+          duration: 0.44,
+          delay: C4_MOTION_CONFIG.ENTRANCE_FG_DELAY,
+          ease: 'power2.out'
+        })
+      );
+    }
+
+    // 3. Overlay mesh (e.g. party banners)
+    if (this.overlayMesh) {
+      this.overlayMesh.mesh.visible = true;
+      this.overlayMesh.scale.set(0, 0, 0);
+      this.entranceTweens.push(
+        S.to(this.overlayMesh.scale, {
+          x: this.overlayMesh.oScale.x,
+          y: this.overlayMesh.oScale.y,
+          z: this.overlayMesh.oScale.z,
+          duration: 0.44,
+          delay: C4_MOTION_CONFIG.ENTRANCE_OVERLAY_DELAY,
+          ease: 'back.out(1.6)'
+        })
+      );
+    }
+
+    // 4. Staggered speech bubbles
     this.textOverlayTweens = this.textOverlayMeshes.map((mesh, idx) => {
       mesh.mesh.visible = true;
+      mesh.scale.set(0, 0, 0);
       return S.to(mesh.scale, {
         x: mesh.oScale.x,
         y: mesh.oScale.y,
         z: mesh.oScale.z,
-        duration: 0.42,
-        delay: idx * 0.12,
+        duration: 0.40,
+        delay: C4_MOTION_CONFIG.ENTRANCE_BUBBLE_DELAY + idx * 0.12,
         ease: 'back.out(1.6)'
       });
     });
-
-    if (this.overlayMesh) {
-      this.overlayMesh.mesh.visible = true;
-      S.killTweensOf(this.overlayMesh.scale);
-      S.to(this.overlayMesh.scale, {
-        x: this.overlayMesh.oScale.x,
-        y: this.overlayMesh.oScale.y,
-        z: this.overlayMesh.oScale.z,
-        duration: 0.5,
-        ease: 'back.out(1.7)'
-      });
-    }
   }
 
   onLeaveCb() {
     super.onLeaveCb();
+    if (this.entranceTweens) {
+      this.entranceTweens.forEach(t => t.kill());
+      this.entranceTweens = [];
+    }
     this.textOverlayTweens.forEach(tween => tween.kill());
     this.textOverlayTweens = this.textOverlayMeshes.map(mesh => S.to(mesh.scale, {
       x: 0,
       y: 0,
       z: 0,
-      duration: 0.22,
+      duration: 0.18,
       ease: 'power2.in',
       onComplete: () => { mesh.mesh.visible = false; }
     }));
@@ -18622,9 +18696,18 @@ class Chapter4Panel extends me {
         x: 0,
         y: 0,
         z: 0,
-        duration: 0.22,
+        duration: 0.18,
         ease: 'power2.in',
         onComplete: () => { this.overlayMesh.mesh.visible = false; }
+      });
+    }
+
+    if (this.fgMesh) {
+      S.to(this.fgMesh.scale, {
+        x: this.fgMesh.oScale.x * 0.92,
+        y: this.fgMesh.oScale.y * 0.92,
+        duration: 0.18,
+        ease: 'power2.in'
       });
     }
   }
