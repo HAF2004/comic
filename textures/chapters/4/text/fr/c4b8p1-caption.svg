@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="140" viewBox="0 0 540 140">
-  <rect x="12" y="12" width="516" height="116" rx="14" ry="14"
-        fill="#FFF8EF" stroke="#171717" stroke-width="7" stroke-linejoin="round"/>
-  <text x="270" y="74" text-anchor="middle" dominant-baseline="middle"
-        font-family="'Libre Franklin', 'Helvetica Neue', Arial, sans-serif"
-        font-size="28" font-weight="800" fill="#171717" letter-spacing="1.2">GARDE CETTE JOIE TOUT PRÈS.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect x="560" y="60" width="380" height="120" rx="16" ry="16"
+        fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round"/>
+  <text x="750" y="124.62" text-anchor="middle"
+            font-family="'Libre Franklin', 'Helvetica Neue', Arial, sans-serif"
+            font-size="22" font-weight="800" fill="#171717" letter-spacing="1.2">GARDE CETTE JOIE TOUT PRÈS.</text>
 </svg>

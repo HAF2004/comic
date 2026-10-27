@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="180" viewBox="0 0 540 180">
-  <path d="M 50 22 Q 270 14 490 22 Q 523 73.5 503 125 L 292 125 Q 303.5 146.5 315 168 Q 281.5 146.5 248 125 L 50 125 Q 15 73.5 50 22 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="270" y="71.5" text-anchor="middle" dominant-baseline="middle"
-        font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-        font-size="33" font-weight="800" fill="#171717" letter-spacing="0.6">Make a wish, Tifa!</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
+  <path d="M 442 60 Q 693 54 944 60 Q 972 130 962 178 Q 966 200 944 200 L 859.5 200 Q 895.4 272 861 380 Q 841.025 317 799.5 200 L 442 200 Q 420 200 420 178 Q 414 130 424 82 Q 420 60 442 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="693" y="136.75" text-anchor="middle"
+          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
+          font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">Make a wish, Tifa!</text>
 </svg>

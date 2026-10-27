@@ -18353,6 +18353,7 @@ class Chapter4Panel extends me {
     props.usePerspective = true;
     props.fov = 45;
     super(world, props);
+    if (typeof window !== 'undefined') { (window.__C4_DEBUG__ = window.__C4_DEBUG__ || {})[props.id] = this; }
     const {
       bgTexture,
       fgTexture,
@@ -18449,35 +18450,10 @@ class Chapter4Panel extends me {
       const frustumHeightText = 2 * Math.tan((45 * Math.PI) / 360) * distText;
       const frustumWidthText = frustumHeightText * props.ratio;
 
-      // Smart responsive sizing
-      const maxBubbleWidth = frustumWidthText * (props.ratio > 1.5 ? 0.58 : 0.78);
-      const targetHeight = frustumHeightText * (props.bubbleHeightScale || (props.ratio > 1.5 ? 0.25 : 0.22));
-      let bubbleWidth = targetHeight * textAspect;
-      let bubbleHeight = targetHeight;
-      if (bubbleWidth > maxBubbleWidth) {
-        bubbleWidth = maxBubbleWidth;
-        bubbleHeight = bubbleWidth / textAspect;
-      }
-
-      // Panel-specific position tuning
-      let bOffsetX = bubbleOffsetX;
-      let bOffsetY = bubbleOffsetY;
-      if (props.id === 'c4b8p1') {
-        if (index === 0) {
-          // Closing caption in dedicated open space in upper right with safe margin
-          bOffsetX = 0.14;
-          bOffsetY = 0.35;
-        } else {
-          // Letter card placed over letter without blocking cake candles or bottom border
-          bOffsetX = -0.02;
-          bOffsetY = -0.27;
-        }
-      }
-
       textMesh.oPosition.z = textZ;
-      textMesh.oPosition.x = frustumWidthText * bOffsetX;
-      textMesh.oPosition.y = frustumHeightText * bOffsetY;
-      textMesh.oScale.set(bubbleWidth, bubbleHeight, 1);
+      textMesh.oPosition.x = 0;
+      textMesh.oPosition.y = 0;
+      textMesh.oScale.set(frustumWidthText, frustumHeightText, 1);
       textMesh.sync();
       textMesh.scale.set(0, 0, 0);
       this.textOverlayMeshes.push(textMesh);

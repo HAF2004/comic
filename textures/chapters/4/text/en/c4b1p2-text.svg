@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="180" viewBox="0 0 480 180">
-  <path d="M 50 22 Q 240 14 430 22 Q 463 73.5 443 125 L 262 125 Q 251 146.5 240 168 Q 229 146.5 218 125 L 50 125 Q 15 73.5 50 22 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="240" y="71.5" text-anchor="middle" dominant-baseline="middle"
-        font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-        font-size="33" font-weight="800" fill="#171717" letter-spacing="0.6">Home at last.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
+  <path d="M 904 70 Q 1071 64 1238 70 Q 1266 135 1256 178 Q 1260 200 1238 200 L 997.5 200 Q 900.325 226 777 240 Q 813.4 216 955.5 200 L 904 200 Q 882 200 882 178 Q 876 135 886 92 Q 882 70 904 70 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="1071" y="141.075" text-anchor="middle"
+          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
+          font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Home at last.</text>
 </svg>

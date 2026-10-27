@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="180" viewBox="0 0 360 180">
-  <polygon points="
-    25,90 60,35 120,45 160,15 210,48 270,20 295,65 345,60 330,110 355,145 305,150 280,175 220,155 170,175 130,150 75,170 65,125 15,115
-  " fill="#FFF8EF" stroke="#171717" stroke-width="8" stroke-linejoin="round"/>
-  <text x="180" y="100" text-anchor="middle" dominant-baseline="middle"
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <polygon points="318,190 356,127 432,145 489,109 546,140 622,118 592,181 652,208 576,244 527,276 462,248 394,271 364,235 288,217" fill="#FFF8EF" stroke="#171717" stroke-width="8" stroke-linejoin="round"/>
+  <text x="470" y="200" text-anchor="middle" dominant-baseline="middle"
         font-family="'Libre Franklin', Impact, Arial Black, sans-serif"
         font-size="44" font-weight="900" font-style="italic" fill="#F87800" stroke="#171717" stroke-width="3" letter-spacing="3">CLIC !</text>
 </svg>

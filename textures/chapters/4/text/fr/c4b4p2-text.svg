@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190">
-  <path d="M 50 22 Q 280 14 510 22 Q 543 78.5 523 135 L 302 135 Q 291 156.5 280 178 Q 269 156.5 258 135 L 50 135 Q 15 78.5 50 22 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="280" y="76.5" text-anchor="middle" dominant-baseline="middle"
-        font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-        font-size="33" font-weight="800" fill="#171717" letter-spacing="0.6">Cette lumière a bougé ?</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <path d="M 162 60 Q 370 54 578 60 Q 606 130 596 178 Q 600 200 578 200 L 395.5 200 Q 367.75 270 340 340 Q 342.25 270 344.5 200 L 162 200 Q 140 200 140 178 Q 134 130 144 82 Q 140 60 162 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="370" y="136.075" text-anchor="middle"
+          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
+          font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Cette lumière a bougé ?</text>
 </svg>

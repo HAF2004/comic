@@ -1,6 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="220" viewBox="0 0 780 220">
-  <path d="M 50 22 Q 390 14 730 22 Q 763 93.5 743 165 L 412 165 Q 378.5 186.5 345 208 Q 356.5 186.5 368 165 L 50 165 Q 15 93.5 50 22 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="390" y="91.5" text-anchor="middle" dominant-baseline="middle"
-        font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-        font-size="29" font-weight="800" fill="#171717" letter-spacing="0.6">Where are these petals coming from?</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
+  <path d="M 442 60 Q 735 54 1028 60 Q 1056 130 1046 178 Q 1050 200 1028 200 L 927 200 Q 1010.6 344 1008 560 Q 930.5 434 858 200 L 442 200 Q 420 200 420 178 Q 414 130 424 82 Q 420 60 442 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="735" y="118" text-anchor="middle"
+          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
+          font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">Where are these petals coming</text>
+  <text x="735" y="155.5" text-anchor="middle"
+          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
+          font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">from?</text>
 </svg>

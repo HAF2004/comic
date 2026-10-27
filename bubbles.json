@@ -1,0 +1,272 @@
+{
+  "c4b1p1": {
+    "board": 1,
+    "panel": 1,
+    "ratio": 2.1,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "back",
+    "text": {
+      "en": "One last walk beneath the city lights.",
+      "fr": "Dernière promenade sous les lumières de la ville."
+    },
+    "bubble": { "x": 34, "y": 7, "w": 26, "h": 14 },
+    "tailTarget": { "x": 62, "y": 28 },
+    "tailCurve": "organic-right"
+  },
+  "c4b1p2": {
+    "board": 1,
+    "panel": 2,
+    "ratio": 2.1,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "three-quarters-front",
+    "text": {
+      "en": "Home at last.",
+      "fr": "Enfin chez moi."
+    },
+    "bubble": { "x": 42, "y": 7, "w": 18, "h": 13 },
+    "tailTarget": { "x": 37, "y": 24 },
+    "tailCurve": "organic-left"
+  },
+  "c4b2p1": {
+    "board": 2,
+    "panel": 1,
+    "ratio": 1.0,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "front",
+    "text": {
+      "en": "A familiar light was waiting inside.",
+      "fr": "Une lumière familière brillait à la maison."
+    },
+    "bubble": { "x": 6, "y": 6, "w": 32, "h": 14 },
+    "tailTarget": { "x": 50, "y": 32 },
+    "tailCurve": "organic-right"
+  },
+  "c4b2p2": {
+    "board": 2,
+    "panel": 2,
+    "ratio": 1.0,
+    "type": "sfx",
+    "speaker": "SFX",
+    "facing": "none",
+    "text": {
+      "en": "CLICK!",
+      "fr": "CLIC !"
+    },
+    "bubble": { "x": 28, "y": 10, "w": 38, "h": 18 },
+    "tailTarget": { "x": 58, "y": 40 },
+    "tailCurve": "straight"
+  },
+  "c4b2p3": {
+    "board": 2,
+    "panel": 3,
+    "ratio": 2.1,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "three-quarters-front",
+    "text": {
+      "en": "Whew. Made it.",
+      "fr": "Ouf ! Enfin rentrée."
+    },
+    "bubble": { "x": 35, "y": 7, "w": 20, "h": 13 },
+    "tailTarget": { "x": 57, "y": 27 },
+    "tailCurve": "organic-right"
+  },
+  "c4b3p1": {
+    "board": 3,
+    "panel": 1,
+    "ratio": 2.1,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "front",
+    "text": {
+      "en": "Just one quiet minute for herself.",
+      "fr": "Une minute de calme rien que pour elle."
+    },
+    "bubble": { "x": 22, "y": 6, "w": 32, "h": 14 },
+    "tailTarget": { "x": 44, "y": 44 },
+    "tailCurve": "organic-right"
+  },
+  "c4b3p2": {
+    "board": 3,
+    "panel": 2,
+    "ratio": 2.1,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "side-back",
+    "text": {
+      "en": "What could be waiting?",
+      "fr": "Que va-t-elle découvrir ?"
+    },
+    "bubble": { "x": 55, "y": 6, "w": 28, "h": 13 },
+    "tailTarget": { "x": 50, "y": 42 },
+    "tailCurve": "organic-left"
+  },
+  "c4b4p1": {
+    "board": 4,
+    "panel": 1,
+    "ratio": 1.0,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "three-quarters-front",
+    "text": {
+      "en": "Wait… what is that?",
+      "fr": "Attends… quelle est cette lumière ?"
+    },
+    "bubble": { "x": 14, "y": 6, "w": 48, "h": 14 },
+    "tailTarget": { "x": 38, "y": 34 },
+    "tailCurve": "organic-down"
+  },
+  "c4b4p2": {
+    "board": 4,
+    "panel": 2,
+    "ratio": 1.0,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "three-quarters-front",
+    "text": {
+      "en": "Did that just move?",
+      "fr": "Cette lumière a bougé ?"
+    },
+    "bubble": { "x": 14, "y": 6, "w": 46, "h": 14 },
+    "tailTarget": { "x": 34, "y": 34 },
+    "tailCurve": "organic-down"
+  },
+  "c4b4p3": {
+    "board": 4,
+    "panel": 3,
+    "ratio": 2.1,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "front",
+    "text": {
+      "en": "Where are these petals coming from?",
+      "fr": "Quelle est la source de ces pétales ?"
+    },
+    "bubble": { "x": 20, "y": 6, "w": 30, "h": 14 },
+    "tailTarget": { "x": 48, "y": 56 },
+    "tailCurve": "organic-right"
+  },
+  "c4b5p1": {
+    "board": 5,
+    "panel": 1,
+    "ratio": 2.1,
+    "type": "caption",
+    "speaker": "Narration",
+    "facing": "none",
+    "text": {
+      "en": "A little surprise slipped through the screen.",
+      "fr": "Une petite surprise apparaît sur son écran."
+    },
+    "bubble": { "x": 44, "y": 6, "w": 48, "h": 12 },
+    "tailTarget": null,
+    "tailCurve": "none"
+  },
+  "c4b5p2": {
+    "board": 5,
+    "panel": 2,
+    "ratio": 2.1,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "front",
+    "text": {
+      "en": "A birthday cake? For me?",
+      "fr": "Un gâteau pour mon anniversaire ? Pour moi ?"
+    },
+    "bubble": { "x": 14, "y": 6, "w": 28, "h": 14 },
+    "tailTarget": { "x": 44, "y": 46 },
+    "tailCurve": "organic-right"
+  },
+  "c4b6p1": {
+    "board": 6,
+    "panel": 1,
+    "ratio": 1.0,
+    "type": "caption",
+    "speaker": "Narration",
+    "facing": "none",
+    "text": {
+      "en": "Twenty-three candles. One very big wish.",
+      "fr": "Vingt-trois bougies. Un immense vœu."
+    },
+    "bubble": { "x": 40, "y": 5, "w": 52, "h": 11 },
+    "tailTarget": null,
+    "tailCurve": "none"
+  },
+  "c4b7p1": {
+    "board": 7,
+    "panel": 1,
+    "ratio": 1.0,
+    "type": "banner",
+    "speaker": "Banner",
+    "facing": "none",
+    "text": {
+      "en": "HAPPY BIRTHDAY, TIFA!",
+      "fr": "JOYEUX ANNIVERSAIRE, TIFA !"
+    },
+    "bubble": { "x": 8, "y": 6, "w": 84, "h": 17 },
+    "tailTarget": null,
+    "tailCurve": "none"
+  },
+  "c4b7p2": {
+    "board": 7,
+    "panel": 2,
+    "ratio": 1.0,
+    "type": "speech",
+    "speaker": "Tifa",
+    "facing": "front",
+    "text": {
+      "en": "You remembered…",
+      "fr": "Vous avez pensé à moi…"
+    },
+    "bubble": { "x": 16, "y": 6, "w": 46, "h": 13 },
+    "tailTarget": { "x": 45, "y": 46 },
+    "tailCurve": "organic-right"
+  },
+  "c4b7p3": {
+    "board": 7,
+    "panel": 3,
+    "ratio": 2.1,
+    "type": "speech",
+    "speaker": "Friend",
+    "facing": "front",
+    "text": {
+      "en": "Make a wish, Tifa!",
+      "fr": "Fais un vœu, Tifa !"
+    },
+    "bubble": { "x": 20, "y": 6, "w": 26, "h": 14 },
+    "tailTarget": { "x": 41, "y": 38 },
+    "tailCurve": "organic-right"
+  },
+  "c4b8p1_caption": {
+    "board": 8,
+    "panel": 1,
+    "ratio": 1.0,
+    "type": "caption",
+    "speaker": "Narration",
+    "facing": "none",
+    "text": {
+      "en": "Keep this joy close.",
+      "fr": "Garde cette joie tout près."
+    },
+    "bubble": { "x": 56, "y": 6, "w": 38, "h": 12 },
+    "tailTarget": null,
+    "tailCurve": "none"
+  },
+  "c4b8p1_letter": {
+    "board": 8,
+    "panel": 1,
+    "ratio": 1.0,
+    "type": "letter",
+    "speaker": "Letter",
+    "facing": "none",
+    "text": {
+      "en": "Happy 23rd, Tifa! We love you!",
+      "fr": "Joyeux 23e anniversaire, Tifa ! Avec toute notre affection !"
+    },
+    "bubble": { "x": 22, "y": 70, "w": 54, "h": 18 },
+    "tailTarget": null,
+    "tailCurve": "none"
+  }
+}

@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220">
-  <path d="M 50 22 Q 410 14 770 22 Q 803 93.5 783 165 L 432 165 Q 421 186.5 410 208 Q 399 186.5 388 165 L 50 165 Q 15 93.5 50 22 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="410" y="91.5" text-anchor="middle" dominant-baseline="middle"
-        font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-        font-size="26" font-weight="800" fill="#171717" letter-spacing="0.6">Twenty-three candles. One very big wish.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect x="400" y="50" width="520" height="110" rx="16" ry="16"
+        fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round"/>
+  <text x="660" y="93.82" text-anchor="middle"
+            font-family="'Libre Franklin', 'Helvetica Neue', Arial, sans-serif"
+            font-size="26" font-weight="800" fill="#171717" letter-spacing="1.2">TWENTY-THREE CANDLES.</text>
+  <text x="660" y="127.1" text-anchor="middle"
+            font-family="'Libre Franklin', 'Helvetica Neue', Arial, sans-serif"
+            font-size="26" font-weight="800" fill="#171717" letter-spacing="1.2">ONE VERY BIG WISH.</text>
 </svg>
