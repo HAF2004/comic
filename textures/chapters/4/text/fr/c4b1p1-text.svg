@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 736 70 Q 987 64 1238 70 Q 1266 140 1256 188 Q 1260 210 1238 210 L 1153.5 210 Q 1277.6 238 1302 280 Q 1186.475 255.5 1093.5 210 L 736 210 Q 714 210 714 188 Q 708 140 718 92 Q 714 70 736 70 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 776 70 L 1198 70 A 62 62 0 0 1 1260 132 L 1260 148 A 62 62 0 0 1 1198 210 L 1140 210 C 1169 242, 1277 270, 1302 280 C 1202 270, 1095 242, 1075 210 L 776 210 A 62 62 0 0 1 714 148 L 714 132 A 62 62 0 0 1 776 70 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="987" y="128" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">Dernière promenade sous les</text>

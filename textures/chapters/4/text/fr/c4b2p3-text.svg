@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 757 70 Q 945 64 1133 70 Q 1161 135 1151 178 Q 1155 200 1133 200 L 1073 200 Q 1182.4 228 1197 270 Q 1106.5 245.5 1027 200 L 757 200 Q 735 200 735 178 Q 729 135 739 92 Q 735 70 757 70 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 792 70 L 1098 70 A 57 57 0 0 1 1155 127 L 1155 143 A 57 57 0 0 1 1098 200 L 1062 200 C 1086 232, 1174 260, 1197 270 C 1116 260, 1028 232, 1012 200 L 792 200 A 57 57 0 0 1 735 143 L 735 127 A 57 57 0 0 1 792 70 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="945" y="141.075" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Ouf ! Enfin rentrée.</text>

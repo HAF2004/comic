@@ -26,7 +26,7 @@
       "fr": "Enfin chez moi."
     },
     "bubble": { "x": 42, "y": 7, "w": 18, "h": 13 },
-    "tailTarget": { "x": 37, "y": 24 },
+    "tailTarget": { "x": 43, "y": 25 },
     "tailCurve": "organic-left"
   },
   "c4b2p1": {
@@ -78,7 +78,7 @@
     "board": 3,
     "panel": 1,
     "ratio": 2.1,
-    "type": "speech",
+    "type": "thought",
     "speaker": "Tifa",
     "facing": "front",
     "text": {
@@ -86,8 +86,8 @@
       "fr": "Une minute de calme rien que pour elle."
     },
     "bubble": { "x": 22, "y": 6, "w": 32, "h": 14 },
-    "tailTarget": { "x": 44, "y": 44 },
-    "tailCurve": "organic-right"
+    "tailTarget": { "x": 48, "y": 34 },
+    "tailCurve": "thought"
   },
   "c4b3p2": {
     "board": 3,
@@ -101,7 +101,7 @@
       "fr": "Que va-t-elle découvrir ?"
     },
     "bubble": { "x": 55, "y": 6, "w": 28, "h": 13 },
-    "tailTarget": { "x": 50, "y": 42 },
+    "tailTarget": { "x": 50, "y": 30 },
     "tailCurve": "organic-left"
   },
   "c4b4p1": {
@@ -116,7 +116,7 @@
       "fr": "Attends… quelle est cette lumière ?"
     },
     "bubble": { "x": 14, "y": 6, "w": 48, "h": 14 },
-    "tailTarget": { "x": 38, "y": 34 },
+    "tailTarget": { "x": 38, "y": 28 },
     "tailCurve": "organic-down"
   },
   "c4b4p2": {
@@ -131,7 +131,7 @@
       "fr": "Cette lumière a bougé ?"
     },
     "bubble": { "x": 14, "y": 6, "w": 46, "h": 14 },
-    "tailTarget": { "x": 34, "y": 34 },
+    "tailTarget": { "x": 34, "y": 28 },
     "tailCurve": "organic-down"
   },
   "c4b4p3": {
@@ -145,8 +145,8 @@
       "en": "Where are these petals coming from?",
       "fr": "Quelle est la source de ces pétales ?"
     },
-    "bubble": { "x": 20, "y": 6, "w": 30, "h": 14 },
-    "tailTarget": { "x": 48, "y": 56 },
+    "bubble": { "x": 22, "y": 6, "w": 32, "h": 13 },
+    "tailTarget": { "x": 48, "y": 36 },
     "tailCurve": "organic-right"
   },
   "c4b5p1": {
@@ -176,7 +176,7 @@
       "fr": "Un gâteau pour mon anniversaire ? Pour moi ?"
     },
     "bubble": { "x": 14, "y": 6, "w": 28, "h": 14 },
-    "tailTarget": { "x": 44, "y": 46 },
+    "tailTarget": { "x": 44, "y": 38 },
     "tailCurve": "organic-right"
   },
   "c4b6p1": {
@@ -221,7 +221,7 @@
       "fr": "Vous avez pensé à moi…"
     },
     "bubble": { "x": 16, "y": 6, "w": 46, "h": 13 },
-    "tailTarget": { "x": 45, "y": 46 },
+    "tailTarget": { "x": 48, "y": 30 },
     "tailCurve": "organic-right"
   },
   "c4b7p3": {

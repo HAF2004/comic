@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 484 60 Q 798 54 1112 60 Q 1140 130 1130 178 Q 1134 200 1112 200 L 1003 200 Q 990.6 296 924 440 Q 947.25 356 929 200 L 484 200 Q 462 200 462 178 Q 456 130 466 82 Q 462 60 484 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 524 60 L 1072 60 A 62 62 0 0 1 1134 122 L 1134 138 A 62 62 0 0 1 1072 200 L 524 200 A 62 62 0 0 1 462 138 L 462 122 A 62 62 0 0 1 524 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="932" cy="218" r="11" fill="#FFF8EF" stroke="#171717" stroke-width="7.5"/>
+  <circle cx="970" cy="279" r="7.5" fill="#FFF8EF" stroke="#171717" stroke-width="7.5"/>
+  <circle cx="1000" cy="328" r="5" fill="#FFF8EF" stroke="#171717" stroke-width="7.5"/>
   <text x="798" y="118" text-anchor="middle"
-          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-          font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">Une minute de calme rien que pour</text>
+            font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
+            font-size="30" font-weight="800" font-style="italic" fill="#171717" letter-spacing="0.6">Une minute de calme rien que pour</text>
   <text x="798" y="155.5" text-anchor="middle"
-          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-          font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">elle.</text>
+            font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
+            font-size="30" font-weight="800" font-style="italic" fill="#171717" letter-spacing="0.6">elle.</text>
 </svg>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 1177 60 Q 1449 54 1721 60 Q 1749 125 1739 168 Q 1743 190 1721 190 L 1334.5 190 Q 1214.925 339.5 1050 420 Q 1102.8 282 1269.5 190 L 1177 190 Q 1155 190 1155 168 Q 1149 125 1159 82 Q 1155 60 1177 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 1212 60 L 1686 60 A 57 57 0 0 1 1743 117 L 1743 133 A 57 57 0 0 1 1686 190 L 1353 190 C 1313 240, 1164 284, 1050 300 C 1113 284, 1261 240, 1288 190 L 1212 190 A 57 57 0 0 1 1155 133 L 1155 117 A 57 57 0 0 1 1212 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="1449" y="131.75" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">What could be waiting?</text>

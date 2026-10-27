@@ -19206,8 +19206,7 @@ class Chapter4 extends Tp {
         { component: Board4_4, ratio: 1 },
         { component: Board4_5, ratio: 1 },
         { component: Board4_6, ratio: 1 },
-        { component: Board4_7, ratio: 1 },
-        { component: Board4_8, ratio: 1 }
+        { component: Board4_7, ratio: 1 }
       ],
       index: 3
     });

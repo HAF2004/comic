@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 904 70 Q 1071 64 1238 70 Q 1266 135 1256 178 Q 1260 200 1238 200 L 997.5 200 Q 900.325 226 777 240 Q 813.4 216 955.5 200 L 904 200 Q 882 200 882 178 Q 876 135 886 92 Q 882 70 904 70 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 939 70 L 1203 70 A 57 57 0 0 1 1260 127 L 1260 143 A 57 57 0 0 1 1203 200 L 1011 200 C 998 223, 952 243, 903 250 C 911 243, 958 223, 966 200 L 939 200 A 57 57 0 0 1 882 143 L 882 127 A 57 57 0 0 1 939 70 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="1071" y="141.075" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Enfin chez moi.</text>
