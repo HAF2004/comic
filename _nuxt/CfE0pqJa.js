@@ -18284,7 +18284,7 @@ const c4Assets = [
   { id: 'c4b6p1-hero', url: '/textures/chapters/4/c4b6p1-cake-hero.png', compress: false },
   { id: 'c4b7p1-bg', url: '/textures/chapters/4/c4b7p1-background.png', compress: false },
   { id: 'c4b7p1-fg', url: '/textures/chapters/4/c4b7p1-foreground.png', compress: false },
-  { id: 'c4b7p1-composite', url: '/textures/chapters/4/c4b7p1-friends-surprise.png?v=board7fix', compress: false },
+  { id: 'c4b7p1-composite', url: '/textures/chapters/4/c4b7p1-friends-surprise.png?v=pristine7', compress: false },
   { id: 'c4b7p1-banner', url: '/textures/chapters/4/c4b7p1-bubble-en.svg', compress: false, locale: true },
   { id: 'c4b7p1-banner-v2', url: '/textures/chapters/4/c4b7p1-banner-v2.svg?v=board7fix', compress: false, locale: true },
   { id: 'c4b7p2-bg', url: '/textures/chapters/4/c4b7p2-background.png', compress: false },
