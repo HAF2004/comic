@@ -1,0 +1,16 @@
+{
+  "tifa": {
+    "face": "Young East-Asian woman, rounded cute features, big expressive dark eyes with distinct white glints, rosy blushing cheeks",
+    "glasses": "Round black-framed spectacles, thin clean circular rims",
+    "hair": "Long dark wavy brown/black hair with clean center part, cascading over shoulders",
+    "top": "Navy blue zip-up hoodie/jacket with light-blue rolled cuffs at forearms, black inner round-neck t-shirt",
+    "jewelry": "Delicate silver chain necklace with a small circular pendant resting below collarbone",
+    "bottom": "Black pleated miniskirt, white lace-frilled ankle socks, shiny black Mary Jane shoes with strap",
+    "accessory": "Black leather handbag with silver zip and white four-leaf clover charm"
+  },
+  "friends": {
+    "friend_left": "Messy top-knot high bun with soft wavy tendrils, oversized cream cable-knit sweater, wide happy eye-smile",
+    "friend_middle": "Straight chestnut hair with blunt fringe/bangs, sage green textured sweater, energetic laughing smile",
+    "friend_right": "Voluminous long wavy dark hair over shoulders, dusty rose/pink sweater or black blazer, small pearl earrings, affectionate laughing smile"
+  }
+}

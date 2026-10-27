@@ -1,0 +1,171 @@
+{
+  "pilot_panel": "c4b5p2",
+  "panels": {
+    "c4b2p2": {
+      "defects": [
+        "W",
+        "B",
+        "G"
+      ],
+      "method": "relight_and_clean_plate",
+      "layers": [
+        "clean_plate_doorway",
+        "hand_and_handle",
+        "sfx_click_vector"
+      ],
+      "motion": "sfx_pulse, doorknob_turn",
+      "bubble_pos": {
+        "x": 0.44,
+        "y": 0.76,
+        "type": "sfx"
+      }
+    },
+    "c4b2p3": {
+      "defects": [
+        "W",
+        "L",
+        "G"
+      ],
+      "method": "relight_and_segment",
+      "layers": [
+        "clean_plate_bench",
+        "tifa_bag_cutout"
+      ],
+      "motion": "bag_drop, clover_keychain_sway, breath_sigh",
+      "bubble_pos": {
+        "x": 0.45,
+        "y": 0.85,
+        "type": "speech"
+      }
+    },
+    "c4b3p2": {
+      "defects": [
+        "W",
+        "G"
+      ],
+      "method": "relight_window_night",
+      "layers": [
+        "clean_plate_desk",
+        "tifa_cutout"
+      ],
+      "motion": "screen_light_spread",
+      "bubble_pos": {
+        "x": 0.35,
+        "y": 0.85,
+        "type": "speech"
+      }
+    },
+    "c4b5p1": {
+      "defects": [
+        "W",
+        "E",
+        "L",
+        "G"
+      ],
+      "method": "integrate_startled_panel",
+      "layers": [
+        "clean_plate_room",
+        "cake_laptop_cutout",
+        "tifa_startled_cutout"
+      ],
+      "motion": "cake_entrance_bounce, candle_flame_flicker",
+      "bubble_pos": {
+        "x": 0.65,
+        "y": 0.88,
+        "type": "caption"
+      }
+    },
+    "c4b5p2": {
+      "defects": [
+        "W",
+        "L",
+        "G"
+      ],
+      "method": "pilot_relight_night_and_clean_plate",
+      "layers": [
+        "clean_plate_desk_window",
+        "tifa_delighted_cutout"
+      ],
+      "motion": "eye_sparkle_glint, gentle_breathing",
+      "bubble_pos": {
+        "x": 0.31,
+        "y": 0.88,
+        "type": "speech"
+      }
+    },
+    "c4b6p1": {
+      "defects": [
+        "W",
+        "L",
+        "G"
+      ],
+      "method": "relight_window_night",
+      "layers": [
+        "clean_plate_room",
+        "hero_cake_cutout",
+        "tifa_wish_cutout"
+      ],
+      "motion": "23_candles_multiphase_flicker, floating_petals",
+      "bubble_pos": {
+        "x": 0.62,
+        "y": 0.89,
+        "type": "caption"
+      }
+    },
+    "c4b7p1": {
+      "defects": [
+        "W",
+        "L",
+        "G"
+      ],
+      "method": "relight_window_night_clean_plate",
+      "layers": [
+        "clean_plate_bed",
+        "friends_surprise_cutout",
+        "banner_v2_overlay"
+      ],
+      "motion": "banner_sway, confetti_particles",
+      "bubble_pos": {
+        "x": 0.5,
+        "y": 0.85,
+        "type": "banner"
+      }
+    },
+    "c4b7p2": {
+      "defects": [
+        "W",
+        "L",
+        "G"
+      ],
+      "method": "relight_window_night",
+      "layers": [
+        "clean_plate_bedroom",
+        "tifa_emotional_cutout"
+      ],
+      "motion": "tear_glint, head_sway",
+      "bubble_pos": {
+        "x": 0.65,
+        "y": 0.86,
+        "type": "speech"
+      }
+    },
+    "c4b7p3": {
+      "defects": [
+        "W",
+        "L",
+        "G"
+      ],
+      "method": "relight_window_night",
+      "layers": [
+        "clean_plate_dining",
+        "friends_cutout"
+      ],
+      "motion": "gentle_breathing, warm_glow",
+      "bubble_pos": {
+        "x": 0.38,
+        "y": 0.88,
+        "type": "speech"
+      }
+    }
+  }
+}

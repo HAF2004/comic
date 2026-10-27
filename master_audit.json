@@ -1,0 +1,134 @@
+{
+  "c4b1p1": {
+    "status": "OK",
+    "defects": [],
+    "time_of_day": "NIGHT",
+    "notes": "Consistent with night bible. Deep navy sky #00112F, warm streetlight #FCD076."
+  },
+  "c4b1p2": {
+    "status": "OK",
+    "defects": [],
+    "time_of_day": "NIGHT",
+    "notes": "Night street scene with lamplight and floating petals."
+  },
+  "c4b2p1": {
+    "status": "OK",
+    "defects": [],
+    "time_of_day": "NIGHT",
+    "notes": "Hallway exterior lit at night."
+  },
+  "c4b2p2": {
+    "status": "PERLU_PERBAIKAN",
+    "defects": [
+      "W",
+      "B",
+      "G"
+    ],
+    "time_of_day": "AMBIGU/KONTRADIKTIF",
+    "notes": "Door crack reveals daytime sunny garden with bright pastel ground. CLICK! lettering is rasterized in image. Needs night garden with single warm streetlamp, dark foliage, vector SFX pulse."
+  },
+  "c4b2p3": {
+    "status": "PERLU_PERBAIKAN",
+    "defects": [
+      "W",
+      "L",
+      "G"
+    ],
+    "time_of_day": "KONTRADIKTIF",
+    "notes": "Window behind Tifa shows daytime trees/sunlight while door on right is night. Background plate has Tifa baked in. Needs night window (deep navy with city light glints), clean plate, bag settling motion."
+  },
+  "c4b3p1": {
+    "status": "OK",
+    "defects": [],
+    "time_of_day": "NIGHT",
+    "notes": "Cozy night desk with lamp ambient glow."
+  },
+  "c4b3p2": {
+    "status": "PERLU_PERBAIKAN",
+    "defects": [
+      "W",
+      "G"
+    ],
+    "time_of_day": "AMBIGU",
+    "notes": "Window shows warm twilight rather than deep night. Needs night relight and screen glow spread."
+  },
+  "c4b4p1": {
+    "status": "OK",
+    "defects": [],
+    "time_of_day": "NIGHT",
+    "notes": "Screen closeup with glowing mark."
+  },
+  "c4b4p2": {
+    "status": "OK",
+    "defects": [],
+    "time_of_day": "NIGHT",
+    "notes": "Magical petals emerging from screen."
+  },
+  "c4b4p3": {
+    "status": "OK",
+    "defects": [],
+    "time_of_day": "NIGHT",
+    "notes": "Already resolved in prior session: night city window in place, bottom gap closed, duplicate laptop removed."
+  },
+  "c4b5p1": {
+    "status": "PERLU_PERBAIKAN",
+    "defects": [
+      "W",
+      "E",
+      "L",
+      "G"
+    ],
+    "time_of_day": "KONTRADIKTIF",
+    "notes": "Original art has Tifa smiling/relaxed instead of startled/recoiled. Window is sunset. Startled panel generated (c4b5p1-cake-startled.png) ready to be integrated."
+  },
+  "c4b5p2": {
+    "status": "PERLU_PERBAIKAN",
+    "defects": [
+      "W",
+      "L",
+      "G"
+    ],
+    "time_of_day": "KONTRADIKTIF",
+    "notes": "Window shows pastel pink sunset sky instead of starry night. Background contains Tifa. Needs night window with crescent moon/stars, clean plate, eye sparkle."
+  },
+  "c4b6p1": {
+    "status": "PERLU_PERBAIKAN",
+    "defects": [
+      "W",
+      "L",
+      "G"
+    ],
+    "time_of_day": "KONTRADIKTIF",
+    "notes": "Left window shows bright sunset clouds instead of nighttime. 23 candles need dynamic multi-phase flame flicker."
+  },
+  "c4b7p1": {
+    "status": "PERLU_PERBAIKAN",
+    "defects": [
+      "W",
+      "L",
+      "G"
+    ],
+    "time_of_day": "KONTRADIKTIF",
+    "notes": "Curved banner text verified and fixed, but background window still shows daytime/sunset. Needs night sky through window, clean plate."
+  },
+  "c4b7p2": {
+    "status": "PERLU_PERBAIKAN",
+    "defects": [
+      "W",
+      "L",
+      "G"
+    ],
+    "time_of_day": "KONTRADIKTIF",
+    "notes": "Window shows bright sunset sky behind bed. Needs night sky, tear glint animation."
+  },
+  "c4b7p3": {
+    "status": "PERLU_PERBAIKAN",
+    "defects": [
+      "W",
+      "L",
+      "G"
+    ],
+    "time_of_day": "KONTRADIKTIF",
+    "notes": "Window behind dining table shows daytime garden with bright daylight. Needs night garden view, clean plate."
+  }
+}

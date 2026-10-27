@@ -1,0 +1,31 @@
+{
+  "reference_panel": "c4b1p1",
+  "sky": {
+    "deep_navy_hex": "#0F1B3D",
+    "midnight_indigo_hex": "#1E2A5A",
+    "min_luminance": 0.05,
+    "max_luminance": 0.28,
+    "stars": "4-point micro glints #FFF6F0",
+    "city_lights": "warm yellow squares #FFD27A"
+  },
+  "lighting": {
+    "streetlamp_glow": "#FFC857",
+    "streetlamp_core": "#FFD27A",
+    "candlelight_flame": "#F7C704",
+    "screen_light": "#EBF2FF"
+  },
+  "interior": {
+    "wall_base_rose_plum": "#8B3A5A",
+    "wall_shadow_deep_plum": "#5A1F38",
+    "shadow_aubergine": "#3A1F3D",
+    "rim_light_lamp": "#FFD27A",
+    "rim_light_window": "#7EA8E0"
+  },
+  "strict_prohibitions": [
+    "daylight_rays",
+    "orange_sunset_sky",
+    "pastel_daytime_sky",
+    "pure_black_shadows",
+    "gray_shadows"
+  ]
+}

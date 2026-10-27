@@ -1,50 +1,28 @@
 {
-  "target_style": "Franco-Belgian Ligne Claire / Ponpon Mania Official Design System",
-  "outline": {
+  "lineart": {
     "color": "#171717",
-    "bubble_stroke_px_at_1024": 8.0,
-    "bubble_stroke_percent_panel_width": "0.8% - 1.2%",
-    "character_stroke_px_at_1024": 10.0,
-    "interior_detail_stroke_px_at_1024": 5.0,
-    "line_cap": "round",
-    "line_join": "round",
-    "line_wobble": "organic subtle hand-drawn"
+    "thickness_percent_panel": 0.8,
+    "style": "ligne_claire_hand_drawn"
   },
-  "palette": {
-    "ink_black": "#171717",
-    "paper_cream_fill": "#FEECE3",
-    "paper_light_cream": "#FFF6F0",
-    "paper_warm_gold": "#FFF8EF",
-    "skin_base": "#F9E7CA",
-    "skin_shadow": "#E5B58C",
-    "blush_pink": "#EB8DB7",
-    "tifa_hair": "#1C1A1C",
-    "tifa_jacket_navy": "#2B3C5E",
-    "tifa_cuffs_light_blue": "#9AB5D9",
-    "tifa_skirt_black": "#1E1E22",
-    "tifa_socks_white": "#F6F5F2",
-    "tifa_shoes_black": "#191819",
-    "desk_wood_gold": "#E8B87A",
-    "couch_pink": "#E37488",
-    "couch_cushion_orange": "#F7A859",
-    "plant_leaf_green": "#428D54"
+  "paper": {
+    "primary_cream": "#FEECE3",
+    "warm_card_cream": "#FFF8EF",
+    "highlight_cream": "#FFF6F0"
   },
   "shading": {
-    "model": "Strict 2-3 tone hard-edge cel-shading",
-    "gradients": "Strictly forbidden on characters and anatomy",
-    "shadow_tint": "Warm saturated tint of base color (no desaturated gray)"
+    "type": "pure_cel_shaded",
+    "levels": 2,
+    "gradients_allowed_on_characters": false
   },
-  "texture": {
-    "paper_grain": "Subtle warm paper grain overlay (2-3% noise opacity)",
-    "finish": "Matte hand-inked comic print"
-  },
-  "bubble_geometry": {
-    "corner_radius_percent_height": "18% - 28%",
-    "tail_base_width_percent": "10% - 14%",
-    "tail_max_length_percent_panel_height": "22%",
-    "tail_clearance_to_head_percent": "3% - 6%",
-    "panel_border_safe_margin_percent": ">= 5.0%",
-    "padding_internal_percent": ">= 12.0%",
-    "max_text_lines": 3
+  "bubble": {
+    "bg": "#FFF8EF",
+    "outline": "#171717",
+    "corner_radius_ratio": 0.22,
+    "tail_base_ratio": 0.12,
+    "tail_max_length_ratio": 0.22,
+    "min_margin_percent": 5.0,
+    "font_family": "Libre Franklin, sans-serif",
+    "text_transform": "uppercase",
+    "font_weight": 900
   }
 }

@@ -1,0 +1,240 @@
+[
+  {
+    "board": 1,
+    "panel": 1,
+    "id": "c4b1p1",
+    "scene": "Tifa walking home at night, seen from behind beneath streetlights",
+    "speaker": "Narrator",
+    "official_en": "One last walk beneath the city lights.",
+    "official_fr": "Dernière promenade sous les lumières de la ville.",
+    "type": "caption",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "tifa_walk",
+      "falling_petals"
+    ]
+  },
+  {
+    "board": 1,
+    "panel": 2,
+    "id": "c4b1p2",
+    "scene": "Tifa walking home at night, front view approaching her apartment",
+    "speaker": "Tifa",
+    "official_en": "Home at last.",
+    "official_fr": "Enfin chez moi.",
+    "type": "bubble",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "hair_sway",
+      "drifting_petals"
+    ]
+  },
+  {
+    "board": 2,
+    "panel": 1,
+    "id": "c4b2p1",
+    "scene": "Apartment hallway exterior, warm light visible inside",
+    "speaker": "Narrator",
+    "official_en": "A familiar light was waiting inside.",
+    "official_fr": "Une lumière familière brillait à la maison.",
+    "type": "caption",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "hallway_light_flicker"
+    ]
+  },
+  {
+    "board": 2,
+    "panel": 2,
+    "id": "c4b2p2",
+    "scene": "Close-up of hand turning golden door handle at night",
+    "speaker": "SFX",
+    "official_en": "CLICK!",
+    "official_fr": "CLIC !",
+    "type": "sfx",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "doorknob_turn",
+      "sfx_pulse"
+    ]
+  },
+  {
+    "board": 2,
+    "panel": 3,
+    "id": "c4b2p3",
+    "scene": "Tifa setting down her bag on hallway bench inside entrance",
+    "speaker": "Tifa",
+    "official_en": "Whew. Made it.",
+    "official_fr": "Ouf ! Enfin rentrée.",
+    "type": "bubble",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "bag_drop",
+      "breath_sigh",
+      "clover_swing"
+    ]
+  },
+  {
+    "board": 3,
+    "panel": 1,
+    "id": "c4b3p1",
+    "scene": "Tifa settling at her desk in cozy bedroom at night",
+    "speaker": "Narrator",
+    "official_en": "Just one quiet minute for herself.",
+    "official_fr": "Une minute de calme rien que pour elle.",
+    "type": "caption",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "lamp_ambient_glow"
+    ]
+  },
+  {
+    "board": 3,
+    "panel": 2,
+    "id": "c4b3p2",
+    "scene": "Tifa opening her MacBook on the desk",
+    "speaker": "Tifa",
+    "official_en": "What could be waiting?",
+    "official_fr": "Que va-t-elle découvrir ?",
+    "type": "bubble",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "screen_light_spread",
+      "typing_hands"
+    ]
+  },
+  {
+    "board": 4,
+    "panel": 1,
+    "id": "c4b4p1",
+    "scene": "Golden mark appearing mysteriously on laptop screen",
+    "speaker": "Tifa",
+    "official_en": "Wait… what is that?",
+    "official_fr": "Attends… quelle est cette lumière ?",
+    "type": "bubble",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "golden_mark_pulse"
+    ]
+  },
+  {
+    "board": 4,
+    "panel": 2,
+    "id": "c4b4p2",
+    "scene": "Magical pink petals beginning to drift out of screen",
+    "speaker": "Tifa",
+    "official_en": "Did that just move?",
+    "official_fr": "Cette lumière a bougé ?",
+    "type": "bubble",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "petal_burst"
+    ]
+  },
+  {
+    "board": 4,
+    "panel": 3,
+    "id": "c4b4p3",
+    "scene": "Tifa sitting at desk as petals float around the room",
+    "speaker": "Tifa",
+    "official_en": "Where are these petals coming from?",
+    "official_fr": "Quelle est la source de ces pétales ?",
+    "type": "bubble",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "floating_petals",
+      "tifa_blink"
+    ]
+  },
+  {
+    "board": 5,
+    "panel": 1,
+    "id": "c4b5p1",
+    "scene": "Birthday cake burst out of laptop; Tifa recoils startled in shock",
+    "speaker": "Narrator",
+    "official_en": "A little surprise slipped through the screen.",
+    "official_fr": "Une petite surprise apparaît sur son écran.",
+    "type": "caption",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "cake_entrance",
+      "flame_flicker",
+      "shock_recoil"
+    ]
+  },
+  {
+    "board": 5,
+    "panel": 2,
+    "id": "c4b5p2",
+    "scene": "Tifa emotional and moved, covering mouth with hands",
+    "speaker": "Tifa",
+    "official_en": "A birthday cake? For me?",
+    "official_fr": "Un gâteau pour mon anniversaire ? Pour moi ?",
+    "type": "bubble",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "sparkle_eyes",
+      "breathing"
+    ]
+  },
+  {
+    "board": 6,
+    "panel": 1,
+    "id": "c4b6p1",
+    "scene": "Hero cake with 23 lit candles; Tifa making a wish at desk",
+    "speaker": "Narrator",
+    "official_en": "Twenty-three candles. One very big wish.",
+    "official_fr": "Vingt-trois bougies. Un immense vœu.",
+    "type": "caption",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "candle_23_flicker",
+      "floating_petals"
+    ]
+  },
+  {
+    "board": 7,
+    "panel": 1,
+    "id": "c4b7p1",
+    "scene": "Friends surprise Tifa on her bed; festive celebration banner",
+    "speaker": "Banner",
+    "official_en": "HAPPY BIRTHDAY, TIFA!",
+    "official_fr": "JOYEUX ANNIVERSAIRE, TIFA !",
+    "type": "banner",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "banner_sway",
+      "confetti"
+    ]
+  },
+  {
+    "board": 7,
+    "panel": 2,
+    "id": "c4b7p2",
+    "scene": "Tifa touching her blushing cheeks in joyful emotion",
+    "speaker": "Tifa",
+    "official_en": "You remembered…",
+    "official_fr": "Vous avez pensé à moi…",
+    "type": "bubble",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "tear_glint",
+      "head_tilt"
+    ]
+  },
+  {
+    "board": 7,
+    "panel": 3,
+    "id": "c4b7p3",
+    "scene": "Four friends gathered around birthday cake at dining table",
+    "speaker": "Friend",
+    "official_en": "Make a wish, Tifa!",
+    "official_fr": "Fais un vœu, Tifa !",
+    "type": "bubble",
+    "time_of_day": "NIGHT",
+    "motion_objects": [
+      "friends_breathing",
+      "sparkles"
+    ]
+  }
+]
