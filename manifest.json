@@ -1,6 +1,6 @@
 {
   "project": "Ponpon Mania - Chapter 4: A Birthday for Tifa",
-  "version": "3.0.0-regen",
+  "version": "4.0.0-continuity",
   "canvas_standards": {
     "square_panel": { "width": 512, "height": 512, "ratio": 1.0 },
     "panoramic_panel": { "width": 615, "height": 293, "ratio": 2.1 }
@@ -11,8 +11,8 @@
       "panel": 1,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b1p1-background.png",
-        "character": "textures/chapters/4/c4b1p1-foreground.png",
+        "clean_plate": "assets_v4/c4b1p1-background.png",
+        "character": "assets_v4/c4b1p1-foreground.png",
         "props_particles": "lamaClouds (fJ sakura petals)"
       },
       "animation_pivots": {
@@ -27,8 +27,8 @@
       "panel": 2,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b1p2-background.png",
-        "character": "textures/chapters/4/c4b1p2-foreground.png",
+        "clean_plate": "assets_v4/c4b1p2-background.png",
+        "character": "assets_v4/c4b1p2-foreground.png",
         "props_bag_clover": { "pivot": { "x": 0.65, "y": 0.45 } }
       },
       "animation_pivots": {
@@ -43,8 +43,8 @@
       "panel": 1,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b2p1-background.png",
-        "character": "textures/chapters/4/c4b2p1-foreground.png"
+        "clean_plate": "assets_v4/c4b2p1-background.png",
+        "character": "assets_v4/c4b2p1-foreground.png"
       },
       "animation_pivots": {
         "character": { "x": 0.55, "y": 0.1 }
@@ -56,8 +56,8 @@
       "panel": 2,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b2p2-background.png",
-        "props_hand_door": "textures/chapters/4/c4b2p2-foreground.png"
+        "clean_plate": "assets_v4/c4b2p2-background.png",
+        "props_hand_door": "assets_v4/c4b2p2-foreground.png"
       },
       "animation_pivots": {
         "door_handle": { "x": 0.62, "y": 0.38 }
@@ -69,8 +69,8 @@
       "panel": 3,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b2p3-background.png",
-        "character": "textures/chapters/4/c4b2p3-foreground.png"
+        "clean_plate": "assets_v4/c4b2p3-background.png",
+        "character": "assets_v4/c4b2p3-foreground.png"
       },
       "animation_pivots": {
         "character": { "x": 0.5, "y": 0.2 }
@@ -82,8 +82,8 @@
       "panel": 1,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b3p1-background.png",
-        "character": "textures/chapters/4/c4b3p1-foreground.png"
+        "clean_plate": "assets_v4/c4b3p1-background.png",
+        "character": "assets_v4/c4b3p1-foreground.png"
       },
       "animation_pivots": {
         "character": { "x": 0.5, "y": 0.3 }
@@ -95,8 +95,8 @@
       "panel": 2,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b3p2-background.png",
-        "character": "textures/chapters/4/c4b3p2-foreground.png"
+        "clean_plate": "assets_v4/c4b3p2-background.png",
+        "character": "assets_v4/c4b3p2-foreground.png"
       },
       "animation_pivots": {
         "character": { "x": 0.45, "y": 0.2 }
@@ -108,8 +108,8 @@
       "panel": 1,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b4p1-background.png",
-        "props_golden_mark": "textures/chapters/4/c4b4p1-golden-mark.png"
+        "clean_plate": "assets_v4/c4b4p1-background.png",
+        "props_golden_mark": "assets_v4/c4b4p1-golden-mark.png"
       },
       "animation_pivots": {
         "mark": { "x": 0.5, "y": 0.5 }
@@ -121,8 +121,8 @@
       "panel": 2,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b4p2-background.png",
-        "props_petals": "textures/chapters/4/c4b4p2-petals-from-screen.png"
+        "clean_plate": "assets_v4/c4b4p2-background.png",
+        "props_petals": "assets_v4/c4b4p2-petals-from-screen.png"
       },
       "animation_pivots": {
         "petals": { "x": 0.5, "y": 0.5 }
@@ -153,8 +153,8 @@
       "panel": 1,
       "ratio": 2.1,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b5p1-background.png",
-        "props_cake_floating": "textures/chapters/4/c4b5p1-cake-emerges.png"
+        "clean_plate": "assets_v4/c4b5p1-background.png",
+        "props_cake_floating": "assets_v4/c4b5p1-cake-emerges.png"
       },
       "animation_pivots": {
         "cake": { "x": 0.5, "y": 0.5 }
@@ -166,8 +166,8 @@
       "panel": 2,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b5p2-background.png",
-        "character": "textures/chapters/4/c4b5p2-foreground.png"
+        "clean_plate": "assets_v4/c4b5p2-background.png",
+        "character": "assets_v4/c4b5p2-foreground.png"
       },
       "animation_pivots": {
         "character": { "x": 0.5, "y": 0.2 }
@@ -179,8 +179,8 @@
       "panel": 1,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b6p1-background.png",
-        "props_cake_hero": "textures/chapters/4/c4b6p1-cake-hero.png"
+        "clean_plate": "assets_v4/c4b6p1-background.png",
+        "props_cake_hero": "assets_v4/c4b6p1-cake-hero.png"
       },
       "animation_pivots": {
         "cake": { "x": 0.5, "y": 0.5 },
@@ -193,9 +193,9 @@
       "panel": 1,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b7p1-background.png",
-        "characters_friends": "textures/chapters/4/c4b7p1-foreground.png",
-        "props_banner": "textures/chapters/4/c4b7p1-friends-surprise.png"
+        "clean_plate": "assets_v4/c4b7p1-background.png",
+        "characters_friends": "assets_v4/c4b7p1-foreground.png",
+        "props_banner": "assets_v4/c4b7p1-friends-surprise.png"
       },
       "animation_pivots": {
         "banner": { "x": 0.5, "y": 0.15 }
@@ -207,8 +207,8 @@
       "panel": 2,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b7p2-background.png",
-        "character": "textures/chapters/4/c4b7p2-foreground.png"
+        "clean_plate": "assets_v4/c4b7p2-background.png",
+        "character": "assets_v4/c4b7p2-foreground.png"
       },
       "animation_pivots": {
         "character": { "x": 0.5, "y": 0.2 }
@@ -220,8 +220,8 @@
       "panel": 3,
       "ratio": 2.1,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b7p3-background.png",
-        "characters_friends": "textures/chapters/4/c4b7p3-foreground.png"
+        "clean_plate": "assets_v4/c4b7p3-background.png",
+        "characters_friends": "assets_v4/c4b7p3-foreground.png"
       },
       "animation_pivots": {
         "friends": { "x": 0.5, "y": 0.3 }
@@ -233,8 +233,8 @@
       "panel": 1,
       "ratio": 1.0,
       "layers": {
-        "clean_plate": "textures/chapters/4/c4b8p1-background.png",
-        "props_keepsake": "textures/chapters/4/c4b8p1-foreground.png"
+        "clean_plate": "assets_v4/c4b8p1-background.png",
+        "props_keepsake": "assets_v4/c4b8p1-foreground.png"
       },
       "animation_pivots": {
         "heart_keepsake": { "x": 0.5, "y": 0.45 }

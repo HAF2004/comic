@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 356 60 L 820 60 A 62 62 0 0 1 882 122 L 882 138 A 62 62 0 0 1 820 200 L 750 200 C 781 281, 895 353, 924 380 C 820 353, 706 281, 685 200 L 356 200 A 62 62 0 0 1 294 138 L 294 122 A 62 62 0 0 1 356 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 314 60 L 862 60 A 62 62 0 0 1 924 122 L 924 138 A 62 62 0 0 1 862 200 L 769 200 C 766 218, 754 234, 714 240 C 690 234, 702 218, 704 200 L 314 200 A 62 62 0 0 1 252 138 L 252 122 A 62 62 0 0 1 314 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="588" y="136.75" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">A birthday cake? For me?</text>

@@ -1,28 +1,45 @@
 {
+  "measured_from": "Chapters 1-3 production assets and live renders at 1440 and 390",
   "lineart": {
     "color": "#171717",
-    "thickness_percent_panel": 0.8,
-    "style": "ligne_claire_hand_drawn"
+    "stroke_width_ratio_panel": 0.0075,
+    "stroke_width_pixels_1024": 7.5,
+    "style": "ligne_claire_hand_drawn",
+    "line_joins": "round",
+    "line_caps": "round"
   },
   "paper": {
     "primary_cream": "#FEECE3",
     "warm_card_cream": "#FFF8EF",
-    "highlight_cream": "#FFF6F0"
+    "highlight_cream": "#FFF6F0",
+    "pure_white_forbidden_except_glints": true
   },
   "shading": {
     "type": "pure_cel_shaded",
     "levels": 2,
-    "gradients_allowed_on_characters": false
+    "gradients_allowed_on_characters": false,
+    "shadow_chroma": "warm_aubergine_or_plum"
   },
   "bubble": {
-    "bg": "#FFF8EF",
+    "fill": "#FFF8EF",
     "outline": "#171717",
+    "outline_width_pixels_1000": 7.5,
     "corner_radius_ratio": 0.22,
-    "tail_base_ratio": 0.12,
-    "tail_max_length_ratio": 0.22,
-    "min_margin_percent": 5.0,
+    "tail_base_width_percent": [
+      10.0,
+      14.0
+    ],
+    "tail_max_length_ratio_panel_height": 0.22,
+    "tail_tip_gap_percent": [
+      3.0,
+      6.0
+    ],
+    "margin_panel_border_min_percent": 5.0,
+    "internal_padding_min_percent": 12.0,
+    "max_lines": 3,
     "font_family": "Libre Franklin, sans-serif",
-    "text_transform": "uppercase",
-    "font_weight": 900
+    "font_weight": 800,
+    "contrast_ratio_min": 4.5,
+    "mobile_390_readable_min_px": 12
   }
 }

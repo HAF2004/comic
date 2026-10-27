@@ -1,342 +1,392 @@
 {
-  "chapter": 4,
-  "title": "A Birthday for Tifa",
-  "auditDate": "2026-10-27",
-  "panels": [
-    {
-      "id": "c4b1p1",
-      "board": 1,
-      "panel": 1,
-      "ratio": 2.1,
-      "speaker": "Tifa",
-      "facing": "back",
-      "en": "One last walk beneath the city lights.",
-      "fr": "Dernière promenade sous les lumières de la ville.",
-      "speakerHead": { "x": 60, "y": 10, "w": 15, "h": 38 },
-      "speakerTarget": { "x": 67, "y": 28 },
-      "currentBubble": { "x": 16, "y": 12, "w": 38, "h": 16 },
-      "currentTailTip": { "x": 30, "y": 32 },
-      "negativeSpace": { "x": 32, "y": 7, "w": 28, "h": 14 },
-      "violations": [
-        "Ekor menunjuk objek latar (tiang lampu jalan)",
-        "Jarak bubble ke kepala pembicara > 30% lebar panel",
-        "Disorientasi naratif karakter tampak belakang"
-      ],
-      "status": "PERLU_PERBAIKAN"
+  "c4b1p1": {
+    "board": 1,
+    "panel": 1,
+    "type": "caption",
+    "speaker": "Tifa",
+    "text_en": "One last walk beneath the city lights.",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 30,
+      "y": 6,
+      "w": 40,
+      "h": 12
     },
-    {
-      "id": "c4b1p2",
-      "board": 1,
-      "panel": 2,
-      "ratio": 2.1,
-      "speaker": "Tifa",
-      "facing": "three-quarters-front",
-      "en": "Home at last.",
-      "fr": "Enfin chez moi.",
-      "speakerHead": { "x": 26, "y": 7, "w": 15, "h": 31 },
-      "speakerTarget": { "x": 36, "y": 26 },
-      "currentBubble": { "x": 56, "y": 12, "w": 28, "h": 14 },
-      "currentTailTip": { "x": 70, "y": 30 },
-      "negativeSpace": { "x": 43, "y": 7, "w": 20, "h": 13 },
-      "violations": [
-        "Ekor menunjuk tiang lampu jalan sebelah kanan (objek latar)",
-        "Jarak bubble ke pembicara > 25% lebar panel"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_target": null,
+    "tail_curve": "none",
+    "tail_length_est": null,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b1p2": {
+    "board": 1,
+    "panel": 2,
+    "type": "speech",
+    "speaker": "Tifa",
+    "text_en": "Home at last.",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 42,
+      "y": 6,
+      "w": 22,
+      "h": 13
     },
-    {
-      "id": "c4b2p1",
-      "board": 2,
-      "panel": 1,
-      "ratio": 1.0,
-      "speaker": "Tifa",
-      "facing": "front",
-      "en": "A familiar light was waiting inside.",
-      "fr": "Une lumière familière brillait à la maison.",
-      "speakerHead": { "x": 40, "y": 18, "w": 30, "h": 27 },
-      "speakerTarget": { "x": 52, "y": 33 },
-      "currentBubble": { "x": 15, "y": 9, "w": 70, "h": 15 },
-      "currentTailTip": { "x": 50, "y": 27 },
-      "negativeSpace": { "x": 8, "y": 6, "w": 40, "h": 15 },
-      "violations": [
-        "Bubble menutupi kusen pintu dan rambut atas",
-        "Ekor menancap tegak lurus di ubun-ubun rambut"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_target": {
+      "x": 45,
+      "y": 22
     },
-    {
-      "id": "c4b2p2",
-      "board": 2,
-      "panel": 2,
-      "ratio": 1.0,
-      "speaker": "SFX",
-      "facing": "none",
-      "en": "CLICK!",
-      "fr": "CLIC !",
-      "speakerHead": null,
-      "speakerTarget": { "x": 60, "y": 42 },
-      "currentBubble": { "x": 30, "y": 10, "w": 38, "h": 18 },
-      "currentTailTip": { "x": 52, "y": 28 },
-      "negativeSpace": { "x": 30, "y": 10, "w": 38, "h": 18 },
-      "violations": [],
-      "status": "OK"
+    "tail_curve": "organic-left",
+    "tail_length_est": 8.54,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b2p1": {
+    "board": 2,
+    "panel": 1,
+    "type": "caption",
+    "speaker": "Tifa",
+    "text_en": "A familiar light was waiting inside.",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 6,
+      "y": 6,
+      "w": 38,
+      "h": 12
     },
-    {
-      "id": "c4b2p3",
-      "board": 2,
-      "panel": 3,
-      "ratio": 2.1,
-      "speaker": "Tifa",
-      "facing": "three-quarters-front",
-      "en": "Whew. Made it.",
-      "fr": "Ouf ! Enfin rentrée.",
-      "speakerHead": { "x": 55, "y": 9, "w": 20, "h": 32 },
-      "speakerTarget": { "x": 57, "y": 28 },
-      "currentBubble": { "x": 17, "y": 12, "w": 30, "h": 14 },
-      "currentTailTip": { "x": 30, "y": 31 },
-      "negativeSpace": { "x": 34, "y": 7, "w": 22, "h": 13 },
-      "violations": [
-        "Ekor menusuk pot tanaman monstera di bangku kiri (objek latar)",
-        "Jarak bubble ke karakter > 25% lebar panel",
-        "Bubble menutupi tanaman hias"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_target": null,
+    "tail_curve": "none",
+    "tail_length_est": null,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b2p2": {
+    "board": 2,
+    "panel": 2,
+    "type": "sfx",
+    "speaker": "SFX",
+    "text_en": "CLICK!",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 28,
+      "y": 10,
+      "w": 38,
+      "h": 18
     },
-    {
-      "id": "c4b3p1",
-      "board": 3,
-      "panel": 1,
-      "ratio": 2.1,
-      "speaker": "Tifa",
-      "facing": "front",
-      "en": "Just one quiet minute for herself.",
-      "fr": "Une minute de calme rien que pour elle.",
-      "speakerHead": { "x": 30, "y": 28, "w": 40, "h": 37 },
-      "speakerTarget": { "x": 48, "y": 48 },
-      "currentBubble": { "x": 32, "y": 12, "w": 36, "h": 16 },
-      "currentTailTip": { "x": 50, "y": 32 },
-      "negativeSpace": { "x": 22, "y": 6, "w": 32, "h": 14 },
-      "violations": [
-        "Ekor menancap tegak lurus di dahi/ubun-ubun rambut",
-        "Bubble terlalu menempel ke kepala"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_target": {
+      "x": 58,
+      "y": 40
     },
-    {
-      "id": "c4b3p2",
-      "board": 3,
-      "panel": 2,
-      "ratio": 2.1,
-      "speaker": "Tifa",
-      "facing": "side-back",
-      "en": "What could be waiting?",
-      "fr": "Que va-t-elle découvrir ?",
-      "speakerHead": { "x": 18, "y": 10, "w": 34, "h": 70 },
-      "speakerTarget": { "x": 47, "y": 44 },
-      "currentBubble": { "x": 34, "y": 12, "w": 32, "h": 16 },
-      "currentTailTip": { "x": 50, "y": 30 },
-      "negativeSpace": { "x": 42, "y": 7, "w": 28, "h": 14 },
-      "violations": [
-        "Ekor menunjuk ke engsel laptop (objek latar)",
-        "Bubble terlalu menempel di belakang kepala"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_curve": "straight",
+    "tail_length_est": 16.28,
+    "margin_panel_min": 10,
+    "issues": []
+  },
+  "c4b2p3": {
+    "board": 2,
+    "panel": 3,
+    "type": "speech",
+    "speaker": "Tifa",
+    "text_en": "Whew. Made it.",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 35,
+      "y": 6,
+      "w": 22,
+      "h": 13
     },
-    {
-      "id": "c4b4p1",
-      "board": 4,
-      "panel": 1,
-      "ratio": 1.0,
-      "speaker": "Tifa",
-      "facing": "three-quarters-front",
-      "en": "Wait… what is that?",
-      "fr": "Attends… quelle est cette lumière ?",
-      "speakerHead": { "x": 10, "y": 22, "w": 50, "h": 38 },
-      "speakerTarget": { "x": 42, "y": 36 },
-      "currentBubble": { "x": 18, "y": 10, "w": 64, "h": 13 },
-      "currentTailTip": { "x": 50, "y": 27 },
-      "negativeSpace": { "x": 14, "y": 7, "w": 54, "h": 14 },
-      "violations": [
-        "Ekor menancap di rambut atas",
-        "Bubble terlalu lebar mendekati layar laptop"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_target": {
+      "x": 55,
+      "y": 22
     },
-    {
-      "id": "c4b4p2",
-      "board": 4,
-      "panel": 2,
-      "ratio": 1.0,
-      "speaker": "Tifa",
-      "facing": "three-quarters-front",
-      "en": "Did that just move?",
-      "fr": "Cette lumière a bougé ?",
-      "speakerHead": { "x": 10, "y": 22, "w": 50, "h": 38 },
-      "speakerTarget": { "x": 36, "y": 36 },
-      "currentBubble": { "x": 21, "y": 10, "w": 57, "h": 13 },
-      "currentTailTip": { "x": 50, "y": 27 },
-      "negativeSpace": { "x": 14, "y": 7, "w": 52, "h": 14 },
-      "violations": [
-        "Ekor menancap di rambut samping",
-        "Bubble menabrak partikel kelopak bunga"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_curve": "organic-right",
+    "tail_length_est": 9.49,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b3p1": {
+    "board": 3,
+    "panel": 1,
+    "type": "caption",
+    "speaker": "Tifa",
+    "text_en": "Just one quiet minute for herself.",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 28,
+      "y": 6,
+      "w": 44,
+      "h": 12
     },
-    {
-      "id": "c4b4p3",
-      "board": 4,
-      "panel": 3,
-      "ratio": 2.1,
-      "speaker": "Tifa",
-      "facing": "front",
-      "en": "Where are these petals coming from?",
-      "fr": "Quelle est la source de ces pétales ?",
-      "speakerHead": { "x": 30, "y": 28, "w": 40, "h": 42 },
-      "speakerTarget": { "x": 51, "y": 61 },
-      "currentBubble": { "x": 30, "y": 12, "w": 40, "h": 16 },
-      "currentTailTip": { "x": 50, "y": 30 },
-      "negativeSpace": { "x": 16, "y": 7, "w": 34, "h": 14 },
-      "violations": [
-        "Ekor menancap di ubun-ubun kepala Tifa",
-        "Bubble menutupi ventilasi jendela"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_target": null,
+    "tail_curve": "none",
+    "tail_length_est": null,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b3p2": {
+    "board": 3,
+    "panel": 2,
+    "type": "speech",
+    "speaker": "Tifa",
+    "text_en": "What could be waiting?",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 54,
+      "y": 6,
+      "w": 28,
+      "h": 13
     },
-    {
-      "id": "c4b5p1",
-      "board": 5,
-      "panel": 1,
-      "ratio": 2.1,
-      "speaker": "Narration",
-      "facing": "none",
-      "en": "A little surprise slipped through the screen.",
-      "fr": "Une petite surprise apparaît sur son écran.",
-      "speakerHead": null,
-      "speakerTarget": null,
-      "currentBubble": { "x": 45, "y": 5, "w": 40, "h": 15 },
-      "currentTailTip": { "x": 65, "y": 25 },
-      "negativeSpace": { "x": 48, "y": 6, "w": 38, "h": 12 },
-      "violations": [
-        "Ekor menunjuk ke lilin kue ulang tahun (objek latar)",
-        "Teks narasi pencerita menggunakan bubble berekor alih-alih caption card"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_target": {
+      "x": 50,
+      "y": 24
     },
-    {
-      "id": "c4b5p2",
-      "board": 5,
-      "panel": 2,
-      "ratio": 2.1,
-      "speaker": "Tifa",
-      "facing": "front",
-      "en": "A birthday cake? For me?",
-      "fr": "Un gâteau pour mon anniversaire ? Pour moi ?",
-      "speakerHead": { "x": 28, "y": 28, "w": 42, "h": 42 },
-      "speakerTarget": { "x": 48, "y": 48 },
-      "currentBubble": { "x": 31, "y": 12, "w": 37, "h": 16 },
-      "currentTailTip": { "x": 50, "y": 32 },
-      "negativeSpace": { "x": 14, "y": 7, "w": 30, "h": 14 },
-      "violations": [
-        "Ekor menancap di ubun-ubun rambut Tifa",
-        "Bubble menempel di atas kepala"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_curve": "organic-left",
+    "tail_length_est": 18.68,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b4p1": {
+    "board": 4,
+    "panel": 1,
+    "type": "speech",
+    "speaker": "Tifa",
+    "text_en": "Wait\u2026 what is that?",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 10,
+      "y": 6,
+      "w": 46,
+      "h": 13
     },
-    {
-      "id": "c4b6p1",
-      "board": 6,
-      "panel": 1,
-      "ratio": 1.0,
-      "speaker": "Narration",
-      "facing": "none",
-      "en": "Twenty-three candles. One very big wish.",
-      "fr": "Vingt-trois bougies. Un immense vœu.",
-      "speakerHead": null,
-      "speakerTarget": null,
-      "currentBubble": { "x": 30, "y": 3, "w": 66, "h": 12 },
-      "currentTailTip": { "x": 65, "y": 18 },
-      "negativeSpace": { "x": 40, "y": 5, "w": 52, "h": 10 },
-      "violations": [
-        "Ekor menunjuk ke buku di belakang kue",
-        "Narasi penutup hero menggunakan bubble berekor alih-alih caption card"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_target": {
+      "x": 48,
+      "y": 28
     },
-    {
-      "id": "c4b7p1",
-      "board": 7,
-      "panel": 1,
-      "ratio": 1.0,
-      "speaker": "Banner",
-      "facing": "none",
-      "en": "HAPPY BIRTHDAY, TIFA!",
-      "fr": "JOYEUX ANNIVERSAIRE, TIFA !",
-      "speakerHead": null,
-      "speakerTarget": null,
-      "currentBubble": { "x": 8, "y": 6, "w": 84, "h": 17 },
-      "currentTailTip": null,
-      "negativeSpace": { "x": 8, "y": 6, "w": 84, "h": 17 },
-      "violations": [],
-      "status": "OK"
+    "tail_curve": "organic-right",
+    "tail_length_est": 17.49,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b4p2": {
+    "board": 4,
+    "panel": 2,
+    "type": "speech",
+    "speaker": "Tifa",
+    "text_en": "Did that just move?",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 10,
+      "y": 6,
+      "w": 44,
+      "h": 13
     },
-    {
-      "id": "c4b7p2",
-      "board": 7,
-      "panel": 2,
-      "ratio": 1.0,
-      "speaker": "Tifa",
-      "facing": "front",
-      "en": "You remembered…",
-      "fr": "Vous avez pensé à moi…",
-      "speakerHead": { "x": 25, "y": 22, "w": 50, "h": 38 },
-      "speakerTarget": { "x": 48, "y": 48 },
-      "currentBubble": { "x": 22, "y": 9, "w": 54, "h": 13 },
-      "currentTailTip": { "x": 50, "y": 26 },
-      "negativeSpace": { "x": 18, "y": 6, "w": 48, "h": 13 },
-      "violations": [
-        "Ekor menancap tegak lurus di ubun-ubun rambut",
-        "Bubble menempel di atas kepala"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_target": {
+      "x": 46,
+      "y": 28
     },
-    {
-      "id": "c4b7p3",
-      "board": 7,
-      "panel": 3,
-      "ratio": 2.1,
-      "speaker": "Brown-haired Friend",
-      "facing": "front",
-      "en": "Make a wish, Tifa!",
-      "fr": "Fais un vœu, Tifa !",
-      "speakerHead": { "x": 30, "y": 22, "w": 20, "h": 42 },
-      "speakerTarget": { "x": 42, "y": 42 },
-      "currentBubble": { "x": 34, "y": 12, "w": 31, "h": 14 },
-      "currentTailTip": { "x": 50, "y": 30 },
-      "negativeSpace": { "x": 20, "y": 6, "w": 26, "h": 14 },
-      "violations": [
-        "Ekor ambigu menunjuk ke Tifa bukan ke teman yang berseru",
-        "Dialog berseru membingungkan pembaca"
-      ],
-      "status": "PERLU_PERBAIKAN"
+    "tail_curve": "organic-right",
+    "tail_length_est": 16.64,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b4p3": {
+    "board": 4,
+    "panel": 3,
+    "type": "speech",
+    "speaker": "Tifa",
+    "text_en": "Where are these petals coming from?",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 20,
+      "y": 6,
+      "w": 34,
+      "h": 13
     },
-    {
-      "id": "c4b8p1",
-      "board": 8,
-      "panel": 1,
-      "ratio": 1.0,
-      "speaker": "Caption & Letter",
-      "facing": "none",
-      "en": "Keep this joy close. / Happy 23rd, Tifa! We love you!",
-      "fr": "Garde cette joie tout près. / Joyeux 23e anniversaire, Tifa ! Avec toute notre affection !",
-      "speakerHead": null,
-      "speakerTarget": null,
-      "currentBubble": { "x": 28, "y": 6, "w": 68, "h": 17 },
-      "currentTailTip": null,
-      "negativeSpace": { "x": 55, "y": 6, "w": 38, "h": 14 },
-      "violations": [
-        "Caption card atas terlalu lebar dan menutupi rambut Tifa"
-      ],
-      "status": "PERLU_PERBAIKAN"
-    }
-  ]
+    "tail_target": {
+      "x": 40,
+      "y": 22
+    },
+    "tail_curve": "organic-right",
+    "tail_length_est": 4.24,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b5p1": {
+    "board": 5,
+    "panel": 1,
+    "type": "caption",
+    "speaker": "Narration",
+    "text_en": "A little surprise slipped through the screen.",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 44,
+      "y": 6,
+      "w": 48,
+      "h": 12
+    },
+    "tail_target": null,
+    "tail_curve": "none",
+    "tail_length_est": null,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b5p2": {
+    "board": 5,
+    "panel": 2,
+    "type": "speech",
+    "speaker": "Tifa",
+    "text_en": "A birthday cake? For me?",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 12,
+      "y": 6,
+      "w": 32,
+      "h": 14
+    },
+    "tail_target": {
+      "x": 34,
+      "y": 24
+    },
+    "tail_curve": "organic-right",
+    "tail_length_est": 7.21,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b6p1": {
+    "board": 6,
+    "panel": 1,
+    "type": "caption",
+    "speaker": "Narration",
+    "text_en": "Twenty-three candles. One very big wish.",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 40,
+      "y": 5,
+      "w": 52,
+      "h": 11
+    },
+    "tail_target": null,
+    "tail_curve": "none",
+    "tail_length_est": null,
+    "margin_panel_min": 5,
+    "issues": []
+  },
+  "c4b7p1": {
+    "board": 7,
+    "panel": 1,
+    "type": "banner",
+    "speaker": "Banner",
+    "text_en": "HAPPY BIRTHDAY, TIFA!",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 8,
+      "y": 6,
+      "w": 84,
+      "h": 17
+    },
+    "tail_target": null,
+    "tail_curve": "none",
+    "tail_length_est": null,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b7p2": {
+    "board": 7,
+    "panel": 2,
+    "type": "speech",
+    "speaker": "Tifa",
+    "text_en": "You remembered\u2026",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 16,
+      "y": 6,
+      "w": 44,
+      "h": 13
+    },
+    "tail_target": {
+      "x": 32,
+      "y": 22
+    },
+    "tail_curve": "organic-down",
+    "tail_length_est": 6.71,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b7p3": {
+    "board": 7,
+    "panel": 3,
+    "type": "speech",
+    "speaker": "Friend",
+    "text_en": "Make a wish, Tifa!",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 48,
+      "y": 6,
+      "w": 28,
+      "h": 14
+    },
+    "tail_target": {
+      "x": 74,
+      "y": 24
+    },
+    "tail_curve": "organic-right",
+    "tail_length_est": 12.65,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b8p1_caption": {
+    "board": 8,
+    "panel": 1,
+    "type": "caption",
+    "speaker": "Narration",
+    "text_en": "Keep this joy close.",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 56,
+      "y": 6,
+      "w": 38,
+      "h": 12
+    },
+    "tail_target": null,
+    "tail_curve": "none",
+    "tail_length_est": null,
+    "margin_panel_min": 6,
+    "issues": []
+  },
+  "c4b8p1_letter": {
+    "board": 8,
+    "panel": 1,
+    "type": "letter",
+    "speaker": "Letter",
+    "text_en": "Happy 23rd, Tifa! We love you!",
+    "text_matches_en": true,
+    "text_matches_fr": true,
+    "bubble_box": {
+      "x": 22,
+      "y": 70,
+      "w": 54,
+      "h": 18
+    },
+    "tail_target": null,
+    "tail_curve": "none",
+    "tail_length_est": null,
+    "margin_panel_min": 12,
+    "issues": []
+  }
 }

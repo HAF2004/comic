@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
+  <rect x="924" y="60" width="1008" height="120" rx="16" ry="16"
+        fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round"/>
+  <text x="1428" y="108.82" text-anchor="middle"
+            font-family="'Libre Franklin', 'Helvetica Neue', Arial, sans-serif"
+            font-size="26" font-weight="800" fill="#171717" letter-spacing="1.2">A LITTLE SURPRISE SLIPPED</text>
+  <text x="1428" y="142.1" text-anchor="middle"
+            font-family="'Libre Franklin', 'Helvetica Neue', Arial, sans-serif"
+            font-size="26" font-weight="800" fill="#171717" letter-spacing="1.2">THROUGH THE SCREEN.</text>
+</svg>

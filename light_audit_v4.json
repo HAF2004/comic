@@ -1,0 +1,159 @@
+{
+  "c4b1p1": {
+    "file": "assets_v4/c4b1p1-night-walk-rear.png",
+    "mean_luminance": 0.387,
+    "std_luminance": 0.314,
+    "face_region_luminance": 0.15,
+    "top_window_luminance": 0.451,
+    "dominant_hue_deg": 32.0,
+    "notes": []
+  },
+  "c4b1p2": {
+    "file": "assets_v4/c4b1p2-night-walk-front.png",
+    "mean_luminance": 0.409,
+    "std_luminance": 0.32,
+    "face_region_luminance": 0.26,
+    "top_window_luminance": 0.442,
+    "dominant_hue_deg": 38.0,
+    "notes": []
+  },
+  "c4b2p1": {
+    "file": "assets_v4/c4b2p1-arrive-home.png",
+    "mean_luminance": 0.36,
+    "std_luminance": 0.294,
+    "face_region_luminance": 0.336,
+    "top_window_luminance": 0.491,
+    "dominant_hue_deg": 24.0,
+    "notes": []
+  },
+  "c4b2p2": {
+    "file": "assets_v4/c4b2p2-open-door-detail.png",
+    "mean_luminance": 0.249,
+    "std_luminance": 0.282,
+    "face_region_luminance": 0.301,
+    "top_window_luminance": 0.262,
+    "dominant_hue_deg": 174.0,
+    "notes": []
+  },
+  "c4b2p3": {
+    "file": "assets_v4/c4b2p3-set-down-bag.png",
+    "mean_luminance": 0.329,
+    "std_luminance": 0.289,
+    "face_region_luminance": 0.281,
+    "top_window_luminance": 0.386,
+    "dominant_hue_deg": 20.0,
+    "notes": []
+  },
+  "c4b3p1": {
+    "file": "assets_v4/c4b3p1-settle-at-desk.png",
+    "mean_luminance": 0.556,
+    "std_luminance": 0.337,
+    "face_region_luminance": 0.363,
+    "top_window_luminance": 0.576,
+    "dominant_hue_deg": 26.0,
+    "notes": []
+  },
+  "c4b3p2": {
+    "file": "assets_v4/c4b3p2-open-macbook-correct.png",
+    "mean_luminance": 0.426,
+    "std_luminance": 0.345,
+    "face_region_luminance": 0.304,
+    "top_window_luminance": 0.403,
+    "dominant_hue_deg": 34.0,
+    "notes": []
+  },
+  "c4b4p1": {
+    "file": "assets_v4/c4b4p1-golden-mark.png",
+    "mean_luminance": 0.322,
+    "std_luminance": 0.331,
+    "face_region_luminance": 0.345,
+    "top_window_luminance": 0.288,
+    "dominant_hue_deg": 24.0,
+    "notes": []
+  },
+  "c4b4p2": {
+    "file": "assets_v4/c4b4p2-petals-from-screen.png",
+    "mean_luminance": 0.471,
+    "std_luminance": 0.298,
+    "face_region_luminance": 0.396,
+    "top_window_luminance": 0.459,
+    "dominant_hue_deg": 26.0,
+    "notes": []
+  },
+  "c4b4p3": {
+    "file": "assets_v4/c4b4p3-tifa-curious.png",
+    "mean_luminance": 0.438,
+    "std_luminance": 0.28,
+    "face_region_luminance": 0.193,
+    "top_window_luminance": 0.506,
+    "dominant_hue_deg": 26.0,
+    "notes": []
+  },
+  "c4b5p1": {
+    "file": "assets_v4/c4b5p1-cake-emerges.png",
+    "mean_luminance": 0.357,
+    "std_luminance": 0.296,
+    "face_region_luminance": 0.325,
+    "top_window_luminance": 0.273,
+    "dominant_hue_deg": 30.0,
+    "notes": [
+      "PASS: Window verified deep night navy with stars"
+    ]
+  },
+  "c4b5p2": {
+    "file": "assets_v4/c4b5p2-delighted-reaction.png",
+    "mean_luminance": 0.338,
+    "std_luminance": 0.275,
+    "face_region_luminance": 0.325,
+    "top_window_luminance": 0.253,
+    "dominant_hue_deg": 214.0,
+    "notes": []
+  },
+  "c4b6p1": {
+    "file": "assets_v4/c4b6p1-cake-hero.png",
+    "mean_luminance": 0.351,
+    "std_luminance": 0.297,
+    "face_region_luminance": 0.301,
+    "top_window_luminance": 0.218,
+    "dominant_hue_deg": 96.0,
+    "notes": []
+  },
+  "c4b7p1": {
+    "file": "assets_v4/c4b7p1-friends-surprise.png",
+    "mean_luminance": 0.543,
+    "std_luminance": 0.362,
+    "face_region_luminance": 0.424,
+    "top_window_luminance": 0.667,
+    "dominant_hue_deg": 24.0,
+    "notes": []
+  },
+  "c4b7p2": {
+    "file": "assets_v4/c4b7p2-tifa-emotional.png",
+    "mean_luminance": 0.346,
+    "std_luminance": 0.289,
+    "face_region_luminance": 0.196,
+    "top_window_luminance": 0.245,
+    "dominant_hue_deg": 44.0,
+    "notes": []
+  },
+  "c4b7p3": {
+    "file": "assets_v4/c4b7p3-friends-cake.png",
+    "mean_luminance": 0.471,
+    "std_luminance": 0.326,
+    "face_region_luminance": 0.379,
+    "top_window_luminance": 0.248,
+    "dominant_hue_deg": 26.0,
+    "notes": [
+      "PASS: Window verified deep night navy with stars"
+    ]
+  },
+  "c4b8p1": {
+    "file": "assets_v4/c4b8p1-keepsake.png",
+    "mean_luminance": 0.59,
+    "std_luminance": 0.312,
+    "face_region_luminance": 0.672,
+    "top_window_luminance": 0.44,
+    "dominant_hue_deg": 22.0,
+    "notes": []
+  }
+}

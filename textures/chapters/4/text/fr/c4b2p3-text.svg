@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 792 70 L 1098 70 A 57 57 0 0 1 1155 127 L 1155 143 A 57 57 0 0 1 1098 200 L 1062 200 C 1086 232, 1174 260, 1197 270 C 1116 260, 1028 232, 1012 200 L 792 200 A 57 57 0 0 1 735 143 L 735 127 A 57 57 0 0 1 792 70 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="945" y="141.075" text-anchor="middle"
+  <path d="M 792 60 L 1140 60 A 57 57 0 0 1 1197 117 L 1197 133 A 57 57 0 0 1 1140 190 L 1096 190 C 1109 204, 1157 216, 1155 220 C 1098 216, 1050 204, 1041 190 L 792 190 A 57 57 0 0 1 735 133 L 735 117 A 57 57 0 0 1 792 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="966" y="131.075" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Ouf ! Enfin rentrée.</text>
 </svg>

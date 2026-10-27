@@ -3,7 +3,7 @@
     "board": 1,
     "panel": 1,
     "ratio": 2.1,
-    "type": "speech",
+    "type": "caption",
     "speaker": "Tifa",
     "facing": "back",
     "text": {
@@ -11,16 +11,13 @@
       "fr": "Derni\u00e8re promenade sous les lumi\u00e8res de la ville."
     },
     "bubble": {
-      "x": 34,
-      "y": 7,
-      "w": 26,
-      "h": 14
+      "x": 30,
+      "y": 6,
+      "w": 40,
+      "h": 12
     },
-    "tailTarget": {
-      "x": 62,
-      "y": 28
-    },
-    "tailCurve": "organic-right"
+    "tailTarget": null,
+    "tailCurve": "none"
   },
   "c4b1p2": {
     "board": 1,
@@ -35,13 +32,13 @@
     },
     "bubble": {
       "x": 42,
-      "y": 7,
-      "w": 18,
+      "y": 6,
+      "w": 22,
       "h": 13
     },
     "tailTarget": {
-      "x": 43,
-      "y": 25
+      "x": 45,
+      "y": 22
     },
     "tailCurve": "organic-left"
   },
@@ -49,7 +46,7 @@
     "board": 2,
     "panel": 1,
     "ratio": 1.0,
-    "type": "speech",
+    "type": "caption",
     "speaker": "Tifa",
     "facing": "front",
     "text": {
@@ -59,14 +56,11 @@
     "bubble": {
       "x": 6,
       "y": 6,
-      "w": 32,
-      "h": 14
+      "w": 38,
+      "h": 12
     },
-    "tailTarget": {
-      "x": 50,
-      "y": 32
-    },
-    "tailCurve": "organic-right"
+    "tailTarget": null,
+    "tailCurve": "none"
   },
   "c4b2p2": {
     "board": 2,
@@ -104,13 +98,13 @@
     },
     "bubble": {
       "x": 35,
-      "y": 7,
-      "w": 20,
+      "y": 6,
+      "w": 22,
       "h": 13
     },
     "tailTarget": {
-      "x": 57,
-      "y": 27
+      "x": 55,
+      "y": 22
     },
     "tailCurve": "organic-right"
   },
@@ -118,7 +112,7 @@
     "board": 3,
     "panel": 1,
     "ratio": 2.1,
-    "type": "thought",
+    "type": "caption",
     "speaker": "Tifa",
     "facing": "front",
     "text": {
@@ -126,16 +120,13 @@
       "fr": "Une minute de calme rien que pour elle."
     },
     "bubble": {
-      "x": 22,
+      "x": 28,
       "y": 6,
-      "w": 32,
-      "h": 14
+      "w": 44,
+      "h": 12
     },
-    "tailTarget": {
-      "x": 48,
-      "y": 34
-    },
-    "tailCurve": "thought"
+    "tailTarget": null,
+    "tailCurve": "none"
   },
   "c4b3p2": {
     "board": 3,
@@ -149,14 +140,14 @@
       "fr": "Que va-t-elle d\u00e9couvrir ?"
     },
     "bubble": {
-      "x": 55,
+      "x": 54,
       "y": 6,
       "w": 28,
       "h": 13
     },
     "tailTarget": {
       "x": 50,
-      "y": 30
+      "y": 24
     },
     "tailCurve": "organic-left"
   },
@@ -172,16 +163,16 @@
       "fr": "Attends\u2026 quelle est cette lumi\u00e8re ?"
     },
     "bubble": {
-      "x": 14,
+      "x": 10,
       "y": 6,
-      "w": 48,
-      "h": 14
+      "w": 46,
+      "h": 13
     },
     "tailTarget": {
-      "x": 38,
+      "x": 48,
       "y": 28
     },
-    "tailCurve": "organic-down"
+    "tailCurve": "organic-right"
   },
   "c4b4p2": {
     "board": 4,
@@ -195,16 +186,16 @@
       "fr": "Cette lumi\u00e8re a boug\u00e9 ?"
     },
     "bubble": {
-      "x": 14,
+      "x": 10,
       "y": 6,
-      "w": 46,
-      "h": 14
+      "w": 44,
+      "h": 13
     },
     "tailTarget": {
-      "x": 34,
+      "x": 46,
       "y": 28
     },
-    "tailCurve": "organic-down"
+    "tailCurve": "organic-right"
   },
   "c4b4p3": {
     "board": 4,
@@ -218,14 +209,14 @@
       "fr": "Quelle est la source de ces p\u00e9tales ?"
     },
     "bubble": {
-      "x": 22,
+      "x": 20,
       "y": 6,
-      "w": 32,
+      "w": 34,
       "h": 13
     },
     "tailTarget": {
-      "x": 48,
-      "y": 36
+      "x": 40,
+      "y": 22
     },
     "tailCurve": "organic-right"
   },
@@ -261,14 +252,14 @@
       "fr": "Un g\u00e2teau pour mon anniversaire ? Pour moi ?"
     },
     "bubble": {
-      "x": 14,
+      "x": 12,
       "y": 6,
-      "w": 28,
+      "w": 32,
       "h": 14
     },
     "tailTarget": {
-      "x": 44,
-      "y": 38
+      "x": 34,
+      "y": 24
     },
     "tailCurve": "organic-right"
   },
@@ -326,12 +317,12 @@
     "bubble": {
       "x": 16,
       "y": 6,
-      "w": 46,
+      "w": 44,
       "h": 13
     },
     "tailTarget": {
-      "x": 36,
-      "y": 28
+      "x": 32,
+      "y": 22
     },
     "tailCurve": "organic-down"
   },
@@ -347,14 +338,14 @@
       "fr": "Fais un v\u0153u, Tifa !"
     },
     "bubble": {
-      "x": 20,
+      "x": 48,
       "y": 6,
-      "w": 26,
+      "w": 28,
       "h": 14
     },
     "tailTarget": {
-      "x": 40,
-      "y": 26
+      "x": 74,
+      "y": 24
     },
     "tailCurve": "organic-right"
   },

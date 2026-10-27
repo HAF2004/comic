@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
-  <path d="M 202 60 L 538 60 A 62 62 0 0 1 600 122 L 600 138 A 62 62 0 0 1 538 200 L 398 200 C 394 236, 377 268, 340 280 C 324 268, 340 236, 343 200 L 202 200 A 62 62 0 0 1 140 138 L 140 122 A 62 62 0 0 1 202 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="370" y="136.075" text-anchor="middle"
+  <path d="M 157 60 L 483 60 A 57 57 0 0 1 540 117 L 540 133 A 57 57 0 0 1 483 190 L 444 190 C 450 231, 474 267, 460 280 C 419 267, 395 231, 391 190 L 157 190 A 57 57 0 0 1 100 133 L 100 117 A 57 57 0 0 1 157 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="320" y="131.075" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Did that just move?</text>
 </svg>
