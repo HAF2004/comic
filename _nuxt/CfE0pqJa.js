@@ -18348,6 +18348,16 @@ class Chapter4Bg extends DJ {
   }
 }
 
+const C4_MOTION_CONFIG = {
+  // 1.1 Stepped Idle
+  ENABLE_STEPPED_IDLE: true,
+  STEP_FPS: 12,
+  BREATH_SPEED: 2.2,
+  BREATH_AMP: 0.008,
+  BOB_SPEED: 1.6,
+  BOB_AMP: 0.012
+};
+
 class Chapter4Panel extends me {
   constructor(world, props) {
     props.usePerspective = true;
@@ -18483,19 +18493,27 @@ class Chapter4Panel extends me {
     super.update(t, n);
     this.timeAccumulator += (n || 16) * 0.001;
 
-    // A. Idle breathing & subtle floating on character cutout
-    if (this.fgMesh && this.fgMesh.mesh && this.hasBreathing) {
-      const breath = Math.sin(this.timeAccumulator * 2.2);
-      const bobY = Math.sin(this.timeAccumulator * 1.6) * 0.012;
-      this.fgMesh.mesh.scale.y = this.fgMesh.oScale.y * (1 + breath * 0.008);
-      this.fgMesh.mesh.position.y = this.fgMesh.oPosition.y + bobY;
+    let evalTime = this.timeAccumulator;
+    if (C4_MOTION_CONFIG.ENABLE_STEPPED_IDLE && C4_MOTION_CONFIG.STEP_FPS > 0) {
+      evalTime = Math.floor(evalTime * C4_MOTION_CONFIG.STEP_FPS) / C4_MOTION_CONFIG.STEP_FPS;
     }
 
-    // B. Subtle organic floating on text speech bubbles
+    // A. Idle breathing & subtle stepped floating on character cutout
+    if (this.fgMesh && this.fgMesh.mesh && this.hasBreathing) {
+      const prefersReducedMotion = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!prefersReducedMotion) {
+        const breath = Math.sin(evalTime * C4_MOTION_CONFIG.BREATH_SPEED);
+        const bobY = Math.sin(evalTime * C4_MOTION_CONFIG.BOB_SPEED) * C4_MOTION_CONFIG.BOB_AMP;
+        this.fgMesh.mesh.scale.y = this.fgMesh.oScale.y * (1 + breath * C4_MOTION_CONFIG.BREATH_AMP);
+        this.fgMesh.mesh.position.y = this.fgMesh.oPosition.y + bobY;
+      }
+    }
+
+    // B. Subtle organic stepped floating on text speech bubbles
     if (this.textOverlayMeshes && this.textOverlayMeshes.length > 0) {
       this.textOverlayMeshes.forEach((mesh, idx) => {
         if (mesh && mesh.mesh && mesh.mesh.visible) {
-          const floatOffset = Math.sin(this.timeAccumulator * 2.2 + idx * 1.2) * 0.008;
+          const floatOffset = Math.sin(evalTime * 2.2 + idx * 1.2) * 0.006;
           mesh.mesh.position.y = mesh.oPosition.y + floatOffset;
         }
       });
@@ -18503,7 +18521,7 @@ class Chapter4Panel extends me {
 
     // C. Gentle festive sway on party banner
     if (this.overlayMesh && this.overlayMesh.mesh && this.overlayMesh.mesh.visible) {
-      this.overlayMesh.mesh.rotation.z = Math.sin(this.timeAccumulator * 2.5) * 0.018;
+      this.overlayMesh.mesh.rotation.z = Math.sin(evalTime * 2.5) * 0.018;
     }
   }
 
