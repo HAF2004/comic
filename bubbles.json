@@ -324,8 +324,8 @@
       "h": 13
     },
     "tailTarget": {
-      "x": 32,
-      "y": 22
+      "x": 50,
+      "y": 27
     },
     "tailCurve": "organic-down"
   },
@@ -347,10 +347,10 @@
       "h": 14
     },
     "tailTarget": {
-      "x": 74,
-      "y": 24
+      "x": 71,
+      "y": 38
     },
-    "tailCurve": "organic-right"
+    "tailCurve": "organic-down"
   },
   "c4b8p1_caption": {
     "board": 8,
