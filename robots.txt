@@ -128,3 +128,6 @@ Disallow: /
 
 # END Cloudflare Managed Content
 
+Sitemap: https://dlalhaf.my.id/sitemap.xml
+Sitemap: https://dlalhaf.my.id/sitemap_index.xml
+
