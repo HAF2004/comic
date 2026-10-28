@@ -42,6 +42,20 @@ const server = http.createServer((req, res) => {
   const parsedUrl = url.parse(req.url);
   let pathname = decodeURIComponent(parsedUrl.pathname);
 
+  // Redirect /chapters to root /
+  if (pathname.startsWith('/chapters')) {
+    res.writeHead(302, { Location: '/' });
+    res.end();
+    return;
+  }
+
+  // Redirect /chapter, /chapter/4 to /page
+  if (pathname.startsWith('/chapter')) {
+    res.writeHead(302, { Location: '/page' });
+    res.end();
+    return;
+  }
+
   // Normalize path
   let safePath = path.normalize(pathname).replace(/^(\.\.[\/\\])+/, '');
   let filePath = path.join(ROOT, safePath);
@@ -53,6 +67,14 @@ const server = http.createServer((req, res) => {
       filePath = indexPath;
     }
   } else if (!fs.existsSync(filePath)) {
+    // If request has a file extension (like .basis, .png, .js, etc.) and is missing, return 404!
+    const ext = path.extname(filePath);
+    if (ext && ext !== '.html') {
+      res.writeHead(404, { 'Content-Type': 'text/plain' });
+      res.end('404 Not Found');
+      return;
+    }
+
     // Try appending .html or checking directory index.html
     if (fs.existsSync(filePath + '.html')) {
       filePath = filePath + '.html';
@@ -80,7 +102,9 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, {
       'Content-Type': contentType,
       'Content-Length': stats.size,
-      'Cache-Control': 'no-cache'
+      'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+      'Pragma': 'no-cache',
+      'Expires': '0'
     });
 
     const readStream = fs.createReadStream(filePath);
@@ -91,6 +115,7 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log(`\n========================================`);
   console.log(`🚀 Ponpon Mania replica is running!`);
-  console.log(`🌐 Local URL: http://localhost:${PORT}`);
+  console.log(`📡 URL: http://localhost:${PORT}`);
+  console.log(`📁 Root: ${ROOT}`);
   console.log(`========================================\n`);
 });

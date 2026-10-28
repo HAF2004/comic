@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
-  <polygon points="318,190 356,127 432,145 489,109 546,140 622,118 592,181 652,208 576,244 527,276 462,248 394,271 364,235 288,217" fill="#FFF8EF" stroke="#171717" stroke-width="8" stroke-linejoin="round"/>
-  <text x="470" y="200" text-anchor="middle" dominant-baseline="middle"
-        font-family="'Libre Franklin', Impact, Arial Black, sans-serif"
-        font-size="44" font-weight="900" font-style="italic" fill="#F87800" stroke="#171717" stroke-width="3" letter-spacing="3">CLIC !</text>
-</svg>

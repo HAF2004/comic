@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 1070 60 L 1534 60 A 62 62 0 0 1 1596 122 L 1596 138 A 62 62 0 0 1 1534 200 L 1335 200 C 1363 281, 1467 353, 1491 380 C 1393 353, 1289 281, 1270 200 L 1070 200 A 62 62 0 0 1 1008 138 L 1008 122 A 62 62 0 0 1 1070 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="1302" y="136.75" text-anchor="middle"
-          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-          font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">Fais un vœu, Tifa !</text>
-</svg>

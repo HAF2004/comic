@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
-  <path d="M 217 60 L 543 60 A 57 57 0 0 1 600 117 L 600 133 A 57 57 0 0 1 543 190 L 407 190 C 425 226, 491 258, 500 270 C 432 258, 366 226, 354 190 L 217 190 A 57 57 0 0 1 160 133 L 160 117 A 57 57 0 0 1 217 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="380" y="131.075" text-anchor="middle"
-          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-          font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Vous avez pensé à moi…</text>
-</svg>
