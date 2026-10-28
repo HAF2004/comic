@@ -1,22 +1,18 @@
 {
-  "name": "ponpon-mania-replica",
+  "name": "tifa-birthday-comic",
   "version": "1.0.0",
-  "description": "Complete 1:1 replica of Ponpon Mania (https://ponpon-mania.com), an interactive WebGL comic by Justine Soulié & Patrick Heng.",
+  "description": "A Birthday for Tifa - Interactive WebGL Birthday Comic",
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
-    "scrape": "python scraper/scrape_website.py"
+    "build": "echo 'Build ready for Vercel deployment'"
   },
   "keywords": [
-    "ponpon-mania",
+    "tifa-birthday",
     "interactive-comic",
     "webgl",
     "threejs",
     "basis-universal"
   ],
-  "author": "Patrick Heng & Justine Soulié (Original Authors)",
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "puppeteer-core": "^25.16.0"
-  }
+  "license": "UNLICENSED"
 }
