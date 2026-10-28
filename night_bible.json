@@ -1,38 +1,35 @@
 {
-  "reference_panel": "c4b1p1",
-  "measured_at": "2026-10-28",
-  "sky": {
-    "deep_navy_hex": "#08244a",
-    "midnight_indigo_hex": "#1E2A5A",
-    "min_luminance": 0.05,
-    "max_luminance": 0.28,
-    "stars": "4-point micro glints #FFF6F0",
-    "city_lights": "warm yellow squares #FFD27A"
+  "reference_board": "Board 1 (c4b1p1 & c4b1p2)",
+  "world_time": "One continuous evening/night (20:30 - 22:30)",
+  "lighting_zones": {
+    "exterior_walk": {
+      "sky_luminance_range": [
+        0.15,
+        0.35
+      ],
+      "sky_dominant_hex": "#251D2A",
+      "ambient_tone_hex": "#302636",
+      "key_light": "warm sodium/amber street lamps (#FFD168 / #FFB84C)",
+      "shadow_tone": "deep warm aubergine / midnight (#0D1018 / #171724)",
+      "rim_light": "soft dusky periwinkle-rose (#A07E9B, 15-20% opacity)"
+    },
+    "interior_hallway_entry": {
+      "dark_zone_hex": "#1A1724",
+      "light_spill_hex": "#FCD99A",
+      "contrast_ratio": 3.8
+    },
+    "interior_desk_bedroom": {
+      "base_room_ambient_hex": "#3A2938",
+      "desk_lamp_amber_hex": "#FFDA88",
+      "laptop_screen_glow_hex": "#FFF6E5",
+      "candlelight_warm_hex": "#FFAE42",
+      "wall_night_tone_hex": "#4A3347"
+    }
   },
-  "lighting": {
-    "key_light_warm_lamp": "#fdb662",
-    "streetlamp_core": "#FFD27A",
-    "candlelight_flame": "#F7C704",
-    "screen_light": "#EBF2FF"
-  },
-  "interior": {
-    "wall_base_rose_plum": "#8B3A5A",
-    "wall_shadow_deep_plum": "#5A1F38",
-    "shadow_aubergine": "#36292a",
-    "rim_light_lamp": "#FFD27A",
-    "rim_light_window": "#7EA8E0"
-  },
-  "luminance_thresholds": {
-    "mean_luminance_min": 0.12,
-    "mean_luminance_max": 0.45,
-    "face_luminance_floor": 0.5,
-    "shadow_luminance_floor": 0.08
-  },
-  "strict_prohibitions": [
-    "daylight_rays",
-    "orange_sunset_sky",
-    "pastel_daytime_sky",
-    "pure_black_shadows",
-    "gray_shadows"
-  ]
+  "invariants": {
+    "no_daylight_windows": true,
+    "no_neutral_gray_shadows": true,
+    "shadow_shadow_color_family": "aubergine / warm deep violet / dark navy",
+    "face_luminance_min": 0.65
+  }
 }
