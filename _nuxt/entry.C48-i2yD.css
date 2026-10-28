@@ -26,8 +26,7 @@
   font-weight: 900;
   font-size: 2.2rem;
   letter-spacing: 0.12em;
-  color: currentColor;
-  text-transform: uppercase;
+  color: #4A1525; text-shadow: 0 2px 8px rgba(255,255,255,0.9); text-transform: uppercase;
   white-space: nowrap;
   padding: 6px 12px;
   line-height: 1.2;
