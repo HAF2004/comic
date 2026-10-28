@@ -1,0 +1,860 @@
+{
+  "schema_version": "1.0",
+  "chapter_id": 4,
+  "title": "A Birthday for Tifa",
+  "board_count": 8,
+  "panel_count": 17,
+  "asset_stage": "panel composites, background plates, transparent character cutouts, focused EN/FR text overlays, and shared effect sprites",
+  "runtime_registration": "standalone_static_reader",
+  "layer_separation": "background plates available for all 17 panels; transparent character/group cutouts available for all 13 panels with characters; focal objects and effects remain in selected plates",
+  "depth_maps": "pending",
+  "basis_compression": "pending (PNG and SVG source assets retained; encoder unavailable in this workspace)",
+  "source_dimensions": "1536x1024",
+  "boards": [
+    {
+      "board_id": 1,
+      "title": "The walk home",
+      "panels": [
+        {
+          "panel_id": 1,
+          "title": "Night walk, rear view",
+          "layers": [
+            {
+              "layer_id": "c4b1p1-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b1p1-background.png",
+              "source_dimensions": "1536x1024",
+              "alignment_status": "same_canvas",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b1p1-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b1p1-foreground.png",
+              "source_dimensions": "1024x1536",
+              "alpha_channel": true,
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b1p1-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b1p1-night-walk-rear.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b1p1-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b1p1-text.svg",
+                "fr": "/assets_v6/text/fr/c4b1p1-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        },
+        {
+          "panel_id": 2,
+          "title": "Night walk, front view",
+          "layers": [
+            {
+              "layer_id": "c4b1p2-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b1p2-background.png",
+              "source_dimensions": "1536x1024",
+              "alignment_status": "same_canvas",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b1p2-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b1p2-foreground.png",
+              "source_dimensions": "1024x1536",
+              "alpha_channel": true,
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b1p2-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b1p2-night-walk-front.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b1p2-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b1p2-text.svg",
+                "fr": "/assets_v6/text/fr/c4b1p2-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "board_id": 2,
+      "title": "Home",
+      "panels": [
+        {
+          "panel_id": 1,
+          "title": "Arrive home",
+          "layers": [
+            {
+              "layer_id": "c4b2p1-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b2p1-background.png",
+              "source_dimensions": "1536x1024",
+              "alignment_status": "same_canvas",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b2p1-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b2p1-foreground.png",
+              "source_dimensions": "1024x1536",
+              "alpha_channel": true,
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b2p1-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b2p1-arrive-home.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b2p1-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b2p1-text.svg",
+                "fr": "/assets_v6/text/fr/c4b2p1-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        },
+        {
+          "panel_id": 2,
+          "title": "Open the door",
+          "layers": [
+            {
+              "layer_id": "c4b2p2-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b2p2-background.png",
+              "source_dimensions": "1536x1024",
+              "alignment_status": "same_canvas",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b2p2-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b2p2-foreground.png",
+              "source_dimensions": "1448x1086",
+              "alpha_channel": true,
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b2p2-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b2p2-open-door-detail.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b2p2-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b2p2-text.svg",
+                "fr": "/assets_v6/text/fr/c4b2p2-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        },
+        {
+          "panel_id": 3,
+          "title": "Set down her bag",
+          "layers": [
+            {
+              "layer_id": "c4b2p3-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b2p3-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b2p3-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b2p3-foreground.png",
+              "source_dimensions": "1536x1024",
+              "alpha_channel": true,
+              "alignment_status": "same_canvas",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b2p3-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b2p3-set-down-bag.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b2p3-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b2p3-text.svg",
+                "fr": "/assets_v6/text/fr/c4b2p3-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "board_id": 3,
+      "title": "A quiet desk",
+      "panels": [
+        {
+          "panel_id": 1,
+          "title": "Settle at the desk",
+          "layers": [
+            {
+              "layer_id": "c4b3p1-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b3p1-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b3p1-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b3p1-foreground.png",
+              "source_dimensions": "1536x1024",
+              "alpha_channel": true,
+              "alignment_status": "same_canvas",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b3p1-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b3p1-settle-at-desk.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b3p1-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b3p1-text.svg",
+                "fr": "/assets_v6/text/fr/c4b3p1-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        },
+        {
+          "panel_id": 2,
+          "title": "Open the MacBook",
+          "layers": [
+            {
+              "layer_id": "c4b3p2-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b3p2-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b3p2-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b3p2-foreground.png",
+              "source_dimensions": "1536x1024",
+              "alpha_channel": true,
+              "alignment_status": "same_canvas",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b3p2-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b3p2-open-macbook-correct.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b3p2-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b3p2-text.svg",
+                "fr": "/assets_v6/text/fr/c4b3p2-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "board_id": 4,
+      "title": "The first sign",
+      "panels": [
+        {
+          "panel_id": 1,
+          "title": "Golden mark",
+          "layers": [
+            {
+              "layer_id": "c4b4p1-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b4p1-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b4p1-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b4p1-golden-mark.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b4p1-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b4p1-text.svg",
+                "fr": "/assets_v6/text/fr/c4b4p1-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        },
+        {
+          "panel_id": 2,
+          "title": "Petals from the screen",
+          "layers": [
+            {
+              "layer_id": "c4b4p2-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b4p2-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b4p2-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b4p2-petals-from-screen.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b4p2-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b4p2-text.svg",
+                "fr": "/assets_v6/text/fr/c4b4p2-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        },
+        {
+          "panel_id": 3,
+          "title": "Tifa notices",
+          "layers": [
+            {
+              "layer_id": "c4b4p3-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b4p3-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b4p3-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b4p3-foreground.png",
+              "source_dimensions": "1536x1024",
+              "alpha_channel": true,
+              "alignment_status": "same_canvas",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b4p3-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b4p3-tifa-curious.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b4p3-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b4p3-text.svg",
+                "fr": "/assets_v6/text/fr/c4b4p3-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "board_id": 5,
+      "title": "A birthday appears",
+      "panels": [
+        {
+          "panel_id": 1,
+          "title": "Cake emerges",
+          "candle_count_target": 2,
+          "layers": [
+            {
+              "layer_id": "c4b5p1-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b5p1-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b5p1-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b5p1-cake-emerges.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b5p1-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b5p1-text.svg",
+                "fr": "/assets_v6/text/fr/c4b5p1-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        },
+        {
+          "panel_id": 2,
+          "title": "Delighted reaction",
+          "layers": [
+            {
+              "layer_id": "c4b5p2-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b5p2-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b5p2-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b5p2-foreground.png",
+              "source_dimensions": "1536x1024",
+              "alpha_channel": true,
+              "alignment_status": "same_canvas",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b5p2-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b5p2-delighted-reaction.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b5p2-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b5p2-text.svg",
+                "fr": "/assets_v6/text/fr/c4b5p2-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "board_id": 6,
+      "title": "The cake",
+      "panels": [
+        {
+          "panel_id": 1,
+          "title": "Cake hero",
+          "candle_count_target": 2,
+          "layers": [
+            {
+              "layer_id": "c4b6p1-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b6p1-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b6p1-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b6p1-cake-hero.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b6p1-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b6p1-text.svg",
+                "fr": "/assets_v6/text/fr/c4b6p1-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "board_id": 7,
+      "title": "Surprise",
+      "panels": [
+        {
+          "panel_id": 1,
+          "title": "Friends reveal",
+          "layers": [
+            {
+              "layer_id": "c4b7p1-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b7p1-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b7p1-foreground",
+              "type": "character_group",
+              "diffuse_url": "/assets_v6/c4b7p1-foreground.png",
+              "source_dimensions": "1536x1024",
+              "alpha_channel": true,
+              "alignment_status": "same_canvas",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b7p1-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b7p1-friends-surprise.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b7p1-birthday-banner",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/c4b7p1-bubble-en.svg",
+                "fr": "/assets_v6/c4b7p1-bubble-fr.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        },
+        {
+          "panel_id": 2,
+          "title": "Tifa's reaction",
+          "layers": [
+            {
+              "layer_id": "c4b7p2-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b7p2-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b7p2-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b7p2-foreground.png",
+              "source_dimensions": "1536x1024",
+              "alpha_channel": true,
+              "alignment_status": "same_canvas",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b7p2-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b7p2-tifa-emotional.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b7p2-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b7p2-text.svg",
+                "fr": "/assets_v6/text/fr/c4b7p2-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        },
+        {
+          "panel_id": 3,
+          "title": "Friends around the cake",
+          "candle_count_target": 2,
+          "layers": [
+            {
+              "layer_id": "c4b7p3-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b7p3-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b7p3-foreground",
+              "type": "character_group",
+              "diffuse_url": "/assets_v6/c4b7p3-foreground.png",
+              "source_dimensions": "1536x1024",
+              "alpha_channel": true,
+              "alignment_status": "same_canvas",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b7p3-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b7p3-friends-cake.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b7p3-text",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b7p3-text.svg",
+                "fr": "/assets_v6/text/fr/c4b7p3-text.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "board_id": 8,
+      "title": "A keepsake",
+      "panels": [
+        {
+          "panel_id": 1,
+          "title": "Letter and peonies",
+          "candle_count_target": 2,
+          "layers": [
+            {
+              "layer_id": "c4b8p1-background",
+              "type": "background_plate",
+              "diffuse_url": "/assets_v6/c4b8p1-background.png",
+              "source_dimensions": "1448x1086",
+              "alignment_status": "fit_to_panel_required",
+              "z_position": -25,
+              "parallax_multiplier": 0.1
+            },
+            {
+              "layer_id": "c4b8p1-foreground",
+              "type": "character_cutout",
+              "diffuse_url": "/assets_v6/c4b8p1-foreground.png",
+              "source_dimensions": "1536x1024",
+              "alpha_channel": true,
+              "alignment_status": "same_canvas",
+              "z_position": -5,
+              "parallax_multiplier": 0.65
+            },
+            {
+              "layer_id": "c4b8p1-composite-fallback",
+              "type": "composite_panel_fallback",
+              "diffuse_url": "/assets_v6/c4b8p1-keepsake.png",
+              "fallback_only": true,
+              "source_dimensions": "1536x1024",
+              "z_position": 0,
+              "parallax_multiplier": 0
+            },
+            {
+              "layer_id": "c4b8p1-caption",
+              "type": "localized_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b8p1-caption.svg",
+                "fr": "/assets_v6/text/fr/c4b8p1-caption.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 10,
+              "parallax_multiplier": 1.15
+            },
+            {
+              "layer_id": "c4b8p1-letter",
+              "type": "letter_text_overlay",
+              "locale_assets": {
+                "en": "/assets_v6/text/en/c4b8p1-letter.svg",
+                "fr": "/assets_v6/text/fr/c4b8p1-letter.svg"
+              },
+              "visibility": "focused_only",
+              "on_blur": "hide",
+              "on_focus": "show_active_locale",
+              "z_position": 11,
+              "parallax_multiplier": 1.15
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "text_visibility_policy": {
+    "when_unfocused": "hidden",
+    "when_focused": "visible",
+    "bind_to": "focused_panel",
+    "bubble_assets_are_separate": true,
+    "default_locale": "en",
+    "blur_action": "hide",
+    "all_text_layers": "focused_only"
+  },
+  "shared_assets": {
+    "sprite_sheet": "/assets_v6/c4-effects-sprites.svg",
+    "sprite_metadata": "/assets_v6/c4-effects-sprite-data.json"
+  },
+  "alignment_required_assets": 17,
+  "render_notes": "Keep the composite fallback for reliable display. Generated layer PNGs have mixed source dimensions; normalize or position layers during runtime registration before enabling layered rendering.",
+  "text_script": "/storyboard/chapter4-text-script.md",
+  "reader_routes": [
+    "/chapter/4/",
+    "/fr/chapter/4/"
+  ],
+  "banner_asset": "/textures/common/album-4-birthday.png"
+}

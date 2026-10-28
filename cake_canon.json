@@ -1,0 +1,35 @@
+{
+  "canon_source": "B5 P1 (Enhanced with B6 hero textures)",
+  "rationale": "B5 P1 establishes the magical emergence of the birthday cake in Chapter 4. Its iconic two-tier architecture makes it distinctly recognizable as a celebratory centerpiece. Incorporating B6's delicate floral side stamps, scalloped cream dollop piping, and gold pearl accents produces a unified, luxurious, and emotionally resonant design across all boards.",
+  "architecture": {
+    "tiers": 2,
+    "top_tier": {
+      "diameter_ratio_vs_bottom": 0.65,
+      "height_ratio_vs_bottom": 0.70,
+      "frosting": "Smooth warm ivory/white buttercream (#FFFDF8)",
+      "side_decorations": "Four-petal pink peony cherry blossoms (#E85D75) and small golden pearl dots (#F7C704)",
+      "top_rim": "Curved ring of fluffy ivory cream swirls/dollops (#FFF8EF) with pink shading",
+      "candle_platform": "Level ivory cream disk designed to seat the number '23' candle upright without obstruction"
+    },
+    "bottom_tier": {
+      "frosting": "Pale pastel pink buttercream (#FDECEF) with hand-drawn pink peony floral silhouettes (#EB8DB7)",
+      "base_rim": "Rich scalloped pink cream piping with delicate white pearls",
+      "floral_nest": "Lush blooming pink and blush-white peonies (#D66D98, #F7CFD8) flanked by delicate white baby's breath blossoms and deep emerald leaves (#2D5A43)"
+    }
+  },
+  "plate": {
+    "style": "Elegant ivory/cream porcelain plate with gentle scalloped fluted rim (#FFF8EF) and subtle warm gold trim (#E2B755)",
+    "presence_rule": "Present in B6 P1, B7 P3, and B8 P1 resting flat on the table surface. In B5 P1, the cake is caught mid-emergence through the laptop screen portal surrounded by golden ribbons and peony petals, entering onto the scalloped plate as it touches down."
+  },
+  "proportions": {
+    "bottom_tier_diameter_vs_laptop_width": 0.75,
+    "total_height_vs_bottom_diameter": 0.85
+  },
+  "table_props_distinction": {
+    "peony_bouquet": "In B6 P1 and B8 P1, the wrapped pink peony bouquet is a distinct standalone gift on the table, separate from the cake itself."
+  },
+  "line_art": {
+    "stroke_color": "#171717",
+    "stroke_weight": "Medium bold (median 7.5px - 8px), hand-inked ligne claire contour, zero mechanical aliasing"
+  }
+}

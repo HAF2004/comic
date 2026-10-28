@@ -1,0 +1,157 @@
+{
+  "c4b5p1": {
+    "panel_id": "c4b5p1",
+    "location": "Tifa's study room at night",
+    "camera": {
+      "angle": "Eye-level medium shot",
+      "tilt_deg": 15,
+      "view": "3/4 left perspective",
+      "field_of_view": "Medium desktop view"
+    },
+    "surface": {
+      "type": "Mid-air emergence from silver laptop screen",
+      "plane": "Hovering above desk surface with golden ribbons and magical swirl",
+      "contact": "No table contact yet; emerges dynamically at ~25 degree incline from screen"
+    },
+    "surrounding_objects": [
+      "Silver laptop on right",
+      "Tifa sitting at desk on left looking in wonder (DO NOT TOUCH TIFA)",
+      "Dark bookshelf and night window behind desk",
+      "Floating magical golden ribbons, sparkles, and pink peony petals"
+    ],
+    "lighting": {
+      "primary": "Magical laptop screen glow (cool white-cyan #E0F2FE fill)",
+      "secondary": "Two candle flames on number '23' candles (warm amber #FDBA74 key glow)",
+      "ambient": "Deep aubergine / midnight blue night room (#1E1B4B)",
+      "highlights": "Golden rim light along magical swirl and cake edges (#FDE047)",
+      "shadows": "Aubergine / indigo shadows (#312E81), never pure grey or black"
+    },
+    "scale": {
+      "cake_width_px": 360,
+      "cake_height_px": 310,
+      "proportional_rule": "Bottom tier diameter ~ 0.80x laptop width"
+    },
+    "invariable_elements": [
+      "Tifa's face, hair, hand pose, expression, sweater",
+      "Bookshelf layout, book colors, night window with stars",
+      "Laptop chassis, keyboard, desk wood tone",
+      "Panel framing, dimensions (1086x1086), speech bubble areas"
+    ]
+  },
+  "c4b6p1": {
+    "panel_id": "c4b6p1",
+    "location": "Tifa's study desk at night (Close-up hero shot)",
+    "camera": {
+      "angle": "Close-up hero shot looking slightly down",
+      "tilt_deg": 25,
+      "view": "Centered 3/4 hero cake view",
+      "field_of_view": "Intimate table macro"
+    },
+    "surface": {
+      "type": "Warm honey oak wooden desk with natural grain",
+      "plane": "Horizontal plane angled slightly down in perspective",
+      "contact": "Porcelain scalloped plate resting flat on desk with soft aubergine contact shadow (#2A1B3D) and warm ambient bounce"
+    },
+    "surrounding_objects": [
+      "Pink peony bouquet wrapped in paper on desk left",
+      "Scattered pink petals across oak desk",
+      "Silver laptop slightly blurred in background right",
+      "Brass desk lamp top right emitting warm downward cone",
+      "Bookshelf and heart photo frame in background",
+      "Tifa behind cake resting chin in hand with gentle smile (DO NOT TOUCH TIFA)"
+    ],
+    "lighting": {
+      "primary": "Two number '23' candle flames (warm golden #F59E0B key light casting gentle radial glow)",
+      "secondary": "Brass desk lamp (warm amber #FDE68A from upper right)",
+      "tertiary": "Laptop screen (subtle cool blue-white #DBEAFE fill on right side)",
+      "rim": "Warm amber rim on frosting edge; subtle cool lavender rim from window left",
+      "shadows": "Aubergine / warm plum contact shadow under plate (#2C1820), soft falloff"
+    },
+    "scale": {
+      "cake_width_px": 620,
+      "cake_height_px": 530,
+      "proportional_rule": "Hero centerpiece: plate occupies ~48% of panel width, candles height >= 8% of panel height (>= 88px)"
+    },
+    "invariable_elements": [
+      "Tifa's face, chin resting on hand, eyes, gentle smile, brown hair, dark blue sweater",
+      "Pink peony bouquet wrapping, ribbon, and petal placement on left",
+      "Background bookshelf, framed picture, desk lamp geometry",
+      "Panel framing (1086x1086), caption positioning"
+    ]
+  },
+  "c4b7p3": {
+    "panel_id": "c4b7p3",
+    "location": "Party celebration table at night",
+    "camera": {
+      "angle": "Medium close-up celebration shot",
+      "tilt_deg": 20,
+      "view": "Front-centered table view",
+      "field_of_view": "Celebratory group portrait framing"
+    },
+    "surface": {
+      "type": "Celebration party table with festive cloth/surface",
+      "plane": "Front table foreground plane",
+      "contact": "Porcelain scalloped plate resting flat on table with warm contact shadow"
+    },
+    "surrounding_objects": [
+      "Tifa centered behind cake celebrating with party hat/friends",
+      "Four cheering friends surrounding Tifa (DO NOT TOUCH CHARACTERS)",
+      "Festive streamers, falling confetti, and sparkles",
+      "Party room warm ambient background"
+    ],
+    "lighting": {
+      "primary": "Celebration room warm overhead party lights (#FEF08A)",
+      "secondary": "Two candle flames on number '23' candles (focal warm beacon #F97316)",
+      "ambient": "Warm golden-amber festive glow (#FFFBEB)",
+      "shadows": "Rich plum-aubergine contact shadow beneath scalloped plate (#3B1D28)"
+    },
+    "scale": {
+      "cake_width_px": 520,
+      "cake_height_px": 440,
+      "proportional_rule": "Table centerpiece: cake sits between characters, candles height >= 5% of panel height (>= 55px)"
+    },
+    "invariable_elements": [
+      "All characters, facial expressions, party hats, clothing, gestures",
+      "Background party decorations, banners, party atmosphere",
+      "Panel layout, framing, dimensions (1086x1086)"
+    ]
+  },
+  "c4b8p1": {
+    "panel_id": "c4b8p1",
+    "location": "Tifa's study desk at night (Keepsake memory scene)",
+    "camera": {
+      "angle": "Medium desk shot",
+      "tilt_deg": 18,
+      "view": "Split desk view (Tifa holding card on left, cake and bouquet on right)",
+      "field_of_view": "Quiet reflective night atmosphere"
+    },
+    "surface": {
+      "type": "Warm oak wooden study desk",
+      "plane": "Horizontal desk surface",
+      "contact": "Porcelain scalloped plate resting on right side of desk, contact shadow seamlessly blending with desk grain"
+    },
+    "surrounding_objects": [
+      "Tifa sitting at left side holding birthday card (DO NOT TOUCH TIFA)",
+      "Pink peony bouquet placed beside cake on right",
+      "Brass desk lamp casting warm pool of light over desk right",
+      "Bookshelf and study clutter in quiet night background"
+    ],
+    "lighting": {
+      "primary": "Brass desk lamp (warm downward cone #FEF3C7)",
+      "secondary": "Two candle flames on number '23' candles (gentle warm flicker #FB923C)",
+      "ambient": "Serene midnight study room (#111827 / #1E1B4B)",
+      "shadows": "Aubergine cast shadow extending gently to left (#2A1828)"
+    },
+    "scale": {
+      "cake_width_px": 420,
+      "cake_height_px": 360,
+      "proportional_rule": "Right desk prop: cake width ~ 0.38x panel width, candles height >= 5% of panel height (>= 55px)"
+    },
+    "invariable_elements": [
+      "Tifa's figure, face, hands holding birthday keepsake card, clothing",
+      "Desk lamp structure, left study desk items, card details",
+      "Background books, night window, wall tones",
+      "Panel dimensions (1086x1086)"
+    ]
+  }
+}

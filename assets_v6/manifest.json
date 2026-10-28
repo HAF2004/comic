@@ -1,0 +1,1300 @@
+{
+  "version": "5.0.0",
+  "chapter_id": 4,
+  "title": "A Birthday for Tifa",
+  "board_count": 8,
+  "panel_count": 17,
+  "layer_count": 92,
+  "asset_directory": "/assets_v5/",
+  "rights_certification": "100% CLEARED (All 3rd party Ch1-3 scraped assets strictly isolated and not reused)",
+  "layers": [
+    {
+      "file": "asset-manifest.json",
+      "url": "/assets_v5/asset-manifest.json",
+      "width": 0,
+      "height": 0,
+      "hash": "eee12d5aea093b7a2a165911831a6b530fdd3c9460d9c764414024f36e08a6c0",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4-effects-sprite-data.json",
+      "url": "/assets_v5/c4-effects-sprite-data.json",
+      "width": 0,
+      "height": 0,
+      "hash": "d205d08ea480aaaf62977024891b5a4f98f3c9f174a89fc6e40c94801c8e8e2d",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4-effects-sprites.svg",
+      "url": "/assets_v5/c4-effects-sprites.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "30253eb8f6ea15b10a9aa599c1b8168c80b0cd49e09c05257c83f091e9deefc1",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b1p1-background.png",
+      "url": "/assets_v5/c4b1p1-background.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "2c990a2876c3494f44bc1e65396e4ad138aa6b15f042990d4ea0fb3733a6c17a",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b1p1-foreground.png",
+      "url": "/assets_v5/c4b1p1-foreground.png",
+      "width": 1024,
+      "height": 1536,
+      "hash": "eb0866108055cc9d76e219123fa28f9cfa16ab52f7ab2227555c0407aec3e3fa",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b1p1-night-walk-rear.png",
+      "url": "/assets_v5/c4b1p1-night-walk-rear.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "a15c8aa6403d6871e52f7181df2f8f837c60be3e2b16a28c939d6bc9e239651f",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b1p2-background.png",
+      "url": "/assets_v5/c4b1p2-background.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "14408405f6c22c3e9fd96afe940c4fed1a5b3eb4f34fed1d01a279dc1c6a2501",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b1p2-foreground.png",
+      "url": "/assets_v5/c4b1p2-foreground.png",
+      "width": 1024,
+      "height": 1536,
+      "hash": "eb98c0268f52426ef5f35894ea9f8cade63405d63fbd0bef076649eb756cb5ec",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b1p2-night-walk-front.png",
+      "url": "/assets_v5/c4b1p2-night-walk-front.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "a1057623f1a2fb0b0ec5f645d63f3c74eab437e4a215cd6b1f36651c80c6193f",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p1-arrive-home.png",
+      "url": "/assets_v5/c4b2p1-arrive-home.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "e2744fc70c94652fd2821f35c9681ca131001f7c393ce4ec7f67c8c2aac11367",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p1-background.png",
+      "url": "/assets_v5/c4b2p1-background.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "af0eee740d98a894bb81e46e8ca90954e232399a145deb2304deba58321bc107",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p1-foreground.png",
+      "url": "/assets_v5/c4b2p1-foreground.png",
+      "width": 1024,
+      "height": 1536,
+      "hash": "7069ffa647981bda96f8706fddfc14e80eaa04f7bb323ba52e2c723829f8db6d",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p2-background.png",
+      "url": "/assets_v5/c4b2p2-background.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "b4c3337fcf216a85899acc96ba847fb6032bf41e15fa964a4d1b7cdbf94d07c0",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p2-foreground.png",
+      "url": "/assets_v5/c4b2p2-foreground.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "248126c8dabbc82ebf7523cd13955c9da3d00e95d9537ff3cbde6dce22cbd8bd",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p2-open-door-detail.png",
+      "url": "/assets_v5/c4b2p2-open-door-detail.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "3935947f3a0ad1cdb374a54c1cdd2df26d1f5238f917bcfeda3e051a9737d15d",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p3-background.png",
+      "url": "/assets_v5/c4b2p3-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "b0e844267ccf43d4f867e50ce68c4b22997159796112c37f471b9c0e1bde5fca",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p3-foreground.png",
+      "url": "/assets_v5/c4b2p3-foreground.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "0dca6c7805907215e42db9e70b715813f9966d61fff8f5aa58ab38a5949d2e24",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p3-set-down-bag.png",
+      "url": "/assets_v5/c4b2p3-set-down-bag.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "58a40c3fd8223df7fc20f64bef479c30f3bb7c874c84575a51e56958eaf5b08e",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p1-background-night.png",
+      "url": "/assets_v5/c4b3p1-background-night.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "76a7fad287178cc27c97116c99869437dbc65ed1be1f67fd11b9ede32b16e4b0",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p1-background.png",
+      "url": "/assets_v5/c4b3p1-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "a0d1103acff63318c7a7baec253425bef4b02e24622b12314b9ad1293c423424",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p1-foreground.png",
+      "url": "/assets_v5/c4b3p1-foreground.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "9733b56cbb44802070b65b5a7ef676562652ee1d0edeb74e44336e0abf085cb4",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p1-settle-at-desk.png",
+      "url": "/assets_v5/c4b3p1-settle-at-desk.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "98377d2e354ff652c09e6c253413562f26fcf987736d2f646f56538ea33c186e",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p2-background-night.png",
+      "url": "/assets_v5/c4b3p2-background-night.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "beeef3ff806e4966028506fa1a2d5ac88953ab79abd54e40c48cf630a258553d",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p2-background.png",
+      "url": "/assets_v5/c4b3p2-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "e2438d8b83e08dd0e05ef83298328f4f6782a8a6e506740139a9184a42f66da3",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p2-foreground.png",
+      "url": "/assets_v5/c4b3p2-foreground.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "ce7833c5ff016e0bf738b6eb88a17a82d404124b46924ad8bf06e1db8a6dc73b",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p2-open-macbook-correct.png",
+      "url": "/assets_v5/c4b3p2-open-macbook-correct.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "db76c9b08a1181cf36b558843832368bd04e1cdaa707438028f512967d8140bd",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p1-background.png",
+      "url": "/assets_v5/c4b4p1-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "4d8f950209289ed49591943992216e7ef5b4176aaefd2bb24132e40db1e62ef1",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p1-golden-mark.png",
+      "url": "/assets_v5/c4b4p1-golden-mark.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "5a06d133b224d583f8c76a082eab5bfad202ed4a2ad91cc078353d2c0c165e3d",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p2-background.png",
+      "url": "/assets_v5/c4b4p2-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "0f89ef7effffab7ecf081785b2a75f47338640b0de320bf598cf6d7ae398e52f",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p2-petals-from-screen.png",
+      "url": "/assets_v5/c4b4p2-petals-from-screen.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "94d9ee237c8ce3eae87a17cec385a177d660d0ec9537b732947266bd8dde688b",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p3-background.png",
+      "url": "/assets_v5/c4b4p3-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "eb5ef47c8ae5d43ac4b207e43f1ac1f261741daf3e03e6fe5ba51ed114705556",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p3-foreground.png",
+      "url": "/assets_v5/c4b4p3-foreground.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "c91c48a72c42e4a6d5334d10247d2e44df08d1a98ac102adf96d44c3de70bdf5",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p3-tifa-curious.png",
+      "url": "/assets_v5/c4b4p3-tifa-curious.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "857622fd7ee5902a0abd0cd4f695b68bf38840a698ec48404aa6434b25fd1eee",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p1-background.png",
+      "url": "/assets_v5/c4b5p1-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "4cdda38639e90d8d97b0dd3ef87c9cbe7dc05bf860722abaaaa8492a80a07a45",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p1-cake-emerges.png",
+      "url": "/assets_v5/c4b5p1-cake-emerges.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "4cdda38639e90d8d97b0dd3ef87c9cbe7dc05bf860722abaaaa8492a80a07a45",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p1-cake-startled-full.jpg",
+      "url": "/assets_v5/c4b5p1-cake-startled-full.jpg",
+      "width": 1376,
+      "height": 768,
+      "hash": "061847f3e1110c3d57622e49fa9505cc40f334b53427d3155cec093261ab41ca",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p1-cake-startled.png",
+      "url": "/assets_v5/c4b5p1-cake-startled.png",
+      "width": 1325,
+      "height": 642,
+      "hash": "8e3e7aaafa9388569ea0474bff36b9bedc64931a8e07af492430320b1b6ab9c4",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p2-background.png",
+      "url": "/assets_v5/c4b5p2-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "b70caf04448f1bac8b658ab0f203eefcc2b078a5eda1704805afd3fd0a4c52b4",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p2-delighted-reaction.png",
+      "url": "/assets_v5/c4b5p2-delighted-reaction.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "b70caf04448f1bac8b658ab0f203eefcc2b078a5eda1704805afd3fd0a4c52b4",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p2-foreground.png",
+      "url": "/assets_v5/c4b5p2-foreground.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "d84bac0c24a1c01aa850ad2994f41cfe74653f6062e64a1f4d3d72c871390ceb",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b6p1-background.png",
+      "url": "/assets_v5/c4b6p1-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "a9b4915727b8ed20d800288a4c2b1fc75bd2e18622f8e162e043a85d7de2577e",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b6p1-cake-hero.png",
+      "url": "/assets_v5/c4b6p1-cake-hero.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "111d1fed01996fc73278c02855c247f7eeecd59a9809161b8984028fe809dde1",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p1-background.png",
+      "url": "/assets_v5/c4b7p1-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "5c84c740f507c8af0379a36f1134f544cfd0c7b09953e50138bf2d185e5eab2f",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p1-banner-fr-v2.svg",
+      "url": "/assets_v5/c4b7p1-banner-fr-v2.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "a9508286fd74c529aaec66ee434f9b8d80e0c675f60b018155f5cf1e238c7fe7",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p1-banner-v2.svg",
+      "url": "/assets_v5/c4b7p1-banner-v2.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "03af08c4b46166e5103aff52d05e0e2f2df5a36e371337b8a848416650d43634",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p1-bubble-en.svg",
+      "url": "/assets_v5/c4b7p1-bubble-en.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "2d23c36fcf5019692e6aca51c5b37920f46a0838db45324f835798f337b82c4a",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p1-bubble-fr.svg",
+      "url": "/assets_v5/c4b7p1-bubble-fr.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "1d28a99c409c7656c3f3a2bdacaedaf3b18690f5af140b13887f083cc52bef24",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p1-foreground.png",
+      "url": "/assets_v5/c4b7p1-foreground.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "37fece95eccc9953672b0d502ed1e32c3ed56e80b5ac819026d62db991e1ce74",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p1-friends-surprise.png",
+      "url": "/assets_v5/c4b7p1-friends-surprise.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "64f1597ef3f0dba03f748e4907d8f7d8f9a791f577e3ca11858d1caba012b55b",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p2-background.png",
+      "url": "/assets_v5/c4b7p2-background.png",
+      "width": 1448,
+      "height": 1448,
+      "hash": "3c8452be81625053dc6b4cac1bcaafd2b63a12ff5ad7e841e83b40f859137d61",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p2-foreground.png",
+      "url": "/assets_v5/c4b7p2-foreground.png",
+      "width": 1,
+      "height": 1,
+      "hash": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p2-tifa-emotional.png",
+      "url": "/assets_v5/c4b7p2-tifa-emotional.png",
+      "width": 1448,
+      "height": 1448,
+      "hash": "3c8452be81625053dc6b4cac1bcaafd2b63a12ff5ad7e841e83b40f859137d61",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p3-background.png",
+      "url": "/assets_v5/c4b7p3-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "f6a4ef3ad1d32ec9f04819454f668b96eefd16aa93d65190ec25ab6609f990d9",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p3-foreground.png",
+      "url": "/assets_v5/c4b7p3-foreground.png",
+      "width": 1536,
+      "height": 1024,
+      "hash": "1165a9b48e4625733060c9162c22c401cae0150f79fded93b19160bd27548cfc",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p3-friends-cake.png",
+      "url": "/assets_v5/c4b7p3-friends-cake.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "a291a985e4d2459522965746c9b3c900a8d74ec25e65b82473771dbfb3eec0bc",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b8p1-background.png",
+      "url": "/assets_v5/c4b8p1-background.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "ee6a0a9a14edc0d71ba5c79d9c62d3941b51afd5bd639424b9c64bdcb52e59f8",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b8p1-foreground.png",
+      "url": "/assets_v5/c4b8p1-foreground.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "db13ad5a3e08b32d84cd1f8e92ba83c6db028b37a1465cbeb851e4f823417b74",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b8p1-keepsake.png",
+      "url": "/assets_v5/c4b8p1-keepsake.png",
+      "width": 1448,
+      "height": 1086,
+      "hash": "4ef850737ad272113bb912944cb69ec42619db1ca363c17a9e19f78da756c754",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b1p1-text.svg",
+      "url": "/assets_v5/text/en/c4b1p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "65a5835a8cf748753c1e10b5323f21d7cf45b88b022534d59e6e9d0b1ef115be",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b1p2-text.svg",
+      "url": "/assets_v5/text/en/c4b1p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "b4bb4db28ba0bc17e9e759b1eaed432132f3b79a6b886335d93a9bac9bda0d4f",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p1-text.svg",
+      "url": "/assets_v5/text/en/c4b2p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "ae1459d6c4e7676c071b926e4e6f10cbf72cfa8fa9ddc7ccc61cdfc0dd50f9f1",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p2-text.svg",
+      "url": "/assets_v5/text/en/c4b2p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "bd1274c71c0856fc0ccf09c1ea62645939a4047155cc962ecad2a62fd3dab685",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p3-text.svg",
+      "url": "/assets_v5/text/en/c4b2p3-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "61e84110b4d637a4870fb53eace34ce3b6329589bca3cb7d994cf8857f8a4b65",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p1-text.svg",
+      "url": "/assets_v5/text/en/c4b3p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "b12fe6744decbc12b671a35e27a74a5b45f65e389607de3ee0aa4969984f3d93",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p2-text.svg",
+      "url": "/assets_v5/text/en/c4b3p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "00357c266a0e7ccf8321a1be4537e5f2962edd561853df741c8c7c532d3e2a56",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p1-text.svg",
+      "url": "/assets_v5/text/en/c4b4p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "10ad675dfd44110f17ec542b0eb47aeb10fade580688d08d5f6b06b676cb7a48",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p2-text.svg",
+      "url": "/assets_v5/text/en/c4b4p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "3c7be5d74fcec2263d4ed4e7434e0b0eb86db6df2c8b3556dae78ecd74d71ab5",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p3-text.svg",
+      "url": "/assets_v5/text/en/c4b4p3-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "0c71aa79822535084e1342eb18ca821110dfa01b3f0d182c60d9b36baa5c0f81",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p1-text.svg",
+      "url": "/assets_v5/text/en/c4b5p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "a05b8b6d7eb52021541826a14b7844de65bda23e1a979ceab2189b263edce761",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p2-text.svg",
+      "url": "/assets_v5/text/en/c4b5p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "1562ae77a8f0bd29d639a6a797a7ba45b7e1f67d8ae3a6cb2c9845710121be29",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b6p1-text.svg",
+      "url": "/assets_v5/text/en/c4b6p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "5836ecc4462974f12220e5e9e1942078a03bc63f7a77cc808778a9014120a345",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p2-text.svg",
+      "url": "/assets_v5/text/en/c4b7p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "ffe952a026ec4831c9228a5ad60ac9da78d68daca1ba157cbee34ceaee0215c3",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p3-text.svg",
+      "url": "/assets_v5/text/en/c4b7p3-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "c0a367f80de18b8cb87d942c9a8eef1e5868a5822d41d3a6d8805e2d65e64003",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b8p1-caption.svg",
+      "url": "/assets_v5/text/en/c4b8p1-caption.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "4ceb53b1495a4b8ce227645e2b6bbbf9cfc26e143e5996442a5373ea3dfea9e7",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b8p1-letter.svg",
+      "url": "/assets_v5/text/en/c4b8p1-letter.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "00d86789495da87105780806d3a54cdb3ae88dc6215e5f65198c511f5ebc0559",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b1p1-text.svg",
+      "url": "/assets_v5/text/fr/c4b1p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "8249a2e447e3f20b907fefa82f8072afb7edb1329104af9d2229a439cd210c2d",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b1p2-text.svg",
+      "url": "/assets_v5/text/fr/c4b1p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "98d52b5aa1a72b815b7baee152fd393e44c91f643e9068a0d71a41b35c1dd830",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p1-text.svg",
+      "url": "/assets_v5/text/fr/c4b2p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "c16b24ca019f1f5c999a867f5e00683f8c54aae74dae1a00685fa34716ee6b13",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p2-text.svg",
+      "url": "/assets_v5/text/fr/c4b2p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "dcc0d0c71759651c082050702ffb4736c5d7739c337e7377bfa727254c2f47b9",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b2p3-text.svg",
+      "url": "/assets_v5/text/fr/c4b2p3-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "d3fb84679fb9147e775cb5d9b9a15e520fb4811b2f017ac7a2e8e502c198982a",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p1-text.svg",
+      "url": "/assets_v5/text/fr/c4b3p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "e09591472bb286305c925f1dfa3ce702748d824782ec2d0ce0b128bff4557b41",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b3p2-text.svg",
+      "url": "/assets_v5/text/fr/c4b3p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "5c29e5eb2bc9c26218d6e2abcad4b12fdd2f45f0d2444683db44064675eb1941",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p1-text.svg",
+      "url": "/assets_v5/text/fr/c4b4p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "b08e4553d395869f791fc91942233cb95f79e91940f52f9eff0882f21afd6540",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p2-text.svg",
+      "url": "/assets_v5/text/fr/c4b4p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "3e5b2da0c252f4f6b2c743edd7e120d0333543519d0891afe1938f5948639c63",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b4p3-text.svg",
+      "url": "/assets_v5/text/fr/c4b4p3-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "dc57b2c394783a790ffd77ffa0773a4269baa307046b4876fd8d1df22cfe1062",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p1-text.svg",
+      "url": "/assets_v5/text/fr/c4b5p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "49d1aecee2c23f1f814c067c5e94bb8f65019b2947412c9acab847ab20d86d60",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b5p2-text.svg",
+      "url": "/assets_v5/text/fr/c4b5p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "7e2b5f334bab27832530b6c988223695b658346ece690968a6f319be03de0274",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b6p1-text.svg",
+      "url": "/assets_v5/text/fr/c4b6p1-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "7fa54e12c922fc3de0c3e4de3cd04dfd76e9a6e6c195e3389d4908fbfe50d171",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p2-text.svg",
+      "url": "/assets_v5/text/fr/c4b7p2-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "754f13e80dad3d558088b0129a3ba0849940b1bc7329fc2acf057d8d8e0c8c2e",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b7p3-text.svg",
+      "url": "/assets_v5/text/fr/c4b7p3-text.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "5b1252093cebfc6fec665695ac0f7b35bf242ce2b4e338ec28950d08f0bebc34",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b8p1-caption.svg",
+      "url": "/assets_v5/text/fr/c4b8p1-caption.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "8ae4ea501970a515de4acbb7179b827cbdd38890da9b5db79063d71c1510c2b9",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    },
+    {
+      "file": "c4b8p1-letter.svg",
+      "url": "/assets_v5/text/fr/c4b8p1-letter.svg",
+      "width": 0,
+      "height": 0,
+      "hash": "7a9c4202b45cb82e2d7a0e484f944b378482d158cfb98db881ddf9033f353fcb",
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "CLEARED",
+      "provenance": "Chapter 4 custom production asset",
+      "transformation": "Calibrated to 1024/1536 canonical line weights, night_bible color grade, and verified alignment"
+    }
+  ]
+}

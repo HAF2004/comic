@@ -1,0 +1,17 @@
+[
+  {
+    "board": 5,
+    "type": "error",
+    "text": "Hydration completed but contains mismatches."
+  },
+  {
+    "board": 5,
+    "type": "requestfailed",
+    "text": "https://www.google-analytics.com/g/collect?v=2&tid=G-KL9SR46655&gtm=45je6aq1v9225903321za208zd9225903321xf1&_p=1793184055663&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=2099615093.1793184048&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=390x844&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1793184047&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2Fchapter%2F4%3Fpage%3D4&dt=Chapter%20%234%3A%20A%20Birthday%20For%20Tifa%20-%20Ponpon%20Mania%20-%20Interactive%20Comic&en=page_view&_ee=1&tfd=538"
+  },
+  {
+    "board": 5,
+    "type": "requestfailed",
+    "text": "https://www.google-analytics.com/g/collect?v=2&tid=G-KL9SR46655&gtm=45je6aq1v9225903321za200zd9225903321xf1&_p=1793184055663&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=2099615093.1793184048&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=390x844&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1793184047&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2Fchapter%2F4%3Fpage%3D4&dt=Chapter%20%234%3A%20A%20Birthday%20For%20Tifa%20-%20Ponpon%20Mania%20-%20Interactive%20Comic&en=scroll&epn.percent_scrolled=90&_et=8&tfd=5542"
+  }
+]
