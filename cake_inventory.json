@@ -55,7 +55,7 @@
       "two candle flames (warm front-center)",
       "room celebration warm ambient light"
     ],
-    "plate": "Resting on cream scalloped decorative plate on table",
+    "plate": "None",
     "animated": false,
     "animation_desc": "Party celebration static panel with floating petals and candle glow",
     "assets_current": {
@@ -67,7 +67,9 @@
       "composite": "assets_v6/c4b7p3-friends-cake.png",
       "background": "assets_v6/c4b7p3-background.png",
       "foreground": "assets_v6/c4b7p3-foreground.png"
-    }
+    },
+    "has_cake": false,
+    "cake_design": "None (clean wooden party dining table; focus is on the 4 friends celebrating)"
   },
   "c4b8p1": {
     "board": 8,
