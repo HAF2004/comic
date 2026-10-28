@@ -598,7 +598,7 @@ class Board4_8 extends St {
       bgTexture: 'c4b8p1-bg',
       fgTexture: 'c4b8p1-fg',
       compositeTexture: 'c4b8p1-composite',
-      fgScale: 1.0,
+      fgScale: 1448 / 1086,
       bubbleOffsetY: 0.34
     });
     this.addPanel(this.heroPanel);
