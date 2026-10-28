@@ -275,3 +275,10 @@ html, body, #__nuxt {
   background: radial-gradient(circle at center, #ffffff 0%, #fff0f5 55%, #ffd6e0 100%) !important;
   color: #4a1525 !important;
 }
+
+.lang-selector, .lang-button, .lang-divider, .app-footer {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}

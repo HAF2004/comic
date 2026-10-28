@@ -56,6 +56,20 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Redirect /legal to root /
+  if (pathname.startsWith('/legal')) {
+    res.writeHead(302, { Location: '/' });
+    res.end();
+    return;
+  }
+
+  // Redirect /about to root /
+  if (pathname.startsWith('/about')) {
+    res.writeHead(302, { Location: '/' });
+    res.end();
+    return;
+  }
+
   // Normalize path
   let safePath = path.normalize(pathname).replace(/^(\.\.[\/\\])+/, '');
   let filePath = path.join(ROOT, safePath);
@@ -114,7 +128,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, () => {
   console.log(`\n========================================`);
-  console.log(`🚀 Ponpon Mania replica is running!`);
+  console.log(`🚀 Tifa Birthday Comic is running!`);
   console.log(`📡 URL: http://localhost:${PORT}`);
   console.log(`📁 Root: ${ROOT}`);
   console.log(`========================================\n`);
