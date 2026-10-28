@@ -46,7 +46,7 @@
     "board": 2,
     "panel": 1,
     "ratio": 1.0,
-    "type": "caption",
+    "type": "speech",
     "speaker": "Tifa",
     "facing": "front",
     "text": {
@@ -56,11 +56,14 @@
     "bubble": {
       "x": 6,
       "y": 6,
-      "w": 38,
-      "h": 12
+      "w": 34,
+      "h": 14
     },
-    "tailTarget": null,
-    "tailCurve": "none"
+    "tailTarget": {
+      "x": 42,
+      "y": 24
+    },
+    "tailCurve": "organic-right"
   },
   "c4b2p2": {
     "board": 2,
@@ -163,16 +166,16 @@
       "fr": "Attends\u2026 quelle est cette lumi\u00e8re ?"
     },
     "bubble": {
-      "x": 10,
+      "x": 8,
       "y": 6,
-      "w": 46,
-      "h": 13
+      "w": 38,
+      "h": 14
     },
     "tailTarget": {
-      "x": 48,
-      "y": 28
+      "x": 22,
+      "y": 24
     },
-    "tailCurve": "organic-right"
+    "tailCurve": "organic-left"
   },
   "c4b4p2": {
     "board": 4,
@@ -186,16 +189,16 @@
       "fr": "Cette lumi\u00e8re a boug\u00e9 ?"
     },
     "bubble": {
-      "x": 10,
+      "x": 8,
       "y": 6,
-      "w": 44,
-      "h": 13
+      "w": 38,
+      "h": 14
     },
     "tailTarget": {
-      "x": 46,
-      "y": 28
+      "x": 22,
+      "y": 24
     },
-    "tailCurve": "organic-right"
+    "tailCurve": "organic-left"
   },
   "c4b4p3": {
     "board": 4,
@@ -209,14 +212,14 @@
       "fr": "Quelle est la source de ces p\u00e9tales ?"
     },
     "bubble": {
-      "x": 20,
+      "x": 16,
       "y": 6,
-      "w": 34,
+      "w": 36,
       "h": 13
     },
     "tailTarget": {
-      "x": 40,
-      "y": 22
+      "x": 38,
+      "y": 20
     },
     "tailCurve": "organic-right"
   },
@@ -252,13 +255,13 @@
       "fr": "Un g\u00e2teau pour mon anniversaire ? Pour moi ?"
     },
     "bubble": {
-      "x": 12,
+      "x": 8,
       "y": 6,
       "w": 32,
       "h": 14
     },
     "tailTarget": {
-      "x": 34,
+      "x": 36,
       "y": 24
     },
     "tailCurve": "organic-right"

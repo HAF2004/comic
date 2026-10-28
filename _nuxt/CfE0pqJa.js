@@ -18848,12 +18848,9 @@ class Board4_2 extends St {
       position: { x: -t, y: t },
       size: { x: n, y: n },
       ratio: 1,
-      bgTexture: 'c4b2p1-bg',
-      fgTexture: 'c4b2p1-fg',
+      bgTexture: 'c4b2p1-composite',
       compositeTexture: 'c4b2p1-composite',
-      fgScale: 0.92,
-      // Align Tifa hand directly onto front door handle
-      fgOffset: { x: 0.12, y: -0.04 },
+      fgScale: 1.0,
       bubbleOffsetY: 0.32
     });
     this.addPanel(this.topLeftPanel);
@@ -19024,11 +19021,9 @@ class Board4_5 extends St {
       position: { x: 0, y: -t },
       size: { x: n * 2.1, y: n },
       ratio: 2.1,
-      bgTexture: 'c4b5p2-bg',
-      fgTexture: 'c4b5p2-fg',
+      bgTexture: 'c4b5p2-composite',
       compositeTexture: 'c4b5p2-composite',
-      fgScale: 0.95,
-      fgOffset: { x: 0, y: -0.04 },
+      fgScale: 1.0,
       bubbleOffsetY: 0.28
     });
     this.addPanel(this.bottomPanel);

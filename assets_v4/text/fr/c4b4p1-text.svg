@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
-  <path d="M 157 60 L 503 60 A 57 57 0 0 1 560 117 L 560 133 A 57 57 0 0 1 503 190 L 459 190 C 466 231, 493 267, 480 280 C 436 267, 409 231, 404 190 L 157 190 A 57 57 0 0 1 100 133 L 100 117 A 57 57 0 0 1 157 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="330" y="114.2" text-anchor="middle"
+  <path d="M 142 60 L 398 60 A 62 62 0 0 1 460 122 L 460 138 A 62 62 0 0 1 398 200 L 209 200 C 214 218, 233 234, 220 240 C 185 234, 166 218, 163 200 L 142 200 A 62 62 0 0 1 80 138 L 80 122 A 62 62 0 0 1 142 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="270" y="119.2" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-          font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Attends… quelle est cette</text>
-  <text x="330" y="147.95" text-anchor="middle"
+          font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Attends… quelle est</text>
+  <text x="270" y="152.95" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-          font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">lumière ?</text>
+          font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">cette lumière ?</text>
 </svg>

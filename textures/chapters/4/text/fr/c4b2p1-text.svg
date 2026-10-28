@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
-  <rect x="60" y="60" width="380" height="120" rx="16" ry="16"
-        fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round"/>
-  <text x="250" y="110.54" text-anchor="middle"
-            font-family="'Libre Franklin', 'Helvetica Neue', Arial, sans-serif"
-            font-size="22" font-weight="800" fill="#171717" letter-spacing="1.2">UNE LUMIÈRE FAMILIÈRE</text>
-  <text x="250" y="138.70000000000002" text-anchor="middle"
-            font-family="'Libre Franklin', 'Helvetica Neue', Arial, sans-serif"
-            font-size="22" font-weight="800" fill="#171717" letter-spacing="1.2">BRILLAIT À LA MAISON.</text>
+  <path d="M 122 60 L 338 60 A 62 62 0 0 1 400 122 L 400 138 A 62 62 0 0 1 338 200 L 326 200 C 343 218, 407 234, 420 240 C 360 234, 297 218, 285 200 L 122 200 A 62 62 0 0 1 60 138 L 60 122 A 62 62 0 0 1 122 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="230" y="120.4" text-anchor="middle"
+          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
+          font-size="24" font-weight="800" fill="#171717" letter-spacing="0.6">Une lumière familière</text>
+  <text x="230" y="150.4" text-anchor="middle"
+          font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
+          font-size="24" font-weight="800" fill="#171717" letter-spacing="0.6">brillait à la maison.</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 314 60 L 862 60 A 62 62 0 0 1 924 122 L 924 138 A 62 62 0 0 1 862 200 L 769 200 C 766 218, 754 234, 714 240 C 690 234, 702 218, 704 200 L 314 200 A 62 62 0 0 1 252 138 L 252 122 A 62 62 0 0 1 314 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="588" y="136.75" text-anchor="middle"
+  <path d="M 230 60 L 778 60 A 62 62 0 0 1 840 122 L 840 138 A 62 62 0 0 1 778 200 L 685 200 C 701 218, 758 234, 756 240 C 688 234, 630 218, 620 200 L 230 200 A 62 62 0 0 1 168 138 L 168 122 A 62 62 0 0 1 230 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="504" y="136.75" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">A birthday cake? For me?</text>
 </svg>
