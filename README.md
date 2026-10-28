@@ -100,22 +100,3 @@ Then open your browser at:
 ├── server.js                   # Zero-dependency Node.js server with WASM/Basis MIME support
 └── package.json
 ```
-
----
-
-## 🛠 Re-running the Scraper
-
-If you ever want to re-scrape or verify fresh assets from `https://ponpon-mania.com`:
-
-```bash
-npm run scrape
-# or
-python scraper/scrape_website.py
-```
-
----
-
-## 📜 Credits & License
-
-- Original Concept, Design & Development by **Justine Soulié** and **Patrick Heng**.
-- All characters, illustrations, animations, and comic storyline belong to their respective creators.
