@@ -172,8 +172,8 @@
       "h": 14
     },
     "tailTarget": {
-      "x": 22,
-      "y": 24
+      "x": 26,
+      "y": 28
     },
     "tailCurve": "organic-left"
   },
@@ -195,8 +195,8 @@
       "h": 14
     },
     "tailTarget": {
-      "x": 22,
-      "y": 24
+      "x": 26,
+      "y": 28
     },
     "tailCurve": "organic-left"
   },
@@ -218,8 +218,8 @@
       "h": 13
     },
     "tailTarget": {
-      "x": 38,
-      "y": 20
+      "x": 46,
+      "y": 28
     },
     "tailCurve": "organic-right"
   },
