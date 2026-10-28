@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
-  <path d="M 142 60 L 398 60 A 62 62 0 0 1 460 122 L 460 138 A 62 62 0 0 1 398 200 L 209 200 C 220 236, 261 268, 260 280 C 211 268, 170 236, 163 200 L 142 200 A 62 62 0 0 1 80 138 L 80 122 A 62 62 0 0 1 142 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 142 60 L 398 60 A 62 62 0 0 1 460 122 L 460 138 A 62 62 0 0 1 398 200 L 377 200 C 388 220, 430 238, 430 245 C 380 238, 339 220, 331 200 L 142 200 A 62 62 0 0 1 80 138 L 80 122 A 62 62 0 0 1 142 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="270" y="119.2" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Cette lumière a bougé</text>

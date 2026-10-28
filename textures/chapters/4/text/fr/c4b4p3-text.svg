@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1000" viewBox="0 0 2100 1000">
-  <path d="M 393 60 L 1035 60 A 57 57 0 0 1 1092 117 L 1092 133 A 57 57 0 0 1 1035 190 L 913 190 C 926 231, 973 267, 966 280 C 904 267, 857 231, 848 190 L 393 190 A 57 57 0 0 1 336 133 L 336 117 A 57 57 0 0 1 393 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 393 60 L 1035 60 A 57 57 0 0 1 1092 117 L 1092 133 A 57 57 0 0 1 1035 190 L 913 190 C 935 213, 1017 233, 1029 240 C 945 233, 863 213, 848 190 L 393 190 A 57 57 0 0 1 336 133 L 336 117 A 57 57 0 0 1 393 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="714" y="131.75" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
           font-size="30" font-weight="800" fill="#171717" letter-spacing="0.6">Quelle est la source de ces pétales ?</text>
