@@ -43,6 +43,16 @@
       "source": "/about",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/fr/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fr",
+      "destination": "/",
+      "permanent": true
     }
   ],
   "rewrites": [

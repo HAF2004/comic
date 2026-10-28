@@ -70,6 +70,13 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Redirect /fr to root /
+  if (pathname.startsWith('/fr')) {
+    res.writeHead(302, { Location: '/' });
+    res.end();
+    return;
+  }
+
   // Normalize path
   let safePath = path.normalize(pathname).replace(/^(\.\.[\/\\])+/, '');
   let filePath = path.join(ROOT, safePath);
