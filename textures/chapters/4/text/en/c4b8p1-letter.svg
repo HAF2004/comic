@@ -1,11 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
   <g transform="rotate(-2.5 490 790)">
-    <rect x="220" y="700" width="540" height="180" rx="20" ry="20"
+    <rect x="195" y="692" width="590" height="196" rx="22" ry="22"
           fill="#FFFDF8" stroke="#EB8DB7" stroke-width="8" stroke-linejoin="round"/>
-    <path d="M 476 736 C 462 716, 448 740, 476 760 C 504 740, 490 716, 476 736 Z"
+    <path d="M 476 727 C 462 707, 448 731, 476 751 C 504 731, 490 707, 476 727 Z"
           fill="#EB8DB7"/>
-    <text x="490" y="810.3" text-anchor="middle"
-            font-family="'Libre Franklin', 'Segoe UI', Arial, sans-serif"
-            font-size="28" font-weight="900" fill="#171717" letter-spacing="0.5">Happy 23rd, Tifa! We love you!</text>
+    <text x="490" y="792" text-anchor="middle"
+          font-family="'Libre Franklin', 'Segoe UI', Arial, sans-serif"
+          font-size="21" font-weight="700" fill="#171717" letter-spacing="0.2">Wishing you another year of growth and joy.</text>
+    <text x="490" y="836" text-anchor="middle"
+          font-family="'Libre Franklin', 'Segoe UI', Arial, sans-serif"
+          font-size="26" font-weight="900" fill="#171717" letter-spacing="0.5">Happy 23rd, Tifa</text>
   </g>
 </svg>

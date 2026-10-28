@@ -21,6 +21,6 @@ All text is a separate EN/FR overlay. It is hidden while the panel is unfocused 
 | B7 · panel 3 | Make a wish, Tifa! | Fais un vœu, Tifa ! |
 | B7 · panel 1 (banner) | HAPPY BIRTHDAY, TIFA! | JOYEUX ANNIVERSAIRE, TIFA ! |
 | B8 · panel 1 (caption) | Keep this joy close. | Garde cette joie tout près. |
-| B8 · panel 1 (letter) | Happy 23rd, Tifa! We love you! | Joyeux 23e anniversaire, Tifa ! Avec toute notre affection ! |
+| B8 · panel 1 (letter) | Wishing you another year of growth and joy. Happy 23rd, Tifa | Je te souhaite une autre année d'épanouissement et de joie. Joyeux 23e, Tifa ! |
 
 Text visibility: hidden while unfocused; visible only while its panel is focused.
