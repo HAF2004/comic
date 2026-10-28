@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
-  <path d="M 142 60 L 398 60 A 62 62 0 0 1 460 122 L 460 138 A 62 62 0 0 1 398 200 L 377 200 C 388 220, 430 238, 430 245 C 380 238, 339 220, 331 200 L 142 200 A 62 62 0 0 1 80 138 L 80 122 A 62 62 0 0 1 142 60 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="270" y="119.2" text-anchor="middle"
+  <path d="M 617 50 L 863 50 A 57 57 0 0 1 920 107 L 920 123 A 57 57 0 0 1 863 180 L 683 180 C 659 218, 570 252, 500 265 C 535 252, 624 218, 640 180 L 617 180 A 57 57 0 0 1 560 123 L 560 107 A 57 57 0 0 1 617 50 Z" fill="#FFF8EF" stroke="#171717" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="740" y="105.4" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-          font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">Cette lumière a bougé</text>
-  <text x="270" y="152.95" text-anchor="middle"
+          font-size="24" font-weight="800" fill="#171717" letter-spacing="0.6">Cette lumière a bougé</text>
+  <text x="740" y="135.4" text-anchor="middle"
           font-family="'Libre Franklin', 'Comic Neue', Arial Black, sans-serif"
-          font-size="27" font-weight="800" fill="#171717" letter-spacing="0.6">?</text>
+          font-size="24" font-weight="800" fill="#171717" letter-spacing="0.6">?</text>
 </svg>

@@ -166,16 +166,16 @@
       "fr": "Attends\u2026 quelle est cette lumi\u00e8re ?"
     },
     "bubble": {
-      "x": 8,
-      "y": 6,
-      "w": 38,
-      "h": 14
+      "x": 56,
+      "y": 5,
+      "w": 36,
+      "h": 13
     },
     "tailTarget": {
-      "x": 43,
-      "y": 24.5
+      "x": 50,
+      "y": 26.5
     },
-    "tailCurve": "organic-right"
+    "tailCurve": "organic-left"
   },
   "c4b4p2": {
     "board": 4,
@@ -189,16 +189,16 @@
       "fr": "Cette lumi\u00e8re a boug\u00e9 ?"
     },
     "bubble": {
-      "x": 8,
-      "y": 6,
-      "w": 38,
-      "h": 14
+      "x": 56,
+      "y": 5,
+      "w": 36,
+      "h": 13
     },
     "tailTarget": {
-      "x": 43,
-      "y": 24.5
+      "x": 50,
+      "y": 26.5
     },
-    "tailCurve": "organic-right"
+    "tailCurve": "organic-left"
   },
   "c4b4p3": {
     "board": 4,
