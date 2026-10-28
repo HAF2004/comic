@@ -282,3 +282,5 @@ html, body, #__nuxt {
   opacity: 0 !important;
   pointer-events: none !important;
 }
+
+.fullscreen{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}
