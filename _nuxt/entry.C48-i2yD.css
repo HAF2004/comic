@@ -284,3 +284,37 @@ html, body, #__nuxt {
 }
 
 .fullscreen{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;}
+
+/* Responsive fix for chapter timeline page indicator */
+.chapter-timeline__navigation {
+  display: flex !important;
+  align-items: center !important;
+  position: absolute !important;
+  right: 18px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+.chapter-timeline__timecode {
+  display: block !important;
+  position: static !important;
+  margin: 0 !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  letter-spacing: 0.05em !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
+}
+.chapter-timeline__text-inner {
+  overflow: visible !important;
+  white-space: nowrap !important;
+}
+@media (max-width: 900px) {
+  .chapter-timeline__navigation {
+    display: flex !important;
+    right: 14px !important;
+  }
+  .chapter-timeline__timecode {
+    font-size: 1.05rem !important;
+  }
+}
