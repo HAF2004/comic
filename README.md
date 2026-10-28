@@ -1,6 +1,6 @@
-# Ponpon Mania Replica (1:1 Complete Scrape & Clone)
+# A Birthday for Tifa - Interactive WebGL Comic
 
-A 1:1, pixel-perfect, fully self-contained offline replica of [Ponpon Mania](https://ponpon-mania.com) — an award-winning interactive WebGL comic created by Justine Soulié & Patrick Heng.
+A 1:1, pixel-perfect, fully self-contained offline replica of [Ponpon Mania](https://ponpon-mania.com) — an interactive WebGL birthday comic.
 
 ![Homepage Screenshot](homepage_preview.png)
 
